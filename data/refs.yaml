@@ -1,0 +1,65 @@
+# 레퍼런스 평가셋 — 프리미엄 기프트 · 전통 디저트 카테고리
+#
+# 저작권: 이 파일은 "어디를 봤는지"만 기록한다.
+# 수집한 원본 스크린샷은 저장소에 올리지 않는다 (.gitignore).
+# 남이 재현하려면 `make collect`를 돌려 각자 로컬에 수집한다.
+#
+# group:
+#   competitor — 단정과 직접 겹치는 경쟁군
+#   tone       — 카테고리는 다르지만 톤·격을 참고할 브랜드
+#   own        — 내 소유 자산 (대조군 겸 저작권 안전한 시연용)
+
+meta:
+  project: 단정 · Danjeong
+  category: B2B 프리미엄 답례 선물
+  collected_for: Main Quest 2 레퍼런스 리서치 자동 정리기
+  # 사용자 확인 필요: 아래 목록은 제안이며 실제 경쟁군 판단에 따라 교체한다.
+
+refs:
+  - id: barunson
+    name: 바른손더기프트
+    url: https://www.barunsonthegift.com/
+    group: competitor
+    note: 답례품 전문몰. B2B 답례 선물이라는 포지션이 단정과 가장 가깝다.
+
+  - id: hanpoom
+    name: 한품
+    url: https://hanpoom.co.kr/
+    group: competitor
+    note: 프리미엄 한식 기프트. 패키지·촬영 톤 참고.
+
+  - id: gyodong
+    name: 교동한과
+    url: https://gyodong.co.kr/
+    group: competitor
+    note: 전통 한과 카테고리 대표. 상세페이지가 통이미지일 가능성이 높다 → OCR 경로 검증용.
+
+  - id: hangamall
+    name: 강릉명일한과
+    url: https://hangamall.com/
+    group: competitor
+    note: 4대째 수제 한과. "전통·정성" 메시지군의 전형.
+
+  - id: hyojadong
+    name: 효자동떡
+    url: https://www.hyojadongdessert.co.kr/gift_set
+    group: competitor
+    note: 원목 선물세트. 프리미엄 포장 소구.
+
+  - id: seoulcookie
+    name: 서울쿠키
+    url: https://seoulcookie.com/
+    group: competitor
+    note: HACCP·대량생산 소구. 위 브랜드들과 메시지 축이 다르다 → 클러스터 분리 확인용.
+
+  - id: osulloc
+    name: 오설록
+    url: https://www.osulloc.com/kr/ko
+    group: tone
+    note: 한국 프리미엄 브랜딩의 기준선. 여백·타이포·컬러 절제.
+
+  - id: danjeong
+    name: 단정 (내 프로젝트)
+    url: https://joniverse-ai.github.io/danjeong/
+    group: own
+    note: 내 소유 자산. 저작권 걱정 없이 문서·README에 스크린샷을 실을 수 있다.

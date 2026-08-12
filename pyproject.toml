@@ -1,0 +1,22 @@
+[project]
+name = "refscope"
+version = "0.1.0"
+description = "레퍼런스 리서치 자동 정리기 — 브랜드 디자이너용 PoC"
+readme = "README.md"
+authors = [
+    { name = "johnny", email = "joniverse.j9@gmail.com" }
+]
+requires-python = ">=3.12"
+dependencies = [
+    "numpy>=2.5.2",
+    "pillow>=12.3.0",
+    "playwright>=1.62.0",
+    "pyyaml>=6.0.3",
+]
+
+[project.scripts]
+refscope = "refscope.cli:main"
+
+[build-system]
+requires = ["uv_build>=0.12.3,<0.13.0"]
+build-backend = "uv_build"
