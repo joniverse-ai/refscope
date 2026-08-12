@@ -1,0 +1,2972 @@
+[
+ {
+  "id": "gyodong",
+  "name": "교동한과",
+  "url": "https://gyodong.co.kr/",
+  "group": "competitor",
+  "page_type": "home",
+  "page_height": 3192,
+  "image_locked_ratio": 0.0,
+  "palette": [
+   {
+    "hex": "#d7b4a3",
+    "ratio": 0.0513,
+    "role": "accent"
+   },
+   {
+    "hex": "#b0a26b",
+    "ratio": 0.0408,
+    "role": "accent"
+   },
+   {
+    "hex": "#897b4e",
+    "ratio": 0.033,
+    "role": "accent"
+   },
+   {
+    "hex": "#7d3e29",
+    "ratio": 0.0261,
+    "role": "accent"
+   },
+   {
+    "hex": "#7899b0",
+    "ratio": 0.0233,
+    "role": "accent"
+   },
+   {
+    "hex": "#be777e",
+    "ratio": 0.0225,
+    "role": "accent"
+   },
+   {
+    "hex": "#cb8324",
+    "ratio": 0.0132,
+    "role": "accent"
+   },
+   {
+    "hex": "#ffffff",
+    "ratio": 0.4684,
+    "role": "neutral"
+   }
+  ],
+  "copy_lines": [
+   {
+    "text": "회사소개",
+    "y": 95,
+    "size": 17,
+    "source": "dom"
+   },
+   {
+    "text": "브랜드소개",
+    "y": 95,
+    "size": 17,
+    "source": "dom"
+   },
+   {
+    "text": "쇼핑하기",
+    "y": 95,
+    "size": 17,
+    "source": "dom"
+   },
+   {
+    "text": "교동한과",
+    "y": 113,
+    "size": 45.714285714285715,
+    "source": "ocr"
+   },
+   {
+    "text": "정성으로 만든",
+    "y": 487,
+    "size": 20.714285714285715,
+    "source": "ocr"
+   },
+   {
+    "text": "수제과자",
+    "y": 520,
+    "size": 35.0,
+    "source": "ocr"
+   },
+   {
+    "text": "Brand Story",
+    "y": 860,
+    "size": 28,
+    "source": "dom"
+   },
+   {
+    "text": "Way to Visit",
+    "y": 860,
+    "size": 28,
+    "source": "dom"
+   },
+   {
+    "text": "교동한과의",
+    "y": 918,
+    "size": 16,
+    "source": "dom"
+   },
+   {
+    "text": "신념과 가치관",
+    "y": 918,
+    "size": 16,
+    "source": "dom"
+   },
+   {
+    "text": "좋은 재료로 건강함을 담아",
+    "y": 918,
+    "size": 16,
+    "source": "dom"
+   },
+   {
+    "text": "맛있고 바른 먹거리를 만듭니다.",
+    "y": 918,
+    "size": 16,
+    "source": "dom"
+   },
+   {
+    "text": "오프라인으로",
+    "y": 918,
+    "size": 16,
+    "source": "dom"
+   },
+   {
+    "text": "교동한과를 만나보세요.",
+    "y": 918,
+    "size": 16,
+    "source": "dom"
+   },
+   {
+    "text": "GIFT SET",
+    "y": 1173,
+    "size": 30,
+    "source": "dom"
+   },
+   {
+    "text": "교동한과 선물세트",
+    "y": 1240,
+    "size": 30,
+    "source": "dom"
+   },
+   {
+    "text": "교동만남",
+    "y": 1671,
+    "size": 16,
+    "source": "dom"
+   },
+   {
+    "text": "하늘연달",
+    "y": 1671,
+    "size": 16,
+    "source": "dom"
+   },
+   {
+    "text": "교동복",
+    "y": 1671,
+    "size": 16,
+    "source": "dom"
+   },
+   {
+    "text": "한과단품",
+    "y": 1790,
+    "size": 30,
+    "source": "dom"
+   },
+   {
+    "text": "상품명",
+    "y": 2168,
+    "size": 16,
+    "source": "dom"
+   },
+   {
+    "text": "교동한들영양바",
+    "y": 2168,
+    "size": 16,
+    "source": "dom"
+   },
+   {
+    "text": "교동산자",
+    "y": 2168,
+    "size": 16,
+    "source": "dom"
+   },
+   {
+    "text": "소비자가",
+    "y": 2188,
+    "size": 18,
+    "source": "dom"
+   },
+   {
+    "text": "고시볼",
+    "y": 2325,
+    "size": 30,
+    "source": "dom"
+   }
+  ],
+  "sections": [
+   {
+    "y": 95,
+    "y_end": 113,
+    "name": "회사소개/브랜드소개",
+    "n_lines": 4
+   },
+   {
+    "y": 487,
+    "y_end": 520,
+    "name": "수제과자",
+    "n_lines": 2
+   },
+   {
+    "y": 860,
+    "y_end": 1240,
+    "name": "Brand Story/신념과 가치관",
+    "n_lines": 10
+   },
+   {
+    "y": 1671,
+    "y_end": 1790,
+    "name": "한과단품",
+    "n_lines": 4
+   },
+   {
+    "y": 2168,
+    "y_end": 2325,
+    "name": "상품명/고시볼",
+    "n_lines": 5
+   }
+  ],
+  "tone": [
+   "색·톤: 밝고 화사한 색감이 지배하며 명도 대비가 높아 시각적으로 강조된다.",
+   "사진 스타일: 제품컷 위주로, 배경은 단순화하여 제품을 돋보이게 한다.",
+   "레이아웃: 여백이 넉넉하여 정보 밀도는 적당한 수준이다.",
+   "전체 인상: 이 페이지는 깔끔하고 명확한 인상을 주며, 상품의 가치를 강조한다."
+  ],
+  "seconds": 20.6,
+  "errors": []
+ },
+ {
+  "id": "hangamall",
+  "name": "강릉명일한과",
+  "url": "https://hangamall.com/",
+  "group": "competitor",
+  "page_type": "home",
+  "page_height": 5782,
+  "image_locked_ratio": 0.0,
+  "palette": [
+   {
+    "hex": "#dfc2a1",
+    "ratio": 0.0912,
+    "role": "accent"
+   },
+   {
+    "hex": "#ba9d78",
+    "ratio": 0.0277,
+    "role": "accent"
+   },
+   {
+    "hex": "#877e70",
+    "ratio": 0.0214,
+    "role": "accent"
+   },
+   {
+    "hex": "#30201e",
+    "ratio": 0.0212,
+    "role": "accent"
+   },
+   {
+    "hex": "#020202",
+    "ratio": 0.0206,
+    "role": "accent"
+   },
+   {
+    "hex": "#4b322f",
+    "ratio": 0.0172,
+    "role": "accent"
+   },
+   {
+    "hex": "#6e594b",
+    "ratio": 0.0147,
+    "role": "accent"
+   },
+   {
+    "hex": "#7593ae",
+    "ratio": 0.007,
+    "role": "accent"
+   }
+  ],
+  "copy_lines": [
+   {
+    "text": "한과선물세트",
+    "y": 53,
+    "size": 16,
+    "source": "dom"
+   },
+   {
+    "text": "수제한과 간식거리",
+    "y": 53,
+    "size": 16,
+    "source": "dom"
+   },
+   {
+    "text": "개별포장 간식거리",
+    "y": 53,
+    "size": 16,
+    "source": "dom"
+   },
+   {
+    "text": "디저트 간식",
+    "y": 53,
+    "size": 16,
+    "source": "dom"
+   },
+   {
+    "text": "한과",
+    "y": 70,
+    "size": 30.000000000000004,
+    "source": "ocr"
+   },
+   {
+    "text": "강릉 한과 I Crisp & Elegant: Sweet Moments of Tradition",
+    "y": 169,
+    "size": 17.857142857142858,
+    "source": "ocr"
+   },
+   {
+    "text": "14 차",
+    "y": 270,
+    "size": 20.714285714285715,
+    "source": "ocr"
+   },
+   {
+    "text": "사랑 가득 웃음이 넘치는",
+    "y": 326,
+    "size": 35.714285714285715,
+    "source": "ocr"
+   },
+   {
+    "text": "힐링니다 강릉한과",
+    "y": 358,
+    "size": 48.57142857142858,
+    "source": "ocr"
+   },
+   {
+    "text": "행복한 한가위",
+    "y": 380,
+    "size": 36.42857142857143,
+    "source": "ocr"
+   },
+   {
+    "text": "Korean Trasitional Sweets From Scratch",
+    "y": 439,
+    "size": 19.28571428571429,
+    "source": "ocr"
+   },
+   {
+    "text": "따뜻한 마음이 오가는 풍성한 한가위 보내세요",
+    "y": 820,
+    "size": 16,
+    "source": "dom"
+   },
+   {
+    "text": "BEST ITEM",
+    "y": 952,
+    "size": 23,
+    "source": "dom"
+   },
+   {
+    "text": "직접재배하고 수확합니다",
+    "y": 1966,
+    "size": 22,
+    "source": "dom"
+   },
+   {
+    "text": "HACCP인증으로 깨끗하고 안전하게",
+    "y": 1966,
+    "size": 22,
+    "source": "dom"
+   },
+   {
+    "text": "포토후기 이벤트",
+    "y": 1966,
+    "size": 22,
+    "source": "dom"
+   },
+   {
+    "text": "명일한과 라이브",
+    "y": 2216,
+    "size": 22,
+    "source": "dom"
+   },
+   {
+    "text": "백년가게 @ 백년소공인",
+    "y": 3046,
+    "size": 22.142857142857146,
+    "source": "ocr"
+   },
+   {
+    "text": "대대손손 이어지는",
+    "y": 3134,
+    "size": 40,
+    "source": "dom"
+   },
+   {
+    "text": "손맛 가득한 한과",
+    "y": 3134,
+    "size": 40,
+    "source": "dom"
+   },
+   {
+    "text": "4대째 이어져 내려오는 한과의 유통,",
+    "y": 3282,
+    "size": 16.42857142857143,
+    "source": "ocr"
+   },
+   {
+    "text": "명일추천",
+    "y": 3722,
+    "size": 34,
+    "source": "dom"
+   },
+   {
+    "text": "BEST REVIEW",
+    "y": 4674,
+    "size": 23,
+    "source": "dom"
+   },
+   {
+    "text": "더 많은 리뷰를 확인하세요",
+    "y": 4796,
+    "size": 23.571428571428573,
+    "source": "ocr"
+   },
+   {
+    "text": "많은 고객분들께서 명일한과를 선택한 이유입니다",
+    "y": 4836,
+    "size": 17.857142857142858,
+    "source": "ocr"
+   }
+  ],
+  "sections": [
+   {
+    "y": 53,
+    "y_end": 952,
+    "name": "상품 소개",
+    "n_lines": 13
+   },
+   {
+    "y": 1966,
+    "y_end": 2216,
+    "name": "브랜드 스토리",
+    "n_lines": 4
+   },
+   {
+    "y": 3046,
+    "y_end": 3282,
+    "name": "제품 특징",
+    "n_lines": 4
+   },
+   {
+    "y": 3722,
+    "y_end": 3722,
+    "name": "추천 정보",
+    "n_lines": 1
+   },
+   {
+    "y": 4674,
+    "y_end": 4836,
+    "name": "후기 및 리뷰",
+    "n_lines": 3
+   }
+  ],
+  "tone": [
+   "지배적인 색감은 따뜻한 베이지색과 푸른색으로 명도 대비가 부드럽게 이루어져 있습니다.",
+   "제품컷 위주로 연출되며, 배경 처리는 깔끔하고 단순화되어 있어 제품의 주목을 끌 수 있도록 설계되었습니다.",
+   "여백이 넉넉하여 정보 밀도가 적당하며, 읽기 쉽고 편안한 인상을 줍니다.",
+   "이 페이지는 전통과 현대를 조화롭게 결합한 고급스러운 분위기를 자아냅니다."
+  ],
+  "seconds": 18.4,
+  "errors": []
+ },
+ {
+  "id": "barunson",
+  "name": "바른손더기프트",
+  "url": "https://www.barunsonthegift.com/",
+  "group": "competitor",
+  "page_type": "home",
+  "page_height": 19648,
+  "image_locked_ratio": 0.0,
+  "palette": [
+   {
+    "hex": "#ccc2b0",
+    "ratio": 0.0796,
+    "role": "accent"
+   },
+   {
+    "hex": "#b4a493",
+    "ratio": 0.056,
+    "role": "accent"
+   },
+   {
+    "hex": "#878073",
+    "ratio": 0.0234,
+    "role": "accent"
+   },
+   {
+    "hex": "#b57a48",
+    "ratio": 0.0185,
+    "role": "accent"
+   },
+   {
+    "hex": "#31231c",
+    "ratio": 0.0175,
+    "role": "accent"
+   },
+   {
+    "hex": "#5f9aaf",
+    "ratio": 0.0157,
+    "role": "accent"
+   },
+   {
+    "hex": "#714428",
+    "ratio": 0.0145,
+    "role": "accent"
+   },
+   {
+    "hex": "#e6bb46",
+    "ratio": 0.0133,
+    "role": "accent"
+   }
+  ],
+  "copy_lines": [
+   {
+    "text": "🔥지금 가장 많이 담은 상품",
+    "y": 472,
+    "size": 28,
+    "source": "dom"
+   },
+   {
+    "text": "🍀 오설록, 티푸드 특가 ~25%",
+    "y": 984,
+    "size": 28,
+    "source": "dom"
+   },
+   {
+    "text": "가까운 팀원을 위한 답례선물은 어떠세요?",
+    "y": 1559,
+    "size": 28,
+    "source": "dom"
+   },
+   {
+    "text": "오전 11시 이전 결제시, '오늘출발'해요",
+    "y": 2091,
+    "size": 28,
+    "source": "dom"
+   },
+   {
+    "text": "회사에 돌릴 답례품 뭘로 하지?",
+    "y": 2620,
+    "size": 28,
+    "source": "dom"
+   },
+   {
+    "text": "달콤한 한입, 쿠키만 한게 없죠 !",
+    "y": 3658,
+    "size": 28,
+    "source": "dom"
+   },
+   {
+    "text": "꼬소한 깨소금 답례품",
+    "y": 4187,
+    "size": 28,
+    "source": "dom"
+   },
+   {
+    "text": "기억에 오래 남을 정백의 리빙 답례품 ~33%",
+    "y": 4715,
+    "size": 28,
+    "source": "dom"
+   },
+   {
+    "text": "🍫 진부한 막대과자를 대신할 디저트 아카이브",
+    "y": 5714,
+    "size": 28,
+    "source": "dom"
+   },
+   {
+    "text": "🌷 나를 위한 기프트, 스프링 셀렉션",
+    "y": 6243,
+    "size": 28,
+    "source": "dom"
+   },
+   {
+    "text": "☕️ 흔한 답례품은 거부합니다",
+    "y": 7233,
+    "size": 28,
+    "source": "dom"
+   },
+   {
+    "text": "🪴 미리 준비하는 집들이 선물 ~38%",
+    "y": 7774,
+    "size": 28,
+    "source": "dom"
+   },
+   {
+    "text": "🍽️ 신혼집에 감성을 더해줄 테이블 웨어",
+    "y": 8322,
+    "size": 28,
+    "source": "dom"
+   },
+   {
+    "text": "건조한 겨울 필수템!",
+    "y": 8807,
+    "size": 28,
+    "source": "dom"
+   },
+   {
+    "text": "바른손으로 만드는 정직한 답례품",
+    "y": 9769,
+    "size": 28,
+    "source": "dom"
+   },
+   {
+    "text": "커피 선물 말고 이런건 어때요?",
+    "y": 10282,
+    "size": 28,
+    "source": "dom"
+   },
+   {
+    "text": "감도 높은 요즘 답례품",
+    "y": 10811,
+    "size": 28,
+    "source": "dom"
+   },
+   {
+    "text": "더 깊은 고마움을 드려야 할때",
+    "y": 11323,
+    "size": 28,
+    "source": "dom"
+   },
+   {
+    "text": "🍀 오설록, 봄맞이 티푸드 특가 ~25%",
+    "y": 11851,
+    "size": 28,
+    "source": "dom"
+   },
+   {
+    "text": "👼 돌답례도 바른손에서 준비해요!",
+    "y": 12363,
+    "size": 28,
+    "source": "dom"
+   },
+   {
+    "text": "핸드케어 기프트는 어떠세요?",
+    "y": 12875,
+    "size": 28,
+    "source": "dom"
+   },
+   {
+    "text": "정성으로 구운 달콤베이커리 쿠키",
+    "y": 13441,
+    "size": 28,
+    "source": "dom"
+   },
+   {
+    "text": "따뜻한 마음 그대로 전하는 떡답례",
+    "y": 13953,
+    "size": 28,
+    "source": "dom"
+   },
+   {
+    "text": "두바이의 답례품",
+    "y": 14481,
+    "size": 28,
+    "source": "dom"
+   },
+   {
+    "text": "회사원 베스트 답례품 '커피'",
+    "y": 15010,
+    "size": 28,
+    "source": "dom"
+   }
+  ],
+  "sections": [
+   {
+    "y": 472,
+    "y_end": 984,
+    "name": "특가 이벤트",
+    "n_lines": 2
+   },
+   {
+    "y": 1559,
+    "y_end": 2620,
+    "name": "팀원 답례선물",
+    "n_lines": 3
+   },
+   {
+    "y": 3658,
+    "y_end": 4715,
+    "name": "쿠키와 소금 선물",
+    "n_lines": 3
+   },
+   {
+    "y": 5714,
+    "y_end": 6243,
+    "name": "디저트 아카이브",
+    "n_lines": 2
+   },
+   {
+    "y": 7233,
+    "y_end": 8807,
+    "name": "집들이 선물",
+    "n_lines": 4
+   },
+   {
+    "y": 9769,
+    "y_end": 12875,
+    "name": "바른손 답례품",
+    "n_lines": 7
+   },
+   {
+    "y": 13441,
+    "y_end": 15010,
+    "name": "달콤 베이커리 쿠키",
+    "n_lines": 4
+   }
+  ],
+  "tone": [
+   "색·톤: 부드러운 톤과 자연스러운 명도 대비.",
+   "사진 스타일: 제품컷 위주, 배경은 단순화하여 제품을 강조.",
+   "레이아웃: 여백이 넉넉하고 정보 밀도가 적당.",
+   "전체 인상: 깔끔하고 편안한 쇼핑 경험을 주는 격."
+  ],
+  "seconds": 23.3,
+  "errors": []
+ },
+ {
+  "id": "hanpoom",
+  "name": "한품",
+  "url": "https://hanpoom.co.kr/",
+  "group": "competitor",
+  "page_type": "home",
+  "page_height": 6553,
+  "image_locked_ratio": 0.0,
+  "palette": [
+   {
+    "hex": "#16141b",
+    "ratio": 0.0541,
+    "role": "accent"
+   },
+   {
+    "hex": "#423533",
+    "ratio": 0.0287,
+    "role": "accent"
+   },
+   {
+    "hex": "#c55445",
+    "ratio": 0.0199,
+    "role": "accent"
+   },
+   {
+    "hex": "#80482a",
+    "ratio": 0.0176,
+    "role": "accent"
+   },
+   {
+    "hex": "#d48e7b",
+    "ratio": 0.0156,
+    "role": "accent"
+   },
+   {
+    "hex": "#e4c432",
+    "ratio": 0.0094,
+    "role": "accent"
+   },
+   {
+    "hex": "#ffffff",
+    "ratio": 0.5478,
+    "role": "neutral"
+   },
+   {
+    "hex": "#d6d0c6",
+    "ratio": 0.0854,
+    "role": "neutral"
+   }
+  ],
+  "copy_lines": [
+   {
+    "text": "고국배송",
+    "y": 20,
+    "size": 19.28571428571429,
+    "source": "ocr"
+   },
+   {
+    "text": "'한국 전화번호",
+    "y": 72,
+    "size": 18,
+    "source": "dom"
+   },
+   {
+    "text": "수취인 연락처는",
+    "y": 74,
+    "size": 18,
+    "source": "dom"
+   },
+   {
+    "text": "'로 입력해 주셔야 배송이 가능합니다",
+    "y": 74,
+    "size": 18,
+    "source": "dom"
+   },
+   {
+    "text": "맛, 품질, 포장까지 프리미엄",
+    "y": 273,
+    "size": 40,
+    "source": "dom"
+   },
+   {
+    "text": "소중한 사람에게 전하는",
+    "y": 273,
+    "size": 40,
+    "source": "dom"
+   },
+   {
+    "text": "이제, 선물도 맛있게!",
+    "y": 273,
+    "size": 40,
+    "source": "dom"
+   },
+   {
+    "text": "하루의 시작을 바꾸는",
+    "y": 273,
+    "size": 40,
+    "source": "dom"
+   },
+   {
+    "text": "맛, 품",
+    "y": 278,
+    "size": 34.285714285714285,
+    "source": "ocr"
+   },
+   {
+    "text": "이메일 구독하고",
+    "y": 290,
+    "size": 40,
+    "source": "dom"
+   },
+   {
+    "text": "설성목장 한우 선물세트",
+    "y": 329,
+    "size": 40,
+    "source": "dom"
+   },
+   {
+    "text": "달콤한 한 상자",
+    "y": 329,
+    "size": 40,
+    "source": "dom"
+   },
+   {
+    "text": "명품 떡 선물세트",
+    "y": 329,
+    "size": 40,
+    "source": "dom"
+   },
+   {
+    "text": "건강한 습관",
+    "y": 329,
+    "size": 40,
+    "source": "dom"
+   },
+   {
+    "text": "설성!",
+    "y": 332,
+    "size": 28.571428571428573,
+    "source": "ocr"
+   },
+   {
+    "text": "최신 소식 받으세요",
+    "y": 344,
+    "size": 40,
+    "source": "dom"
+   },
+   {
+    "text": "100% 무항생제 한우, 안심하고 먹어요",
+    "y": 391,
+    "size": 18,
+    "source": "dom"
+   },
+   {
+    "text": "포장에서 부터 느껴지는 명품 과일로, 진심을 전해보세요",
+    "y": 391,
+    "size": 18,
+    "source": "dom"
+   },
+   {
+    "text": "구독자라면 누구보다 빠르게, 할인 소식과 신상품 소식을 제일 먼저 확인하세요.",
+    "y": 413,
+    "size": 20,
+    "source": "dom"
+   },
+   {
+    "text": "신상품 둘러보기",
+    "y": 710,
+    "size": 24,
+    "source": "dom"
+   },
+   {
+    "text": "🥩국내산 한우의 깊은 맛과 풍미, 설성목장 명품 세트",
+    "y": 1559,
+    "size": 24,
+    "source": "dom"
+   },
+   {
+    "text": "아프기 전에 예방하세요! 건강을 담은 선물세트",
+    "y": 2525,
+    "size": 24,
+    "source": "dom"
+   },
+   {
+    "text": "🍎달콤함을 전하는 명품 과일 선물",
+    "y": 3495,
+    "size": 24,
+    "source": "dom"
+   },
+   {
+    "text": "🌊바다의 신선함을 담은 프리미엄 선물세트",
+    "y": 4051,
+    "size": 24,
+    "source": "dom"
+   },
+   {
+    "text": "🍰 온 가족이 다함께 즐기는 K-디저트",
+    "y": 5082,
+    "size": 24,
+    "source": "dom"
+   }
+  ],
+  "sections": [
+   {
+    "y": 20,
+    "y_end": 710,
+    "name": "배송 안내",
+    "n_lines": 20
+   },
+   {
+    "y": 1559,
+    "y_end": 1559,
+    "name": "제품 소개",
+    "n_lines": 1
+   },
+   {
+    "y": 2525,
+    "y_end": 2525,
+    "name": "건강선물 세트",
+    "n_lines": 1
+   },
+   {
+    "y": 3495,
+    "y_end": 4051,
+    "name": "과일 선물세트",
+    "n_lines": 2
+   },
+   {
+    "y": 5082,
+    "y_end": 5082,
+    "name": "가족 디저트",
+    "n_lines": 1
+   }
+  ],
+  "tone": [
+   "색·톤: 주로 블랙과 레드가 돋보이며, 명도 대비가 강조되어 고급스러운 느낌을 줍니다.",
+   "사진 스타일: 제품컷 위주로, 배경은 간결하게 처리하여 제품의 디테일을 강조합니다.",
+   "레이아웃: 여백이 넉넉하며, 정보 밀도는 적당한 수준으로 유지되어 사용자 친화적입니다.",
+   "전체 인상: 고급스러운 분위기와 깔끔함이 어우러진 전문적인 온라인 쇼핑몰 이미지를 연출합니다."
+  ],
+  "seconds": 20.4,
+  "errors": []
+ },
+ {
+  "id": "seoulcookie",
+  "name": "서울쿠키",
+  "url": "https://seoulcookie.com/",
+  "group": "competitor",
+  "page_type": "home",
+  "page_height": 3837,
+  "image_locked_ratio": 0.13,
+  "palette": [
+   {
+    "hex": "#dcd1c2",
+    "ratio": 0.0708,
+    "role": "accent"
+   },
+   {
+    "hex": "#cbbfaf",
+    "ratio": 0.0521,
+    "role": "accent"
+   },
+   {
+    "hex": "#baa085",
+    "ratio": 0.0421,
+    "role": "accent"
+   },
+   {
+    "hex": "#689696",
+    "ratio": 0.0338,
+    "role": "accent"
+   },
+   {
+    "hex": "#92c6d1",
+    "ratio": 0.0296,
+    "role": "accent"
+   },
+   {
+    "hex": "#aa7650",
+    "ratio": 0.0267,
+    "role": "accent"
+   },
+   {
+    "hex": "#764730",
+    "ratio": 0.0185,
+    "role": "accent"
+   },
+   {
+    "hex": "#2f2420",
+    "ratio": 0.0152,
+    "role": "accent"
+   }
+  ],
+  "copy_lines": [
+   {
+    "text": "로그인 해주세요",
+    "y": 41,
+    "size": 16,
+    "source": "dom"
+   },
+   {
+    "text": "SEOUL COOKIE CO.",
+    "y": 62,
+    "size": 25.0,
+    "source": "ocr"
+   },
+   {
+    "text": "브랜드스토리",
+    "y": 194,
+    "size": 17,
+    "source": "dom"
+   },
+   {
+    "text": "최근 검색어",
+    "y": 226,
+    "size": 18,
+    "source": "dom"
+   },
+   {
+    "text": "전제품",
+    "y": 260,
+    "size": 17,
+    "source": "dom"
+   },
+   {
+    "text": "최근 본 상품",
+    "y": 332,
+    "size": 18,
+    "source": "dom"
+   },
+   {
+    "text": "선물의 품격을 높이다",
+    "y": 347,
+    "size": 34,
+    "source": "dom"
+   },
+   {
+    "text": "신제품",
+    "y": 362,
+    "size": 17,
+    "source": "dom"
+   },
+   {
+    "text": "우리밀과 견과류로 만든 프리미엄 한과세트",
+    "y": 412,
+    "size": 17,
+    "source": "dom"
+   },
+   {
+    "text": "강선은명과로 마음을 전하세요.",
+    "y": 412,
+    "size": 17,
+    "source": "dom"
+   },
+   {
+    "text": "특가전",
+    "y": 413,
+    "size": 17,
+    "source": "dom"
+   },
+   {
+    "text": "강성은뎅국",
+    "y": 642,
+    "size": 17.142857142857142,
+    "source": "ocr"
+   },
+   {
+    "text": "베스트",
+    "y": 870,
+    "size": 27,
+    "source": "dom"
+   },
+   {
+    "text": "프리미엄 한과 선물세트 4종",
+    "y": 1244,
+    "size": 16,
+    "source": "dom"
+   },
+   {
+    "text": "동백세트",
+    "y": 1244,
+    "size": 16,
+    "source": "dom"
+   },
+   {
+    "text": "매화세트",
+    "y": 1244,
+    "size": 16,
+    "source": "dom"
+   },
+   {
+    "text": "서울쿠키 27개입 세트",
+    "y": 1244,
+    "size": 16,
+    "source": "dom"
+   },
+   {
+    "text": "서울쿠키 36개입 세트",
+    "y": 1716,
+    "size": 16,
+    "source": "dom"
+   },
+   {
+    "text": "서울쿠키 18개입 세트",
+    "y": 1716,
+    "size": 16,
+    "source": "dom"
+   },
+   {
+    "text": "실제 구매한",
+    "y": 2120,
+    "size": 27,
+    "source": "dom"
+   },
+   {
+    "text": "고객님들의 솔직 후기",
+    "y": 2120,
+    "size": 27,
+    "source": "dom"
+   },
+   {
+    "text": "마음을 구워 선물하다.",
+    "y": 3077,
+    "size": 29,
+    "source": "dom"
+   },
+   {
+    "text": "서울쿠키컴퍼니는 소중한 마음을 전하는 그 순간을 위해",
+    "y": 3129,
+    "size": 18,
+    "source": "dom"
+   },
+   {
+    "text": "정성과 진심을 담아 만들고 있습니다.",
+    "y": 3129,
+    "size": 18,
+    "source": "dom"
+   },
+   {
+    "text": "SEOUIL COOKIE CO•",
+    "y": 3481,
+    "size": 25.0,
+    "source": "ocr"
+   }
+  ],
+  "sections": [
+   {
+    "y": 41,
+    "y_end": 870,
+    "name": "로그인",
+    "n_lines": 13
+   },
+   {
+    "y": 1244,
+    "y_end": 1244,
+    "name": "상품 목록",
+    "n_lines": 4
+   },
+   {
+    "y": 1716,
+    "y_end": 1716,
+    "name": "제품 세트",
+    "n_lines": 2
+   },
+   {
+    "y": 2120,
+    "y_end": 2120,
+    "name": "후기",
+    "n_lines": 2
+   },
+   {
+    "y": 3077,
+    "y_end": 3481,
+    "name": "브랜드 소개",
+    "n_lines": 4
+   }
+  ],
+  "tone": [
+   "지배적인 색감은 푸른색과 베이지색으로 명도 대비가 부드럽게 표현된다.",
+   "제품컷 위주로 연출되며, 배경 처리는 깔끔한 테이블과 식물로 자연스러운 분위기를 연출한다.",
+   "레이아웃은 여백이 넉넉하여 정보 밀도가 적당하다.",
+   "전체 인상: 고급스럽고 정돈된 느낌을 주는 온라인 쇼핑몰 페이지이다."
+  ],
+  "seconds": 17.8,
+  "errors": []
+ },
+ {
+  "id": "gyodong_manwol",
+  "name": "교동한과 만월 (상세)",
+  "url": "https://gyodong.co.kr/product/%EB%A7%8C%EC%9B%94/23/category/24/display/1/",
+  "group": "competitor",
+  "page_type": "detail",
+  "page_height": 17275,
+  "image_locked_ratio": 0.753,
+  "palette": [
+   {
+    "hex": "#c6baac",
+    "ratio": 0.0347,
+    "role": "accent"
+   },
+   {
+    "hex": "#acc7d9",
+    "ratio": 0.0331,
+    "role": "accent"
+   },
+   {
+    "hex": "#525c47",
+    "ratio": 0.0172,
+    "role": "accent"
+   },
+   {
+    "hex": "#9b9687",
+    "ratio": 0.0164,
+    "role": "accent"
+   },
+   {
+    "hex": "#cba162",
+    "ratio": 0.0122,
+    "role": "accent"
+   },
+   {
+    "hex": "#9c5f32",
+    "ratio": 0.0116,
+    "role": "accent"
+   },
+   {
+    "hex": "#32231d",
+    "ratio": 0.0113,
+    "role": "accent"
+   },
+   {
+    "hex": "#ffffff",
+    "ratio": 0.6699,
+    "role": "neutral"
+   }
+  ],
+  "copy_lines": [
+   {
+    "text": "안녕하세요",
+    "y": 256,
+    "size": 46,
+    "source": "dom"
+   },
+   {
+    "text": "교동한과입니다",
+    "y": 256,
+    "size": 46,
+    "source": "dom"
+   },
+   {
+    "text": "만월",
+    "y": 2851,
+    "size": 27.857142857142858,
+    "source": "ocr"
+   },
+   {
+    "text": "보자기 포장",
+    "y": 3911,
+    "size": 21.42857142857143,
+    "source": "ocr"
+   },
+   {
+    "text": "아트콜라보 프로젝트",
+    "y": 4298,
+    "size": 21.42857142857143,
+    "source": "ocr"
+   },
+   {
+    "text": "김경희 작가의 달항아리 작품에 담긴 평안과 행복의 감성을,",
+    "y": 4377,
+    "size": 21.42857142857143,
+    "source": "ocr"
+   },
+   {
+    "text": "교동한과의 따뜻한 풍요와 함께 전해드립니다",
+    "y": 4397,
+    "size": 20.714285714285715,
+    "source": "ocr"
+   },
+   {
+    "text": "물려주고 싶은 전통의 맛,",
+    "y": 6140,
+    "size": 25.0,
+    "source": "ocr"
+   },
+   {
+    "text": "고마운 분께 전하는 정성",
+    "y": 6180,
+    "size": 20.714285714285715,
+    "source": "ocr"
+   },
+   {
+    "text": "한과의 품격을 담았습니다",
+    "y": 6214,
+    "size": 20.714285714285715,
+    "source": "ocr"
+   },
+   {
+    "text": "교동한과는 믿을 수 있는 국내산 찹쌀로",
+    "y": 6982,
+    "size": 21.42857142857143,
+    "source": "ocr"
+   },
+   {
+    "text": "• 뜻",
+    "y": 8757,
+    "size": 21.42857142857143,
+    "source": "ocr"
+   },
+   {
+    "text": "쌈촛촌",
+    "y": 10000,
+    "size": 32.142857142857146,
+    "source": "ocr"
+   },
+   {
+    "text": "좋은 곡식으로, 좋은 조화를,",
+    "y": 10045,
+    "size": 20.714285714285715,
+    "source": "ocr"
+   },
+   {
+    "text": "영양과 맛을 온전히 담습니다",
+    "y": 10094,
+    "size": 20.714285714285715,
+    "source": "ocr"
+   },
+   {
+    "text": "교동 한과는",
+    "y": 10563,
+    "size": 20.714285714285715,
+    "source": "ocr"
+   },
+   {
+    "text": "정성을 담았습니다",
+    "y": 10738,
+    "size": 21.42857142857143,
+    "source": "ocr"
+   },
+   {
+    "text": "교동한과",
+    "y": 11417,
+    "size": 35.0,
+    "source": "ocr"
+   },
+   {
+    "text": "교동한과 제품사용 TIP",
+    "y": 12358,
+    "size": 25.0,
+    "source": "ocr"
+   },
+   {
+    "text": "이렇게 이용하면 좋습니다",
+    "y": 12407,
+    "size": 32.142857142857146,
+    "source": "ocr"
+   },
+   {
+    "text": "2. 개봉 후 빠른 섭취",
+    "y": 12650,
+    "size": 21.42857142857143,
+    "source": "ocr"
+   },
+   {
+    "text": "10%) 106) 0%) 2g 1호)",
+    "y": 14459,
+    "size": 21.42857142857143,
+    "source": "ocr"
+   },
+   {
+    "text": "102% 2g 11\\",
+    "y": 14573,
+    "size": 21.42857142857143,
+    "source": "ocr"
+   },
+   {
+    "text": "10% 29 1호",
+    "y": 14628,
+    "size": 21.42857142857143,
+    "source": "ocr"
+   },
+   {
+    "text": "162cm 1010%)",
+    "y": 14722,
+    "size": 24.28571428571429,
+    "source": "ocr"
+   }
+  ],
+  "sections": [
+   {
+    "y": 256,
+    "y_end": 256,
+    "name": "히어로/메인비주얼",
+    "n_lines": 2
+   },
+   {
+    "y": 2851,
+    "y_end": 4397,
+    "name": "브랜드 스토리",
+    "n_lines": 5
+   },
+   {
+    "y": 6140,
+    "y_end": 6982,
+    "name": "제품 소개",
+    "n_lines": 4
+   },
+   {
+    "y": 8757,
+    "y_end": 8757,
+    "name": "성분·원산지",
+    "n_lines": 1
+   },
+   {
+    "y": 10000,
+    "y_end": 12650,
+    "name": "사용법·보관법",
+    "n_lines": 9
+   },
+   {
+    "y": 14459,
+    "y_end": 14722,
+    "name": "패키지 소개",
+    "n_lines": 4
+   }
+  ],
+  "tone": [
+   "색·톤: 차분한 톤과 부드러운 명도 대비가 돋보인다.",
+   "사진 스타일: 제품컷 위주로, 배경은 단순화하여 제품을 강조한다.",
+   "레이아웃: 여백이 넉넉하며, 정보 밀도는 적당하다.",
+   "전체 인상: 전통과 현대가 조화를 이루는 고급스러운 분위기를 연출한다."
+  ],
+  "seconds": 20.5,
+  "errors": []
+ },
+ {
+  "id": "barunson_goods",
+  "name": "바른손더기프트 상품 (상세)",
+  "url": "https://www.barunsonthegift.com/goods/view?no=1967",
+  "group": "competitor",
+  "page_type": "detail",
+  "page_height": 32337,
+  "image_locked_ratio": 0.866,
+  "palette": [
+   {
+    "hex": "#242d2e",
+    "ratio": 0.0383,
+    "role": "accent"
+   },
+   {
+    "hex": "#9b7b5f",
+    "ratio": 0.0273,
+    "role": "accent"
+   },
+   {
+    "hex": "#cab09c",
+    "ratio": 0.0262,
+    "role": "accent"
+   },
+   {
+    "hex": "#6a3b26",
+    "ratio": 0.0219,
+    "role": "accent"
+   },
+   {
+    "hex": "#dd3833",
+    "ratio": 0.0173,
+    "role": "accent"
+   },
+   {
+    "hex": "#4b7db4",
+    "ratio": 0.0119,
+    "role": "accent"
+   },
+   {
+    "hex": "#ffffff",
+    "ratio": 0.5323,
+    "role": "neutral"
+   },
+   {
+    "hex": "#f4f2f1",
+    "ratio": 0.1009,
+    "role": "neutral"
+   }
+  ],
+  "copy_lines": [
+   {
+    "text": "*도착일 아닙니다!",
+    "y": 1221,
+    "size": 57.85714285714286,
+    "source": "ocr"
+   },
+   {
+    "text": "택배 출발일을 선택해주세요!",
+    "y": 1315,
+    "size": 62.85714285714286,
+    "source": "ocr"
+   },
+   {
+    "text": "Bee House 1992",
+    "y": 5816,
+    "size": 170.71428571428572,
+    "source": "ocr"
+   },
+   {
+    "text": "Bee House 10~",
+    "y": 5854,
+    "size": 150.0,
+    "source": "ocr"
+   },
+   {
+    "text": "기름지지 않은",
+    "y": 10017,
+    "size": 51.42857142857143,
+    "source": "ocr"
+   },
+   {
+    "text": "깔끔한 맛과 달콤하고",
+    "y": 10127,
+    "size": 51.42857142857143,
+    "source": "ocr"
+   },
+   {
+    "text": "3 종류 쿠키세트 를 준비했습니다.",
+    "y": 10359,
+    "size": 55.0,
+    "source": "ocr"
+   },
+   {
+    "text": "쿠키슬리브",
+    "y": 12764,
+    "size": 82.85714285714286,
+    "source": "ocr"
+   },
+   {
+    "text": "etelste seleete",
+    "y": 16557,
+    "size": 117.85714285714286,
+    "source": "ocr"
+   },
+   {
+    "text": "ITE Galler",
+    "y": 21591,
+    "size": 140.0,
+    "source": "ocr"
+   },
+   {
+    "text": "by bechouse1992",
+    "y": 21685,
+    "size": 85.71428571428572,
+    "source": "ocr"
+   },
+   {
+    "text": "For the sweetest day",
+    "y": 23704,
+    "size": 70.0,
+    "source": "ocr"
+   },
+   {
+    "text": "스티커 부착 위치",
+    "y": 23937,
+    "size": 122.14285714285715,
+    "source": "ocr"
+   },
+   {
+    "text": "Exclusive selection",
+    "y": 23998,
+    "size": 65.71428571428572,
+    "source": "ocr"
+   },
+   {
+    "text": "꿀이 넘쳐서 담아왔습니다",
+    "y": 24017,
+    "size": 112.85714285714286,
+    "source": "ocr"
+   },
+   {
+    "text": "윤다정 ✓ 김유준",
+    "y": 24081,
+    "size": 89.28571428571429,
+    "source": "ocr"
+   },
+   {
+    "text": "Beehouse 1992",
+    "y": 24551,
+    "size": 204.2857142857143,
+    "source": "ocr"
+   },
+   {
+    "text": "Blended honey tea & Dessert",
+    "y": 24621,
+    "size": 155.0,
+    "source": "ocr"
+   },
+   {
+    "text": "저희의 결혼을 축하해주셔서 감사합니다",
+    "y": 25033,
+    "size": 185.0,
+    "source": "ocr"
+   },
+   {
+    "text": "바쁘신 중에도",
+    "y": 25073,
+    "size": 83.57142857142858,
+    "source": "ocr"
+   },
+   {
+    "text": "김다빈 이서준",
+    "y": 25118,
+    "size": 102.85714285714286,
+    "source": "ocr"
+   },
+   {
+    "text": "Gourmet Dessert Collection",
+    "y": 25368,
+    "size": 180.71428571428572,
+    "source": "ocr"
+   },
+   {
+    "text": "Box of treasure\"",
+    "y": 25454,
+    "size": 127.14285714285715,
+    "source": "ocr"
+   },
+   {
+    "text": "Siwe selecion",
+    "y": 25580,
+    "size": 75.71428571428572,
+    "source": "ocr"
+   },
+   {
+    "text": "Seojoon's",
+    "y": 28368,
+    "size": 60.714285714285715,
+    "source": "ocr"
+   }
+  ],
+  "sections": [
+   {
+    "y": 1221,
+    "y_end": 1315,
+    "name": "택배 선택",
+    "n_lines": 2
+   },
+   {
+    "y": 5816,
+    "y_end": 5854,
+    "name": "브랜드 소개",
+    "n_lines": 2
+   },
+   {
+    "y": 10017,
+    "y_end": 10359,
+    "name": "제품 설명",
+    "n_lines": 3
+   },
+   {
+    "y": 12764,
+    "y_end": 12764,
+    "name": "구성품",
+    "n_lines": 1
+   },
+   {
+    "y": 16557,
+    "y_end": 16557,
+    "name": "성분/원산지",
+    "n_lines": 1
+   },
+   {
+    "y": 21591,
+    "y_end": 21685,
+    "name": "패키지 정보",
+    "n_lines": 2
+   },
+   {
+    "y": 23704,
+    "y_end": 25580,
+    "name": "사용법/보관",
+    "n_lines": 13
+   },
+   {
+    "y": 28368,
+    "y_end": 28368,
+    "name": "배송 안내",
+    "n_lines": 1
+   }
+  ],
+  "tone": [
+   "지배적인 색감은 흰색과 녹색으로, 명도 대비가 높아 시각적으로 강조된다.",
+   "제품컷 위주로, 배경은 단순화되어 제품을 돋보이게 한다.",
+   "여백이 넉넉하여 정보 밀도는 적당하며, 읽기 쉽다.",
+   "전체 인상: 깔끔하고 전문적인 느낌을 주며, 상품의 고급성을 강조한다."
+  ],
+  "seconds": 29.8,
+  "errors": []
+ },
+ {
+  "id": "hangamall_dao",
+  "name": "강릉명일한과 강릉줄게 한과다오 (상세)",
+  "url": "https://hangamall.com/product/%EA%B0%95%EB%A6%89%EC%A4%84%EA%B2%8C-%ED%95%9C%EA%B3%BC%EB%8B%A4%EC%98%A4/114/category/4/display/1/",
+  "group": "competitor",
+  "page_type": "detail",
+  "page_height": 44491,
+  "image_locked_ratio": 0.922,
+  "palette": [
+   {
+    "hex": "#e2d2c5",
+    "ratio": 0.0737,
+    "role": "accent"
+   },
+   {
+    "hex": "#ddbea1",
+    "ratio": 0.0347,
+    "role": "accent"
+   },
+   {
+    "hex": "#212622",
+    "ratio": 0.0272,
+    "role": "accent"
+   },
+   {
+    "hex": "#b5a49a",
+    "ratio": 0.0261,
+    "role": "accent"
+   },
+   {
+    "hex": "#685d4e",
+    "ratio": 0.0254,
+    "role": "accent"
+   },
+   {
+    "hex": "#c29250",
+    "ratio": 0.0175,
+    "role": "accent"
+   },
+   {
+    "hex": "#636edb",
+    "ratio": 0.0122,
+    "role": "accent"
+   },
+   {
+    "hex": "#ffffff",
+    "ratio": 0.6169,
+    "role": "neutral"
+   }
+  ],
+  "copy_lines": [
+   {
+    "text": "광복할",
+    "y": 1836,
+    "size": 65.71428571428572,
+    "source": "ocr"
+   },
+   {
+    "text": "배용안내",
+    "y": 1932,
+    "size": 65.0,
+    "source": "ocr"
+   },
+   {
+    "text": "BEST BRAND 1위",
+    "y": 3019,
+    "size": 57.85714285714286,
+    "source": "ocr"
+   },
+   {
+    "text": "2T15 2d",
+    "y": 4893,
+    "size": 50.714285714285715,
+    "source": "ocr"
+   },
+   {
+    "text": "한과선물",
+    "y": 5657,
+    "size": 57.85714285714286,
+    "source": "ocr"
+   },
+   {
+    "text": "개별 배송안내",
+    "y": 5743,
+    "size": 55.0,
+    "source": "ocr"
+   },
+   {
+    "text": "Q&A",
+    "y": 6663,
+    "size": 50.714285714285715,
+    "source": "ocr"
+   },
+   {
+    "text": "강릉줄게",
+    "y": 8666,
+    "size": 72.14285714285715,
+    "source": "ocr"
+   },
+   {
+    "text": "한과다오",
+    "y": 8777,
+    "size": 77.85714285714286,
+    "source": "ocr"
+   },
+   {
+    "text": "100% 조청만을",
+    "y": 15260,
+    "size": 54.28571428571429,
+    "source": "ocr"
+   },
+   {
+    "text": "사용합니다",
+    "y": 15350,
+    "size": 50.714285714285715,
+    "source": "ocr"
+   },
+   {
+    "text": "어떠한 첨가물 없이",
+    "y": 16967,
+    "size": 50.0,
+    "source": "ocr"
+   },
+   {
+    "text": "전달합니다",
+    "y": 17142,
+    "size": 51.42857142857143,
+    "source": "ocr"
+   },
+   {
+    "text": "다양한 맛을",
+    "y": 18849,
+    "size": 55.0,
+    "source": "ocr"
+   },
+   {
+    "text": "강릉명일한과는",
+    "y": 26177,
+    "size": 55.714285714285715,
+    "source": "ocr"
+   },
+   {
+    "text": "사람과 자연이",
+    "y": 26271,
+    "size": 51.42857142857143,
+    "source": "ocr"
+   },
+   {
+    "text": "손맛가득한 한과",
+    "y": 27333,
+    "size": 55.0,
+    "source": "ocr"
+   },
+   {
+    "text": "강원도 자연의",
+    "y": 29131,
+    "size": 55.714285714285715,
+    "source": "ocr"
+   },
+   {
+    "text": "신선한 재료를 담은 한과",
+    "y": 29214,
+    "size": 54.28571428571429,
+    "source": "ocr"
+   },
+   {
+    "text": "30일의 기다림",
+    "y": 31704,
+    "size": 55.714285714285715,
+    "source": "ocr"
+   },
+   {
+    "text": "강릉명일한과",
+    "y": 31791,
+    "size": 52.142857142857146,
+    "source": "ocr"
+   },
+   {
+    "text": "손으로 빚은 기품",
+    "y": 33886,
+    "size": 55.0,
+    "source": "ocr"
+   },
+   {
+    "text": "입안 가득 퍼지는 깊은 맛",
+    "y": 33968,
+    "size": 55.0,
+    "source": "ocr"
+   },
+   {
+    "text": "강릉명일한과가",
+    "y": 40481,
+    "size": 54.28571428571429,
+    "source": "ocr"
+   },
+   {
+    "text": "드리는 약속",
+    "y": 40562,
+    "size": 55.714285714285715,
+    "source": "ocr"
+   }
+  ],
+  "sections": [
+   {
+    "y": 1836,
+    "y_end": 3019,
+    "name": "히어로/메인비주얼",
+    "n_lines": 3
+   },
+   {
+    "y": 4893,
+    "y_end": 6663,
+    "name": "브랜드 스토리",
+    "n_lines": 4
+   },
+   {
+    "y": 8666,
+    "y_end": 8777,
+    "name": "제품 소개",
+    "n_lines": 2
+   },
+   {
+    "y": 15260,
+    "y_end": 18849,
+    "name": "성분·원산지",
+    "n_lines": 5
+   },
+   {
+    "y": 26177,
+    "y_end": 29214,
+    "name": "사용법·보관법",
+    "n_lines": 5
+   },
+   {
+    "y": 31704,
+    "y_end": 31791,
+    "name": "패키지 소개",
+    "n_lines": 2
+   },
+   {
+    "y": 33886,
+    "y_end": 33968,
+    "name": "배송 안내",
+    "n_lines": 2
+   },
+   {
+    "y": 40481,
+    "y_end": 40562,
+    "name": "교환·반품",
+    "n_lines": 2
+   }
+  ],
+  "tone": [
+   "색·톤: 따뜻한 베이지와 푸른색이 조화를 이루며, 명도 대비가 부드럽게 느껴진다.",
+   "사진 스타일: 제품컷 위주로, 연출컷은 적당히 사용하며 배경 처리는 자연스러운 느낌을 주고 있다.",
+   "레이아웃: 여백이 넉넉하여 읽기 쉽고 정보 밀도가 적당하다.",
+   "전체 인상: 깔끔하고 신뢰감 있는 한국 전통 한과의 매력을 담은 상세페이지이다."
+  ],
+  "seconds": 40.6,
+  "errors": []
+ },
+ {
+  "id": "hanpoom_99flower",
+  "name": "한품 99플라워 감사한 마음으로 (상세)",
+  "url": "https://hanpoom.co.kr/products/99%ED%94%8C%EB%9D%BC%EC%9B%8C-%EB%8A%98-%EA%B0%90%EC%82%AC%ED%95%9C-%EB%A7%88%EC%9D%8C%EC%9C%BC%EB%A1%9C-b513",
+  "group": "competitor",
+  "page_type": "detail",
+  "page_height": 12868,
+  "image_locked_ratio": 0.777,
+  "palette": [
+   {
+    "hex": "#f78c3b",
+    "ratio": 0.0233,
+    "role": "accent"
+   },
+   {
+    "hex": "#5c5037",
+    "ratio": 0.022,
+    "role": "accent"
+   },
+   {
+    "hex": "#141620",
+    "ratio": 0.0197,
+    "role": "accent"
+   },
+   {
+    "hex": "#dfac81",
+    "ratio": 0.0195,
+    "role": "accent"
+   },
+   {
+    "hex": "#f2ca8d",
+    "ratio": 0.0171,
+    "role": "accent"
+   },
+   {
+    "hex": "#b88e50",
+    "ratio": 0.0115,
+    "role": "accent"
+   },
+   {
+    "hex": "#fefefe",
+    "ratio": 0.5807,
+    "role": "neutral"
+   },
+   {
+    "hex": "#efeded",
+    "ratio": 0.1429,
+    "role": "neutral"
+   }
+  ],
+  "copy_lines": [
+   {
+    "text": "[99플라워] 늘 감사한 마음으로 B513",
+    "y": 132,
+    "size": 24,
+    "source": "dom"
+   },
+   {
+    "text": "할인가",
+    "y": 176,
+    "size": 24,
+    "source": "dom"
+   },
+   {
+    "text": "정가",
+    "y": 176,
+    "size": 24,
+    "source": "dom"
+   },
+   {
+    "text": "이메일 구독하고",
+    "y": 290,
+    "size": 40,
+    "source": "dom"
+   },
+   {
+    "text": "최신 소식 받으세요",
+    "y": 344,
+    "size": 40,
+    "source": "dom"
+   },
+   {
+    "text": "상품 이용 필독사항!",
+    "y": 1516,
+    "size": 36.42857142857143,
+    "source": "ocr"
+   },
+   {
+    "text": "• 상품은 홈페이지 이미지와 100% 동일 제작이 불가하며,",
+    "y": 1648,
+    "size": 25.0,
+    "source": "ocr"
+   },
+   {
+    "text": "• 각 지역 시세와 계절에 맞춰 제작되므로 꽃종류, 구성, 제작방법",
+    "y": 1795,
+    "size": 25.0,
+    "source": "ocr"
+   },
+   {
+    "text": "이미지 다름으로 인한 교환 및 반품 환불은 불가합니다.",
+    "y": 1871,
+    "size": 25.714285714285715,
+    "source": "ocr"
+   },
+   {
+    "text": "제작이 완료된 상품은 단순 변심 및 수취인의 거부에 의한",
+    "y": 1978,
+    "size": 25.0,
+    "source": "ocr"
+   },
+   {
+    "text": "늘 감사한 마음으로",
+    "y": 2394,
+    "size": 36.42857142857143,
+    "source": "ocr"
+   },
+   {
+    "text": "감사의 마음을 담은 카네이션 당일 꽃배달로",
+    "y": 3257,
+    "size": 25.714285714285715,
+    "source": "ocr"
+   },
+   {
+    "text": "신뢰와믿음",
+    "y": 6038,
+    "size": 32.85714285714286,
+    "source": "ocr"
+   },
+   {
+    "text": "99플라워",
+    "y": 6084,
+    "size": 32.85714285714286,
+    "source": "ocr"
+   },
+   {
+    "text": "은혜에 감사하는 마음을",
+    "y": 7043,
+    "size": 32.85714285714286,
+    "source": "ocr"
+   },
+   {
+    "text": "카네이션의 향기에 담아 멀리서나마 전해드립니다.",
+    "y": 7085,
+    "size": 32.85714285714286,
+    "source": "ocr"
+   },
+   {
+    "text": "존경의 마음을",
+    "y": 8229,
+    "size": 37.142857142857146,
+    "source": "ocr"
+   },
+   {
+    "text": "전하는 가장 확실한 방법",
+    "y": 8285,
+    "size": 32.85714285714286,
+    "source": "ocr"
+   },
+   {
+    "text": "#어버이날, 부모님 사랑합니다.",
+    "y": 8386,
+    "size": 25.0,
+    "source": "ocr"
+   },
+   {
+    "text": "#스승의날, 선생님 감사합니다.",
+    "y": 8427,
+    "size": 25.714285714285715,
+    "source": "ocr"
+   },
+   {
+    "text": "#평생 효도할게요~건강하세요.",
+    "y": 8468,
+    "size": 25.0,
+    "source": "ocr"
+   },
+   {
+    "text": "#존경하는 마음 잊지 않겠습니다.",
+    "y": 8509,
+    "size": 25.0,
+    "source": "ocr"
+   },
+   {
+    "text": "* 배송 지역에 따라 상자 소진시 바구니로 제작될수있습니다.",
+    "y": 9605,
+    "size": 25.0,
+    "source": "ocr"
+   },
+   {
+    "text": "소재 특성에 대한 오해",
+    "y": 10660,
+    "size": 25.714285714285715,
+    "source": "ocr"
+   },
+   {
+    "text": "다양한 상품을 만나보세요!",
+    "y": 11757,
+    "size": 32,
+    "source": "dom"
+   }
+  ],
+  "sections": [
+   {
+    "y": 132,
+    "y_end": 344,
+    "name": "할인/정가",
+    "n_lines": 5
+   },
+   {
+    "y": 1516,
+    "y_end": 3257,
+    "name": "이용 필독사항",
+    "n_lines": 7
+   },
+   {
+    "y": 6038,
+    "y_end": 7085,
+    "name": "브랜드 스토리",
+    "n_lines": 4
+   },
+   {
+    "y": 8229,
+    "y_end": 10660,
+    "name": "제품 소개",
+    "n_lines": 8
+   },
+   {
+    "y": 11757,
+    "y_end": 11757,
+    "name": "구성품 안내",
+    "n_lines": 1
+   }
+  ],
+  "tone": [
+   "색·톤: 밝고 따뜻한 톤이 지배하며 명도 대비가 적당하다.",
+   "사진 스타일: 제품컷 위주로 연출되며 배경은 깔끔하게 처리되었다.",
+   "레이아웃: 여백이 넉넉하여 정보 밀도가 낮다.",
+   "전체 인상: 이 페이지는 따뜻하고 아름다운 분위기를 주는 격이다."
+  ],
+  "seconds": 16.7,
+  "errors": []
+ },
+ {
+  "id": "seoulcookie_mugunghwa",
+  "name": "서울쿠키 무궁화세트 (상세)",
+  "url": "https://seoulcookie.com/product/%EB%AC%B4%EA%B6%81%ED%99%94%EC%84%B8%ED%8A%B8/53/category/24/display/2/",
+  "group": "competitor",
+  "page_type": "detail",
+  "page_height": 12036,
+  "image_locked_ratio": 0.748,
+  "palette": [
+   {
+    "hex": "#fdf2d7",
+    "ratio": 0.0549,
+    "role": "accent"
+   },
+   {
+    "hex": "#8a8375",
+    "ratio": 0.0432,
+    "role": "accent"
+   },
+   {
+    "hex": "#d5ccbb",
+    "ratio": 0.0331,
+    "role": "accent"
+   },
+   {
+    "hex": "#bbb3a0",
+    "ratio": 0.0286,
+    "role": "accent"
+   },
+   {
+    "hex": "#6b503f",
+    "ratio": 0.0285,
+    "role": "accent"
+   },
+   {
+    "hex": "#a66b45",
+    "ratio": 0.0214,
+    "role": "accent"
+   },
+   {
+    "hex": "#d3a15e",
+    "ratio": 0.0204,
+    "role": "accent"
+   },
+   {
+    "hex": "#ffffff",
+    "ratio": 0.6597,
+    "role": "neutral"
+   }
+  ],
+  "copy_lines": [
+   {
+    "text": "OKE CO.",
+    "y": 59,
+    "size": 31.42857142857143,
+    "source": "ocr"
+   },
+   {
+    "text": "SEOUL CO",
+    "y": 62,
+    "size": 23.571428571428573,
+    "source": "ocr"
+   },
+   {
+    "text": "95,000원(1개)",
+    "y": 819,
+    "size": 22.142857142857146,
+    "source": "ocr"
+   },
+   {
+    "text": "한과의 기준을 바꾸다",
+    "y": 2157,
+    "size": 48.57142857142858,
+    "source": "ocr"
+   },
+   {
+    "text": "강성은명과",
+    "y": 2273,
+    "size": 40.714285714285715,
+    "source": "ocr"
+   },
+   {
+    "text": "무궁화세트",
+    "y": 2328,
+    "size": 46.42857142857143,
+    "source": "ocr"
+   },
+   {
+    "text": "중요한 분에게 선물하기 좋은",
+    "y": 2475,
+    "size": 20.0,
+    "source": "ocr"
+   },
+   {
+    "text": "무궁화세트입니다.",
+    "y": 2501,
+    "size": 20.0,
+    "source": "ocr"
+   },
+   {
+    "text": "무궁화세트 구성품목",
+    "y": 3371,
+    "size": 42.142857142857146,
+    "source": "ocr"
+   },
+   {
+    "text": "들깨기둥",
+    "y": 3845,
+    "size": 20.0,
+    "source": "ocr"
+   },
+   {
+    "text": "검은깨강정",
+    "y": 4088,
+    "size": 20.0,
+    "source": "ocr"
+   },
+   {
+    "text": "입에서 씹히는 식감에서",
+    "y": 4391,
+    "size": 22.857142857142858,
+    "source": "ocr"
+   },
+   {
+    "text": "강성은 평과가 만들면 다릅니다",
+    "y": 4676,
+    "size": 59.28571428571429,
+    "source": "ocr"
+   },
+   {
+    "text": "100% 우리밀",
+    "y": 4914,
+    "size": 77.14285714285715,
+    "source": "ocr"
+   },
+   {
+    "text": "NO 마가린",
+    "y": 5048,
+    "size": 65.71428571428572,
+    "source": "ocr"
+   },
+   {
+    "text": "신선한 견과류",
+    "y": 5158,
+    "size": 85.0,
+    "source": "ocr"
+   },
+   {
+    "text": "정성껏 만든 수제방식",
+    "y": 5273,
+    "size": 115.71428571428572,
+    "source": "ocr"
+   },
+   {
+    "text": "식품안전관리인증",
+    "y": 5723,
+    "size": 27.857142857142858,
+    "source": "ocr"
+   },
+   {
+    "text": "HACCP 인증",
+    "y": 5958,
+    "size": 29.28571428571429,
+    "source": "ocr"
+   },
+   {
+    "text": "HACCP관리 기준에 따라 과학적이고 체계적으로",
+    "y": 6086,
+    "size": 20.0,
+    "source": "ocr"
+   },
+   {
+    "text": "1• 본 제품은 소비자 분쟁 해질기준에 의거 교환 또는 보상을 받을 수 있습니다. 부정 • 불량 식품 신고는 국번없이 1399 유통기한, 별도표기일까지",
+    "y": 8443,
+    "size": 20.0,
+    "source": "ocr"
+   },
+   {
+    "text": "배송안내",
+    "y": 8683,
+    "size": 20.0,
+    "source": "ocr"
+   },
+   {
+    "text": "* 교환 및 반품이 가능한 경우",
+    "y": 9293,
+    "size": 22.857142857142858,
+    "source": "ocr"
+   },
+   {
+    "text": "리뷰",
+    "y": 10697,
+    "size": 22,
+    "source": "dom"
+   },
+   {
+    "text": "Q&A",
+    "y": 11217,
+    "size": 22,
+    "source": "dom"
+   }
+  ],
+  "sections": [
+   {
+    "y": 59,
+    "y_end": 819,
+    "name": "상품 정보",
+    "n_lines": 3
+   },
+   {
+    "y": 2157,
+    "y_end": 2501,
+    "name": "제품 소개",
+    "n_lines": 5
+   },
+   {
+    "y": 3371,
+    "y_end": 6086,
+    "name": "구성품 안내",
+    "n_lines": 12
+   },
+   {
+    "y": 8443,
+    "y_end": 9293,
+    "name": "배송 안내",
+    "n_lines": 3
+   },
+   {
+    "y": 10697,
+    "y_end": 11217,
+    "name": "후기/Q&A",
+    "n_lines": 2
+   }
+  ],
+  "tone": [
+   "지배적인 색감은 갈색과 베이지색으로, 명도 대비가 부드럽게 설정되어 있습니다.",
+   "제품컷 위주로, 배경 처리는 심플하게 제품을 강조합니다.",
+   "여백이 넉넉하여 정보 밀도가 적당하며, 읽기 쉽습니다.",
+   "전체 인상은 전문적이고 깔끔한 느낌을 줍니다."
+  ],
+  "seconds": 15.1,
+  "errors": []
+ },
+ {
+  "id": "osulloc",
+  "name": "오설록",
+  "url": "https://www.osulloc.com/kr/ko",
+  "group": "tone",
+  "page_type": "home",
+  "page_height": 4440,
+  "image_locked_ratio": 0.0,
+  "palette": [
+   {
+    "hex": "#f1dec9",
+    "ratio": 0.0798,
+    "role": "accent"
+   },
+   {
+    "hex": "#32443d",
+    "ratio": 0.0603,
+    "role": "accent"
+   },
+   {
+    "hex": "#475f58",
+    "ratio": 0.0468,
+    "role": "accent"
+   },
+   {
+    "hex": "#b7b59c",
+    "ratio": 0.0429,
+    "role": "accent"
+   },
+   {
+    "hex": "#958766",
+    "ratio": 0.0262,
+    "role": "accent"
+   },
+   {
+    "hex": "#6fb1b7",
+    "ratio": 0.0218,
+    "role": "accent"
+   },
+   {
+    "hex": "#11af81",
+    "ratio": 0.007,
+    "role": "accent"
+   },
+   {
+    "hex": "#ffffff",
+    "ratio": 0.4157,
+    "role": "neutral"
+   }
+  ],
+  "copy_lines": [
+   {
+    "text": "제품",
+    "y": 75,
+    "size": 17.5,
+    "source": "dom"
+   },
+   {
+    "text": "8월 대체 휴일 배송 안내",
+    "y": 121,
+    "size": 20.714285714285715,
+    "source": "ocr"
+   },
+   {
+    "text": "미피 콜라보",
+    "y": 148,
+    "size": 17.5,
+    "source": "dom"
+   },
+   {
+    "text": "르세라핌 콜라보 상품,",
+    "y": 213,
+    "size": 27.6,
+    "source": "dom"
+   },
+   {
+    "text": "사은품 추가 오픈!",
+    "y": 256,
+    "size": 27.6,
+    "source": "dom"
+   },
+   {
+    "text": "인기 검색어",
+    "y": 258,
+    "size": 20,
+    "source": "dom"
+   },
+   {
+    "text": "최근 검색어",
+    "y": 258,
+    "size": 20,
+    "source": "dom"
+   },
+   {
+    "text": "BEST & NEW",
+    "y": 630,
+    "size": 25,
+    "source": "dom"
+   },
+   {
+    "text": "놓치기 아쉬운 8월 2주차 혜택! 티 베이커리 전 품목 ~30%",
+    "y": 1292,
+    "size": 25,
+    "source": "dom"
+   },
+   {
+    "text": "WEEKLY ISSUE PICK",
+    "y": 1924,
+    "size": 25,
+    "source": "dom"
+   },
+   {
+    "text": "OSULLOC NOW",
+    "y": 1924,
+    "size": 25,
+    "source": "dom"
+   },
+   {
+    "text": "당 충전이 필요한 순간",
+    "y": 2028,
+    "size": 18,
+    "source": "dom"
+   },
+   {
+    "text": "티 푸드와 함께하는 티타임",
+    "y": 2028,
+    "size": 18,
+    "source": "dom"
+   },
+   {
+    "text": "이달의 베스트 리뷰",
+    "y": 2028,
+    "size": 18,
+    "source": "dom"
+   },
+   {
+    "text": "EXPLORE OUR STORES",
+    "y": 2376,
+    "size": 25,
+    "source": "dom"
+   },
+   {
+    "text": "오설록 1979",
+    "y": 2860,
+    "size": 18,
+    "source": "dom"
+   },
+   {
+    "text": "제주 오설록 티뮤지엄",
+    "y": 2860,
+    "size": 18,
+    "source": "dom"
+   },
+   {
+    "text": "티하우스 북촌점",
+    "y": 2860,
+    "size": 18,
+    "source": "dom"
+   },
+   {
+    "text": "티하우스 용산파크점",
+    "y": 2860,
+    "size": 18,
+    "source": "dom"
+   },
+   {
+    "text": "티하우스 MMCA",
+    "y": 2860,
+    "size": 18,
+    "source": "dom"
+   },
+   {
+    "text": "티하우스 해운대점",
+    "y": 2860,
+    "size": 18,
+    "source": "dom"
+   },
+   {
+    "text": "티하우스 김포공항점",
+    "y": 2860,
+    "size": 18,
+    "source": "dom"
+   },
+   {
+    "text": "티하우스 인천공항점 (신세계면세점)",
+    "y": 2860,
+    "size": 18,
+    "source": "dom"
+   },
+   {
+    "text": "BRAND STORY",
+    "y": 3156,
+    "size": 25,
+    "source": "dom"
+   },
+   {
+    "text": "TEA FROM JEJU ISLAND",
+    "y": 3211,
+    "size": 32,
+    "source": "dom"
+   }
+  ],
+  "sections": [
+   {
+    "y": 75,
+    "y_end": 258,
+    "name": "제품 소개",
+    "n_lines": 7
+   },
+   {
+    "y": 630,
+    "y_end": 630,
+    "name": "BEST & NEW",
+    "n_lines": 1
+   },
+   {
+    "y": 1292,
+    "y_end": 1292,
+    "name": "이벤트 혜택",
+    "n_lines": 1
+   },
+   {
+    "y": 1924,
+    "y_end": 2376,
+    "name": "주간 추천",
+    "n_lines": 6
+   },
+   {
+    "y": 2860,
+    "y_end": 3211,
+    "name": "매장 정보",
+    "n_lines": 10
+   }
+  ],
+  "tone": [
+   "색·톤: 상세한 녹색과 푸른색이 주를 이루며, 명도 대비가 부드럽게 설정되어 있다.",
+   "사진 스타일: 제품컷 위주로, 배경은 제품을 강조하기 위해 단순화되었다.",
+   "레이아웃: 여백이 넉넉하여 정보 밀도는 적당한 수준이다.",
+   "전체 인상: 깔끔하고 명확한 디자인으로, 사용자의 눈길을 끌어당긴다."
+  ],
+  "seconds": 18.1,
+  "errors": []
+ },
+ {
+  "id": "danjeong",
+  "name": "단정 (내 프로젝트)",
+  "url": "https://joniverse-ai.github.io/danjeong/",
+  "group": "own",
+  "page_type": "home",
+  "page_height": 4629,
+  "image_locked_ratio": 0.0,
+  "palette": [
+   {
+    "hex": "#1d1a18",
+    "ratio": 0.0775,
+    "role": "accent"
+   },
+   {
+    "hex": "#070709",
+    "ratio": 0.0364,
+    "role": "accent"
+   },
+   {
+    "hex": "#3a2921",
+    "ratio": 0.0311,
+    "role": "accent"
+   },
+   {
+    "hex": "#746b63",
+    "ratio": 0.0248,
+    "role": "accent"
+   },
+   {
+    "hex": "#774d2c",
+    "ratio": 0.0144,
+    "role": "accent"
+   },
+   {
+    "hex": "#f9f6f1",
+    "ratio": 0.442,
+    "role": "neutral"
+   },
+   {
+    "hex": "#f2eee5",
+    "ratio": 0.2519,
+    "role": "neutral"
+   },
+   {
+    "hex": "#8b8985",
+    "ratio": 0.0306,
+    "role": "neutral"
+   }
+  ],
+  "copy_lines": [
+   {
+    "text": "정성을 담아,",
+    "y": 263,
+    "size": 52,
+    "source": "dom"
+   },
+   {
+    "text": "편안하게 전하는 답례",
+    "y": 263,
+    "size": 52,
+    "source": "dom"
+   },
+   {
+    "text": "상황에 맞는",
+    "y": 263,
+    "size": 52,
+    "source": "dom"
+   },
+   {
+    "text": "단 하나의 세트",
+    "y": 263,
+    "size": 52,
+    "source": "dom"
+   },
+   {
+    "text": "추석 사전 예약",
+    "y": 263,
+    "size": 52,
+    "source": "dom"
+   },
+   {
+    "text": "진행 중",
+    "y": 263,
+    "size": 52,
+    "source": "dom"
+   },
+   {
+    "text": "고객사와 VIP에게 보내는, 절제된 티·커피 페어링 셀렉트.",
+    "y": 412,
+    "size": 17,
+    "source": "dom"
+   },
+   {
+    "text": "계약 감사, 임원 축하, 명절 인사 — 세 가지 상황, 아홉 가지 구성.",
+    "y": 412,
+    "size": 17,
+    "source": "dom"
+   },
+   {
+    "text": "마감 전 예약하시면, 계절의 감사를 제때 전할 수 있습니다.",
+    "y": 412,
+    "size": 17,
+    "source": "dom"
+   },
+   {
+    "text": "단정 · 端正",
+    "y": 690,
+    "size": 36,
+    "source": "dom"
+   },
+   {
+    "text": "단정 •고",
+    "y": 700,
+    "size": 24.28571428571429,
+    "source": "ocr"
+   },
+   {
+    "text": "선물",
+    "y": 1691,
+    "size": 36,
+    "source": "dom"
+   },
+   {
+    "text": "하연 · 白然",
+    "y": 2286,
+    "size": 22,
+    "source": "dom"
+   },
+   {
+    "text": "고요 · 古謠",
+    "y": 2286,
+    "size": 22,
+    "source": "dom"
+   },
+   {
+    "text": "가온 · 佳穩",
+    "y": 2286,
+    "size": 22,
+    "source": "dom"
+   },
+   {
+    "text": "수안 · 秀安",
+    "y": 2286,
+    "size": 22,
+    "source": "dom"
+   },
+   {
+    "text": "담헌 · 澹軒",
+    "y": 2286,
+    "size": 22,
+    "source": "dom"
+   },
+   {
+    "text": "단정만의 혜택",
+    "y": 2671,
+    "size": 36,
+    "source": "dom"
+   },
+   {
+    "text": "대량 주문 할인",
+    "y": 2882,
+    "size": 18,
+    "source": "dom"
+   },
+   {
+    "text": "맞춤 패키지",
+    "y": 2882,
+    "size": 18,
+    "source": "dom"
+   },
+   {
+    "text": "전담 컨시어지",
+    "y": 2882,
+    "size": 18,
+    "source": "dom"
+   },
+   {
+    "text": "정기 구독 프로그램",
+    "y": 2882,
+    "size": 18,
+    "source": "dom"
+   },
+   {
+    "text": "이벤트",
+    "y": 3249,
+    "size": 36,
+    "source": "dom"
+   },
+   {
+    "text": "공지사항",
+    "y": 3921,
+    "size": 36,
+    "source": "dom"
+   },
+   {
+    "text": "단정 · Danjeong",
+    "y": 4486,
+    "size": 22,
+    "source": "dom"
+   }
+  ],
+  "sections": [
+   {
+    "y": 263,
+    "y_end": 700,
+    "name": "추석 예약",
+    "n_lines": 11
+   },
+   {
+    "y": 1691,
+    "y_end": 1691,
+    "name": "선물",
+    "n_lines": 1
+   },
+   {
+    "y": 2286,
+    "y_end": 3249,
+    "name": "제품 이름",
+    "n_lines": 11
+   },
+   {
+    "y": 3921,
+    "y_end": 3921,
+    "name": "공지사항",
+    "n_lines": 1
+   },
+   {
+    "y": 4486,
+    "y_end": 4486,
+    "name": "단정 소개",
+    "n_lines": 1
+   }
+  ],
+  "tone": [
+   "색·톤: 따뜻한 베이지와 흰색의 조화로, 명도 대비가 부드럽게 느껴진다.",
+   "사진 스타일: 연출컷 위주로, 제품과 함께 자연스러운 배경으로 연출되었다.",
+   "레이아웃: 여백이 넉넉하여 정보 밀도가 적당하다.",
+   "전체 인상: 고급스럽고 아름다운 한국 전통 차 문화를 연상시킨다."
+  ],
+  "seconds": 25.9,
+  "errors": []
+ }
+]

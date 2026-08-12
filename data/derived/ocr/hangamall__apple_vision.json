@@ -1,0 +1,557 @@
+{
+ "ref_id": "hangamall",
+ "engine": "apple_vision",
+ "n_crops": 4,
+ "n_lines": 78,
+ "chars": 1163,
+ "seconds": 1.7,
+ "errors": [],
+ "lines": [
+  {
+   "text": "75등",
+   "conf": 0.5,
+   "page_y": 33,
+   "h": 21,
+   "crop": "00_both_0-1080.png"
+  },
+  {
+   "text": "8Q",
+   "conf": 0.5,
+   "page_y": 60,
+   "h": 27,
+   "crop": "00_both_0-1080.png"
+  },
+  {
+   "text": "한과선물세트 수제한과 간식거리 개별포장 간식거리 디저트 간식 BEST",
+   "conf": 1.0,
+   "page_y": 66,
+   "h": 19,
+   "crop": "00_both_0-1080.png"
+  },
+  {
+   "text": "한과",
+   "conf": 0.5,
+   "page_y": 70,
+   "h": 42,
+   "crop": "00_both_0-1080.png"
+  },
+  {
+   "text": "강릉 한과 I Crisp & Elegant: Sweet Moments of Tradition",
+   "conf": 1.0,
+   "page_y": 169,
+   "h": 25,
+   "crop": "00_both_0-1080.png"
+  },
+  {
+   "text": "KBS투어버스(Two of Us)",
+   "conf": 0.5,
+   "page_y": 192,
+   "h": 14,
+   "crop": "00_both_0-1080.png"
+  },
+  {
+   "text": "14 차",
+   "conf": 0.5,
+   "page_y": 270,
+   "h": 29,
+   "crop": "00_both_0-1080.png"
+  },
+  {
+   "text": "사랑 가득 웃음이 넘치는",
+   "conf": 1.0,
+   "page_y": 326,
+   "h": 50,
+   "crop": "00_both_0-1080.png"
+  },
+  {
+   "text": "힐링니다 강릉한과",
+   "conf": 0.5,
+   "page_y": 358,
+   "h": 68,
+   "crop": "00_both_0-1080.png"
+  },
+  {
+   "text": "행복한 한가위",
+   "conf": 1.0,
+   "page_y": 380,
+   "h": 51,
+   "crop": "00_both_0-1080.png"
+  },
+  {
+   "text": "Korean Trasitional Sweets From Scratch",
+   "conf": 1.0,
+   "page_y": 439,
+   "h": 27,
+   "crop": "00_both_0-1080.png"
+  },
+  {
+   "text": "동영상 더보기",
+   "conf": 1.0,
+   "page_y": 759,
+   "h": 17,
+   "crop": "00_both_0-1080.png"
+  },
+  {
+   "text": "• Youlube",
+   "conf": 0.5,
+   "page_y": 759,
+   "h": 19,
+   "crop": "00_both_0-1080.png"
+  },
+  {
+   "text": "이 오가는 풍성한 한가위 보내세요",
+   "conf": 1.0,
+   "page_y": 824,
+   "h": 18,
+   "crop": "00_both_0-1080.png"
+  },
+  {
+   "text": "따뜻한 마음이 오가는 풍성한 한가위 보내세요",
+   "conf": 1.0,
+   "page_y": 824,
+   "h": 18,
+   "crop": "00_both_0-1080.png"
+  },
+  {
+   "text": "따뜻한 마음이 오가는 풍성한 한가위 보내세요",
+   "conf": 1.0,
+   "page_y": 824,
+   "h": 18,
+   "crop": "00_both_0-1080.png"
+  },
+  {
+   "text": "따뜻한 마음이 오가는 풍성한 한가위 보내세요",
+   "conf": 1.0,
+   "page_y": 824,
+   "h": 18,
+   "crop": "00_both_0-1080.png"
+  },
+  {
+   "text": "BEST ITEM",
+   "conf": 1.0,
+   "page_y": 960,
+   "h": 21,
+   "crop": "00_both_0-1080.png"
+  },
+  {
+   "text": "About Us",
+   "conf": 1.0,
+   "page_y": 1559,
+   "h": 12,
+   "crop": "02_both_1420-2080.png"
+  },
+  {
+   "text": "About Us",
+   "conf": 1.0,
+   "page_y": 1559,
+   "h": 12,
+   "crop": "02_both_1420-2080.png"
+  },
+  {
+   "text": "About Us",
+   "conf": 1.0,
+   "page_y": 1559,
+   "h": 12,
+   "crop": "02_both_1420-2080.png"
+  },
+  {
+   "text": "•••",
+   "conf": 0.5,
+   "page_y": 1562,
+   "h": 10,
+   "crop": "02_both_1420-2080.png"
+  },
+  {
+   "text": "0••",
+   "conf": 0.5,
+   "page_y": 1562,
+   "h": 10,
+   "crop": "02_both_1420-2080.png"
+  },
+  {
+   "text": "the Freshness of",
+   "conf": 1.0,
+   "page_y": 1593,
+   "h": 21,
+   "crop": "02_both_1420-2080.png"
+  },
+  {
+   "text": "Clean and",
+   "conf": 1.0,
+   "page_y": 1593,
+   "h": 21,
+   "crop": "02_both_1420-2080.png"
+  },
+  {
+   "text": "Photo Review",
+   "conf": 1.0,
+   "page_y": 1593,
+   "h": 21,
+   "crop": "02_both_1420-2080.png"
+  },
+  {
+   "text": "Gangwon-do",
+   "conf": 0.5,
+   "page_y": 1617,
+   "h": 26,
+   "crop": "02_both_1420-2080.png"
+  },
+  {
+   "text": "safe HACCP",
+   "conf": 1.0,
+   "page_y": 1617,
+   "h": 22,
+   "crop": "02_both_1420-2080.png"
+  },
+  {
+   "text": "Event",
+   "conf": 1.0,
+   "page_y": 1618,
+   "h": 21,
+   "crop": "02_both_1420-2080.png"
+  },
+  {
+   "text": "PHOTO REVIEW",
+   "conf": 1.0,
+   "page_y": 1676,
+   "h": 8,
+   "crop": "02_both_1420-2080.png"
+  },
+  {
+   "text": "HACCP",
+   "conf": 0.5,
+   "page_y": 1689,
+   "h": 10,
+   "crop": "02_both_1420-2080.png"
+  },
+  {
+   "text": "너무 맛있어요. 커피와 함께 먹으면 딱!",
+   "conf": 1.0,
+   "page_y": 1808,
+   "h": 11,
+   "crop": "02_both_1420-2080.png"
+  },
+  {
+   "text": "포토 후기를 작성 하시면",
+   "conf": 1.0,
+   "page_y": 1877,
+   "h": 19,
+   "crop": "02_both_1420-2080.png"
+  },
+  {
+   "text": "직접재배하고 수확하여",
+   "conf": 0.5,
+   "page_y": 1878,
+   "h": 17,
+   "crop": "02_both_1420-2080.png"
+  },
+  {
+   "text": "깨끗하고 안전한 환경에서",
+   "conf": 1.0,
+   "page_y": 1878,
+   "h": 17,
+   "crop": "02_both_1420-2080.png"
+  },
+  {
+   "text": "2,000 Point를 드려요",
+   "conf": 1.0,
+   "page_y": 1895,
+   "h": 17,
+   "crop": "02_both_1420-2080.png"
+  },
+  {
+   "text": "강원도 자연의 청정함을 담은 강릉명일한과",
+   "conf": 0.5,
+   "page_y": 1897,
+   "h": 17,
+   "crop": "02_both_1420-2080.png"
+  },
+  {
+   "text": "건강한 식재료를 사용하는 강릉명일한과",
+   "conf": 0.5,
+   "page_y": 1897,
+   "h": 17,
+   "crop": "02_both_1420-2080.png"
+  },
+  {
+   "text": "직접재배하고 수확합니다",
+   "conf": 0.5,
+   "page_y": 1966,
+   "h": 25,
+   "crop": "02_both_1420-2080.png"
+  },
+  {
+   "text": "포토후기 이벤트",
+   "conf": 1.0,
+   "page_y": 1966,
+   "h": 28,
+   "crop": "02_both_1420-2080.png"
+  },
+  {
+   "text": "HACCP인증으로 깨끗하고 안전하게",
+   "conf": 1.0,
+   "page_y": 1970,
+   "h": 21,
+   "crop": "02_both_1420-2080.png"
+  },
+  {
+   "text": "백년가게 @ 백년소공인",
+   "conf": 0.5,
+   "page_y": 3046,
+   "h": 31,
+   "crop": "04_both_2920-3580.png"
+  },
+  {
+   "text": "4대째 이어져 내려온 90여년 전통 수제한과",
+   "conf": 1.0,
+   "page_y": 3095,
+   "h": 19,
+   "crop": "04_both_2920-3580.png"
+  },
+  {
+   "text": "대대손손 이어지는",
+   "conf": 1.0,
+   "page_y": 3137,
+   "h": 46,
+   "crop": "04_both_2920-3580.png"
+  },
+  {
+   "text": "손맛 가득한 한과",
+   "conf": 0.5,
+   "page_y": 3191,
+   "h": 45,
+   "crop": "04_both_2920-3580.png"
+  },
+  {
+   "text": "강원도 강릉시 한과마을에 위치하여",
+   "conf": 1.0,
+   "page_y": 3262,
+   "h": 20,
+   "crop": "04_both_2920-3580.png"
+  },
+  {
+   "text": "4대째 이어져 내려오는 한과의 유통,",
+   "conf": 1.0,
+   "page_y": 3282,
+   "h": 23,
+   "crop": "04_both_2920-3580.png"
+  },
+  {
+   "text": "강릉 명일한과는 수제로 전통 제조방식을 유지하면서",
+   "conf": 0.5,
+   "page_y": 3303,
+   "h": 21,
+   "crop": "04_both_2920-3580.png"
+  },
+  {
+   "text": "최고의 품질을 선사해드리고자",
+   "conf": 1.0,
+   "page_y": 3324,
+   "h": 21,
+   "crop": "04_both_2920-3580.png"
+  },
+  {
+   "text": "최선의 노력을 다할 것을 약속드립니다.",
+   "conf": 1.0,
+   "page_y": 3345,
+   "h": 21,
+   "crop": "04_both_2920-3580.png"
+  },
+  {
+   "text": "수제 한과 선물세트 정동진의아침",
+   "conf": 0.5,
+   "page_y": 4420,
+   "h": 17,
+   "crop": "06_both_4420-5580.png"
+  },
+  {
+   "text": "수제 한과 선물세트 경포대의아침",
+   "conf": 0.5,
+   "page_y": 4420,
+   "h": 17,
+   "crop": "06_both_4420-5580.png"
+  },
+  {
+   "text": "38,000원",
+   "conf": 1.0,
+   "page_y": 4438,
+   "h": 22,
+   "crop": "06_both_4420-5580.png"
+  },
+  {
+   "text": "강릉한과 수제한과 한과선물세트",
+   "conf": 0.5,
+   "page_y": 4444,
+   "h": 14,
+   "crop": "06_both_4420-5580.png"
+  },
+  {
+   "text": "강릉한과 수제한과 한과선물세트",
+   "conf": 0.5,
+   "page_y": 4444,
+   "h": 12,
+   "crop": "06_both_4420-5580.png"
+  },
+  {
+   "text": "59,000원",
+   "conf": 1.0,
+   "page_y": 4475,
+   "h": 22,
+   "crop": "06_both_4420-5580.png"
+  },
+  {
+   "text": "49,000원",
+   "conf": 1.0,
+   "page_y": 4476,
+   "h": 23,
+   "crop": "06_both_4420-5580.png"
+  },
+  {
+   "text": "BEST REVIEW",
+   "conf": 1.0,
+   "page_y": 4681,
+   "h": 21,
+   "crop": "06_both_4420-5580.png"
+  },
+  {
+   "text": "모든 리뷰 보기",
+   "conf": 1.0,
+   "page_y": 4685,
+   "h": 19,
+   "crop": "06_both_4420-5580.png"
+  },
+  {
+   "text": "더 많은 리뷰를 확인하세요",
+   "conf": 1.0,
+   "page_y": 4796,
+   "h": 33,
+   "crop": "06_both_4420-5580.png"
+  },
+  {
+   "text": "개별포장 한과모둠세트 (대)",
+   "conf": 0.5,
+   "page_y": 4819,
+   "h": 15,
+   "crop": "06_both_4420-5580.png"
+  },
+  {
+   "text": "개별포장 유과 모둠세트 (소)",
+   "conf": 0.5,
+   "page_y": 4819,
+   "h": 15,
+   "crop": "06_both_4420-5580.png"
+  },
+  {
+   "text": "수제 한과 선물세트 경포대의아침",
+   "conf": 0.5,
+   "page_y": 4821,
+   "h": 12,
+   "crop": "06_both_4420-5580.png"
+  },
+  {
+   "text": "많은 고객분들께서 명일한과를 선택한 이유입니다",
+   "conf": 1.0,
+   "page_y": 4836,
+   "h": 25,
+   "crop": "06_both_4420-5580.png"
+  },
+  {
+   "text": "*****",
+   "conf": 0.5,
+   "page_y": 4840,
+   "h": 12,
+   "crop": "06_both_4420-5580.png"
+  },
+  {
+   "text": "*****",
+   "conf": 0.5,
+   "page_y": 4840,
+   "h": 12,
+   "crop": "06_both_4420-5580.png"
+  },
+  {
+   "text": "만족할 만큼 좋은 상품이에요? 감사합니다.",
+   "conf": 1.0,
+   "page_y": 5154,
+   "h": 19,
+   "crop": "06_both_4420-5580.png"
+  },
+  {
+   "text": "만족해요. 꽤 좋은 선택이었던 것 같아요. 감",
+   "conf": 1.0,
+   "page_y": 5154,
+   "h": 19,
+   "crop": "06_both_4420-5580.png"
+  },
+  {
+   "text": "잘 산 것 같아 기분이 좋아요 cad",
+   "conf": 0.5,
+   "page_y": 5154,
+   "h": 17,
+   "crop": "06_both_4420-5580.png"
+  },
+  {
+   "text": "사합니다!",
+   "conf": 1.0,
+   "page_y": 5179,
+   "h": 15,
+   "crop": "06_both_4420-5580.png"
+  },
+  {
+   "text": "CS",
+   "conf": 0.5,
+   "page_y": 5441,
+   "h": 12,
+   "crop": "06_both_4420-5580.png"
+  },
+  {
+   "text": "COMPANY",
+   "conf": 1.0,
+   "page_y": 5441,
+   "h": 12,
+   "crop": "06_both_4420-5580.png"
+  },
+  {
+   "text": "상호 주식회사 명일 대표 장원준 사업자등록번호 894-81-00587",
+   "conf": 1.0,
+   "page_y": 5489,
+   "h": 13,
+   "crop": "06_both_4420-5580.png"
+  },
+  {
+   "text": "033-642-0101",
+   "conf": 1.0,
+   "page_y": 5499,
+   "h": 27,
+   "crop": "06_both_4420-5580.png"
+  },
+  {
+   "text": "동신판매업 신고 2017-강원강릉-0004[사업자정보확인]",
+   "conf": 0.5,
+   "page_y": 5508,
+   "h": 14,
+   "crop": "06_both_4420-5580.png"
+  },
+  {
+   "text": "주소 (노동리) 강원도 강릉시 사천면 한과마을길 55-7",
+   "conf": 0.5,
+   "page_y": 5531,
+   "h": 12,
+   "crop": "06_both_4420-5580.png"
+  },
+  {
+   "text": "033-647-9881",
+   "conf": 1.0,
+   "page_y": 5538,
+   "h": 29,
+   "crop": "06_both_4420-5580.png"
+  },
+  {
+   "text": "개인정보관리책임자 장원준 (642010l@naver.com)",
+   "conf": 1.0,
+   "page_y": 5552,
+   "h": 14,
+   "crop": "06_both_4420-5580.png"
+  }
+ ]
+}

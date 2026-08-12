@@ -4,6 +4,7 @@ from __future__ import annotations
 
 import argparse
 import sys
+from pathlib import Path
 
 from . import config
 
@@ -61,6 +62,103 @@ def cmd_analyze(args: argparse.Namespace) -> int:
     return 0
 
 
+def cmd_crop(args: argparse.Namespace) -> int:
+    from .crops import crop_regions
+
+    total = 0
+    for ref in config.load_refs(only=args.only):
+        d = config.REFS_DIR / ref["id"]
+        if not (d / "regions.json").exists():
+            print(f"  건너뜀 {ref['id']}: 먼저 `refscope analyze`를 돌리세요")
+            continue
+        m = crop_regions(d)
+        total += len(m)
+        print(f"  {ref['id']:<22} 조각 {len(m):>2}개  {sum(c['height'] for c in m):>7,}px")
+    print(f"\n조각 {total}개")
+    return 0
+
+
+def cmd_read(args: argparse.Namespace) -> int:
+    from .ocr_worker import run
+
+    for ref in config.load_refs(only=args.only):
+        try:
+            p = run(args.engine, ref["id"], force=args.force)
+        except FileNotFoundError as e:
+            print(f"  건너뜀 {ref['id']}: {e}")
+            continue
+        print(
+            f"  {ref['id']:<22}{args.engine:<14}{p['n_lines']:>5}줄 "
+            f"{p['chars']:>7,}자 {p['seconds']:>7.1f}s"
+        )
+    return 0
+
+
+def cmd_compare(args: argparse.Namespace) -> int:
+    """엔진들을 서로 다른 프로세스에서 돌린 뒤 채점한다.
+
+    같은 프로세스에서 연달아 돌리면 엔진끼리 망가진다 (ocr_worker 참고).
+    """
+    import subprocess
+    import sys
+
+    from .report_ocr import main as report_main
+
+    ref_ids = [r["id"] for r in config.load_refs(only=args.only)]
+    for engine in args.engines:
+        for ref_id in ref_ids:
+            print(f"  {engine} × {ref_id} …", flush=True)
+            subprocess.run(
+                [sys.executable, "-m", "refscope.ocr_worker", engine, ref_id],
+                capture_output=True,
+                text=True,
+            )
+    print(report_main(ref_ids, args.engines))
+    return 0
+
+
+def cmd_build(args: argparse.Namespace) -> int:
+    from .palette import run as palette_run
+    from .render import dump_cards, render
+    from .synthesize import build_card
+
+    refs = config.load_refs(only=args.only)
+    cards = []
+    for ref in refs:
+        d = config.REFS_DIR / ref["id"]
+        if not (d / "regions.json").exists():
+            print(f"  건너뜀 {ref['id']}: 수집·분석이 필요합니다")
+            continue
+        palette_run(d)
+        card = build_card(ref, engine=args.engine, model=args.model)
+        cards.append(card)
+        print(
+            f"  {card.id:<22} 카피 {len(card.copy_lines):>3}줄  섹션 {len(card.sections)}개"
+            f"  컬러 {len(card.palette)}개  {card.seconds:>5.1f}s"
+            + ("  ⚠ " + "; ".join(card.errors) if card.errors else "")
+        )
+    if not cards:
+        print("만들 카드가 없습니다.")
+        return 1
+    out = Path(args.out) if args.out else config.OUT_DIR / "research.html"
+    render(cards, out)
+    dump_cards(cards, config.DERIVED_DIR / "cards.json")
+    print(f"\n리서치 카드 {len(cards)}장 → {out}")
+    return 0
+
+
+def cmd_run(args: argparse.Namespace) -> int:
+    print("[1/5] 수집")
+    if cmd_collect(args) != 0:
+        return 1
+    print("\n[3/5] 조각내기")
+    cmd_crop(args)
+    print("\n[4/5] 글자 꺼내기")
+    cmd_read(args)
+    print("\n[5/5] 카드 만들기")
+    return cmd_build(args)
+
+
 def main(argv: list[str] | None = None) -> int:
     p = argparse.ArgumentParser(
         prog="refscope", description="레퍼런스 리서치 자동 정리기"
@@ -78,6 +176,40 @@ def main(argv: list[str] | None = None) -> int:
     )
     a.add_argument("--only", nargs="*", help="특정 ref id만 분석")
     a.set_defaults(func=cmd_analyze)
+
+    c2 = sub.add_parser("crop", help="OCR 대상 구간을 이미지 조각으로 잘라낸다")
+    c2.add_argument("--only", nargs="*")
+    c2.set_defaults(func=cmd_crop)
+
+    o = sub.add_parser("read", help="조각에서 글자를 꺼낸다 (엔진별 격리 실행)")
+    o.add_argument("--only", nargs="*")
+    o.add_argument("--engine", default="apple_vision", help="기본 apple_vision")
+    o.add_argument("--force", action="store_true", help="캐시를 무시하고 다시 읽는다")
+    o.set_defaults(func=cmd_read)
+
+    cp = sub.add_parser("compare", help="여러 OCR 엔진을 같은 조각에 돌려 채점한다")
+    cp.add_argument("--only", nargs="*")
+    cp.add_argument(
+        "--engines", nargs="*", default=["apple_vision", "paddleocr", "easyocr"]
+    )
+    cp.set_defaults(func=cmd_compare)
+
+    b = sub.add_parser("build", help="리서치 카드 HTML을 만든다 (파이프라인 끝단)")
+    b.add_argument("--only", nargs="*")
+    b.add_argument("--engine", default="apple_vision")
+    b.add_argument("--model", default="qwen2.5vl:7b")
+    b.add_argument("--out", default=None, help="출력 HTML 경로")
+    b.set_defaults(func=cmd_build)
+
+    r = sub.add_parser("run", help="수집부터 카드까지 한 번에")
+    r.add_argument("--only", nargs="*")
+    r.add_argument("--delay", type=float, default=2.0)
+    r.add_argument("--headed", action="store_true")
+    r.add_argument("--engine", default="apple_vision")
+    r.add_argument("--model", default="qwen2.5vl:7b")
+    r.add_argument("--force", action="store_true")
+    r.add_argument("--out", default=None)
+    r.set_defaults(func=cmd_run)
 
     args = p.parse_args(argv)
     return args.func(args)

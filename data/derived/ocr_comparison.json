@@ -8,7 +8,7 @@
    "lines": 698,
    "seconds": 13.5,
    "garbage_ratio": 0.0,
-   "corroboration": 0.754,
+   "corroboration": 0.865,
    "missing_refs": [],
    "per_ref": {
     "gyodong_manwol": {
@@ -48,7 +48,7 @@
    "lines": 800,
    "seconds": 162.7,
    "garbage_ratio": 0.0,
-   "corroboration": 0.887,
+   "corroboration": 0.907,
    "missing_refs": [],
    "per_ref": {
     "gyodong_manwol": {
@@ -90,7 +90,7 @@
    "lines": 1117,
    "seconds": 110.0,
    "garbage_ratio": 0.286,
-   "corroboration": 0.544,
+   "corroboration": 0.587,
    "missing_refs": [],
    "per_ref": {
     "gyodong_manwol": {
@@ -118,6 +118,46 @@
      "misses": [],
      "chars": 8102,
      "seconds": 63.7,
+     "errors": []
+    }
+   }
+  },
+  "qwen2.5vl": {
+   "recall": 1.0,
+   "hit": 13,
+   "total": 13,
+   "chars": 13260,
+   "lines": 708,
+   "seconds": 1301.2,
+   "garbage_ratio": 0.0,
+   "corroboration": 0.847,
+   "missing_refs": [],
+   "per_ref": {
+    "gyodong_manwol": {
+     "recall": 1.0,
+     "hit": 7,
+     "total": 7,
+     "misses": [],
+     "chars": 2104,
+     "seconds": 347.2,
+     "errors": []
+    },
+    "hanpoom_99flower": {
+     "recall": 1.0,
+     "hit": 3,
+     "total": 3,
+     "misses": [],
+     "chars": 2190,
+     "seconds": 211.2,
+     "errors": []
+    },
+    "hangamall_dao": {
+     "recall": 1.0,
+     "hit": 3,
+     "total": 3,
+     "misses": [],
+     "chars": 8966,
+     "seconds": 742.8,
      "errors": []
     }
    }

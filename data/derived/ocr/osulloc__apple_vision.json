@@ -1,0 +1,501 @@
+{
+ "ref_id": "osulloc",
+ "engine": "apple_vision",
+ "n_crops": 3,
+ "n_lines": 70,
+ "chars": 580,
+ "seconds": 0.8,
+ "errors": [],
+ "lines": [
+  {
+   "text": "OSULLOC",
+   "conf": 1.0,
+   "page_y": 39,
+   "h": 27,
+   "crop": "00_both_0-580.png"
+  },
+  {
+   "text": "Q",
+   "conf": 0.5,
+   "page_y": 41,
+   "h": 23,
+   "crop": "00_both_0-580.png"
+  },
+  {
+   "text": "이벤트",
+   "conf": 1.0,
+   "page_y": 41,
+   "h": 17,
+   "crop": "00_both_0-580.png"
+  },
+  {
+   "text": "로그인",
+   "conf": 1.0,
+   "page_y": 41,
+   "h": 19,
+   "crop": "00_both_0-580.png"
+  },
+  {
+   "text": "기프트",
+   "conf": 0.5,
+   "page_y": 43,
+   "h": 21,
+   "crop": "00_both_0-580.png"
+  },
+  {
+   "text": "티 라이프",
+   "conf": 0.5,
+   "page_y": 43,
+   "h": 19,
+   "crop": "00_both_0-580.png"
+  },
+  {
+   "text": "단체 및 기업 구매",
+   "conf": 1.0,
+   "page_y": 43,
+   "h": 19,
+   "crop": "00_both_0-580.png"
+  },
+  {
+   "text": "제품",
+   "conf": 0.5,
+   "page_y": 45,
+   "h": 16,
+   "crop": "00_both_0-580.png"
+  },
+  {
+   "text": "미피 콜라보",
+   "conf": 0.5,
+   "page_y": 45,
+   "h": 18,
+   "crop": "00_both_0-580.png"
+  },
+  {
+   "text": "8월 대체 휴일 배송 안내",
+   "conf": 1.0,
+   "page_y": 121,
+   "h": 29,
+   "crop": "00_both_0-580.png"
+  },
+  {
+   "text": "8월 12일(수) 오후 1시 주문 건까지 연휴 전 정상 출고됩니다.",
+   "conf": 1.0,
+   "page_y": 187,
+   "h": 19,
+   "crop": "00_both_0-580.png"
+  },
+  {
+   "text": "이후 주문 건은 8월 18일(화)부터 순차 출고 및 배송됩니다.",
+   "conf": 1.0,
+   "page_y": 213,
+   "h": 18,
+   "crop": "00_both_0-580.png"
+  },
+  {
+   "text": "*배송 중단 기간: 8월 13일(목) ~ 8원 17일(원)",
+   "conf": 1.0,
+   "page_y": 236,
+   "h": 14,
+   "crop": "00_both_0-580.png"
+  },
+  {
+   "text": "베이커리는 8월 17일(월) 대체 휴일에도 정상 출고됩니다.",
+   "conf": 1.0,
+   "page_y": 265,
+   "h": 19,
+   "crop": "00_both_0-580.png"
+  },
+  {
+   "text": "SUN",
+   "conf": 1.0,
+   "page_y": 324,
+   "h": 14,
+   "crop": "00_both_0-580.png"
+  },
+  {
+   "text": "MON",
+   "conf": 1.0,
+   "page_y": 324,
+   "h": 14,
+   "crop": "00_both_0-580.png"
+  },
+  {
+   "text": "TUE",
+   "conf": 0.5,
+   "page_y": 324,
+   "h": 12,
+   "crop": "00_both_0-580.png"
+  },
+  {
+   "text": "WED",
+   "conf": 0.5,
+   "page_y": 324,
+   "h": 14,
+   "crop": "00_both_0-580.png"
+  },
+  {
+   "text": "THU",
+   "conf": 0.5,
+   "page_y": 324,
+   "h": 14,
+   "crop": "00_both_0-580.png"
+  },
+  {
+   "text": "FRI",
+   "conf": 0.5,
+   "page_y": 324,
+   "h": 14,
+   "crop": "00_both_0-580.png"
+  },
+  {
+   "text": "SAT",
+   "conf": 1.0,
+   "page_y": 324,
+   "h": 14,
+   "crop": "00_both_0-580.png"
+  },
+  {
+   "text": "배송 휴무/중단",
+   "conf": 0.5,
+   "page_y": 365,
+   "h": 15,
+   "crop": "00_both_0-580.png"
+  },
+  {
+   "text": "(12)",
+   "conf": 1.0,
+   "page_y": 389,
+   "h": 29,
+   "crop": "00_both_0-580.png"
+  },
+  {
+   "text": "10",
+   "conf": 1.0,
+   "page_y": 391,
+   "h": 23,
+   "crop": "00_both_0-580.png"
+  },
+  {
+   "text": "11",
+   "conf": 1.0,
+   "page_y": 393,
+   "h": 18,
+   "crop": "00_both_0-580.png"
+  },
+  {
+   "text": "9",
+   "conf": 1.0,
+   "page_y": 395,
+   "h": 14,
+   "crop": "00_both_0-580.png"
+  },
+  {
+   "text": "14",
+   "conf": 1.0,
+   "page_y": 395,
+   "h": 12,
+   "crop": "00_both_0-580.png"
+  },
+  {
+   "text": "13",
+   "conf": 1.0,
+   "page_y": 395,
+   "h": 14,
+   "crop": "00_both_0-580.png"
+  },
+  {
+   "text": "15",
+   "conf": 1.0,
+   "page_y": 395,
+   "h": 16,
+   "crop": "00_both_0-580.png"
+  },
+  {
+   "text": "일반상품 13시 마감",
+   "conf": 1.0,
+   "page_y": 424,
+   "h": 12,
+   "crop": "00_both_0-580.png"
+  },
+  {
+   "text": "광복절",
+   "conf": 0.5,
+   "page_y": 425,
+   "h": 12,
+   "crop": "00_both_0-580.png"
+  },
+  {
+   "text": "베이커리 15시 마감",
+   "conf": 1.0,
+   "page_y": 439,
+   "h": 16,
+   "crop": "00_both_0-580.png"
+  },
+  {
+   "text": "배송 휴무/중단",
+   "conf": 0.5,
+   "page_y": 462,
+   "h": 12,
+   "crop": "00_both_0-580.png"
+  },
+  {
+   "text": "18",
+   "conf": 1.0,
+   "page_y": 485,
+   "h": 29,
+   "crop": "00_both_0-580.png"
+  },
+  {
+   "text": "16",
+   "conf": 1.0,
+   "page_y": 489,
+   "h": 17,
+   "crop": "00_both_0-580.png"
+  },
+  {
+   "text": "19",
+   "conf": 1.0,
+   "page_y": 489,
+   "h": 17,
+   "crop": "00_both_0-580.png"
+  },
+  {
+   "text": "20",
+   "conf": 1.0,
+   "page_y": 489,
+   "h": 19,
+   "crop": "00_both_0-580.png"
+  },
+  {
+   "text": "21",
+   "conf": 1.0,
+   "page_y": 489,
+   "h": 17,
+   "crop": "00_both_0-580.png"
+  },
+  {
+   "text": "22",
+   "conf": 1.0,
+   "page_y": 489,
+   "h": 17,
+   "crop": "00_both_0-580.png"
+  },
+  {
+   "text": "17",
+   "conf": 1.0,
+   "page_y": 491,
+   "h": 12,
+   "crop": "00_both_0-580.png"
+  },
+  {
+   "text": "일반배송 재개",
+   "conf": 0.5,
+   "page_y": 518,
+   "h": 12,
+   "crop": "00_both_0-580.png"
+  },
+  {
+   "text": "대체 휴일",
+   "conf": 0.5,
+   "page_y": 519,
+   "h": 12,
+   "crop": "00_both_0-580.png"
+  },
+  {
+   "text": "베이커리",
+   "conf": 1.0,
+   "page_y": 537,
+   "h": 12,
+   "crop": "00_both_0-580.png"
+  },
+  {
+   "text": "정상 줄고",
+   "conf": 0.5,
+   "page_y": 554,
+   "h": 12,
+   "crop": "00_both_0-580.png"
+  },
+  {
+   "text": "30% 18,900원",
+   "conf": 1.0,
+   "page_y": 1438,
+   "h": 17,
+   "crop": "02_both_1420-2080.png"
+  },
+  {
+   "text": "25% 35,625원",
+   "conf": 1.0,
+   "page_y": 1438,
+   "h": 17,
+   "crop": "02_both_1420-2080.png"
+  },
+  {
+   "text": "그린티 롤케이크",
+   "conf": 0.5,
+   "page_y": 1578,
+   "h": 16,
+   "crop": "02_both_1420-2080.png"
+  },
+  {
+   "text": "스트로베리 그린티 케이크",
+   "conf": 1.0,
+   "page_y": 1580,
+   "h": 14,
+   "crop": "02_both_1420-2080.png"
+  },
+  {
+   "text": "24,000원",
+   "conf": 1.0,
+   "page_y": 1609,
+   "h": 17,
+   "crop": "02_both_1420-2080.png"
+  },
+  {
+   "text": "34,000원",
+   "conf": 1.0,
+   "page_y": 1609,
+   "h": 19,
+   "crop": "02_both_1420-2080.png"
+  },
+  {
+   "text": "25% 18,000원",
+   "conf": 1.0,
+   "page_y": 1638,
+   "h": 19,
+   "crop": "02_both_1420-2080.png"
+  },
+  {
+   "text": "25% 25,500원",
+   "conf": 1.0,
+   "page_y": 1639,
+   "h": 14,
+   "crop": "02_both_1420-2080.png"
+  },
+  {
+   "text": "WEEKLY ISSUE PICK",
+   "conf": 1.0,
+   "page_y": 1924,
+   "h": 21,
+   "crop": "02_both_1420-2080.png"
+  },
+  {
+   "text": "OSULLOC NOW",
+   "conf": 1.0,
+   "page_y": 1924,
+   "h": 21,
+   "crop": "02_both_1420-2080.png"
+  },
+  {
+   "text": "20%",
+   "conf": 1.0,
+   "page_y": 1989,
+   "h": 21,
+   "crop": "02_both_1420-2080.png"
+  },
+  {
+   "text": "당 충전이 필요한 순간",
+   "conf": 1.0,
+   "page_y": 2029,
+   "h": 21,
+   "crop": "02_both_1420-2080.png"
+  },
+  {
+   "text": "이달의 베스트 리뷰",
+   "conf": 1.0,
+   "page_y": 2029,
+   "h": 21,
+   "crop": "02_both_1420-2080.png"
+  },
+  {
+   "text": "상큼하게 갈증 해소하고",
+   "conf": 1.0,
+   "page_y": 2037,
+   "h": 13,
+   "crop": "02_both_1420-2080.png"
+  },
+  {
+   "text": "단거 땡길때 한 잔 마시면 간식",
+   "conf": 0.5,
+   "page_y": 2038,
+   "h": 13,
+   "crop": "02_both_1420-2080.png"
+  },
+  {
+   "text": "티 푸드와 함께하는 티타임",
+   "conf": 1.0,
+   "page_y": 2054,
+   "h": 21,
+   "crop": "02_both_1420-2080.png"
+  },
+  {
+   "text": "먹고싶은 생각이 많이 줄어요.",
+   "conf": 1.0,
+   "page_y": 2054,
+   "h": 15,
+   "crop": "02_both_1420-2080.png"
+  },
+  {
+   "text": "싶을 때 마시기 딱 좋음",
+   "conf": 1.0,
+   "page_y": 2054,
+   "h": 15,
+   "crop": "02_both_1420-2080.png"
+  },
+  {
+   "text": "OSULLOC",
+   "conf": 0.5,
+   "page_y": 2505,
+   "h": 25,
+   "crop": "04_both_2420-3580.png"
+  },
+  {
+   "text": "8lMORe",
+   "conf": 0.5,
+   "page_y": 2658,
+   "h": 26,
+   "crop": "04_both_2420-3580.png"
+  },
+  {
+   "text": "BUSAN",
+   "conf": 1.0,
+   "page_y": 2679,
+   "h": 25,
+   "crop": "04_both_2420-3580.png"
+  },
+  {
+   "text": "Pop-np",
+   "conf": 0.5,
+   "page_y": 2698,
+   "h": 21,
+   "crop": "04_both_2420-3580.png"
+  },
+  {
+   "text": "티하우스 MMCA",
+   "conf": 0.5,
+   "page_y": 2886,
+   "h": 23,
+   "crop": "04_both_2420-3580.png"
+  },
+  {
+   "text": "티하우스 해운대점",
+   "conf": 0.5,
+   "page_y": 2886,
+   "h": 23,
+   "crop": "04_both_2420-3580.png"
+  },
+  {
+   "text": "BRAND STORY",
+   "conf": 1.0,
+   "page_y": 3156,
+   "h": 23,
+   "crop": "04_both_2420-3580.png"
+  },
+  {
+   "text": "TEA FROM JEJU ISLAND",
+   "conf": 1.0,
+   "page_y": 3427,
+   "h": 29,
+   "crop": "04_both_2420-3580.png"
+  }
+ ]
+}

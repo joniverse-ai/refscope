@@ -1,0 +1,214 @@
+{
+ "ref_id": "seoulcookie",
+ "engine": "apple_vision",
+ "n_crops": 3,
+ "n_lines": 29,
+ "chars": 293,
+ "seconds": 0.6,
+ "errors": [],
+ "lines": [
+  {
+   "text": "첫 만남의 기쁨을 담아, 1,000원 포인트를 드립니다.",
+   "conf": 1.0,
+   "page_y": 12,
+   "h": 18,
+   "crop": "00_both_0-580.png"
+  },
+  {
+   "text": "+1,000",
+   "conf": 1.0,
+   "page_y": 52,
+   "h": 10,
+   "crop": "00_both_0-580.png"
+  },
+  {
+   "text": "SEOUL COOKIE CO.",
+   "conf": 1.0,
+   "page_y": 62,
+   "h": 35,
+   "crop": "00_both_0-580.png"
+  },
+  {
+   "text": "브랜드스토리",
+   "conf": 1.0,
+   "page_y": 70,
+   "h": 21,
+   "crop": "00_both_0-580.png"
+  },
+  {
+   "text": "전제품",
+   "conf": 0.5,
+   "page_y": 72,
+   "h": 19,
+   "crop": "00_both_0-580.png"
+  },
+  {
+   "text": "신제품",
+   "conf": 0.5,
+   "page_y": 72,
+   "h": 19,
+   "crop": "00_both_0-580.png"
+  },
+  {
+   "text": "특가전 고객센터",
+   "conf": 1.0,
+   "page_y": 72,
+   "h": 19,
+   "crop": "00_both_0-580.png"
+  },
+  {
+   "text": "로그인",
+   "conf": 1.0,
+   "page_y": 72,
+   "h": 14,
+   "crop": "00_both_0-580.png"
+  },
+  {
+   "text": "| 회원가입",
+   "conf": 0.5,
+   "page_y": 72,
+   "h": 15,
+   "crop": "00_both_0-580.png"
+  },
+  {
+   "text": "베스트",
+   "conf": 0.5,
+   "page_y": 73,
+   "h": 17,
+   "crop": "00_both_0-580.png"
+  },
+  {
+   "text": "호두 정과",
+   "conf": 0.5,
+   "page_y": 335,
+   "h": 18,
+   "crop": "00_both_0-580.png"
+  },
+  {
+   "text": "선물의 품격을 높이다",
+   "conf": 1.0,
+   "page_y": 351,
+   "h": 35,
+   "crop": "00_both_0-580.png"
+  },
+  {
+   "text": "우리밀과 견과류로 만든 프리미엄 한과세트",
+   "conf": 0.5,
+   "page_y": 416,
+   "h": 19,
+   "crop": "00_both_0-580.png"
+  },
+  {
+   "text": ">",
+   "conf": 0.3,
+   "page_y": 425,
+   "h": 41,
+   "crop": "00_both_0-580.png"
+  },
+  {
+   "text": "강선은명과로 마음을 전하세요.",
+   "conf": 0.5,
+   "page_y": 441,
+   "h": 21,
+   "crop": "00_both_0-580.png"
+  },
+  {
+   "text": "상품 보러가기",
+   "conf": 1.0,
+   "page_y": 510,
+   "h": 17,
+   "crop": "00_both_0-580.png"
+  },
+  {
+   "text": "누리과 전과류도 만든 프리미림 안과세트",
+   "conf": 0.5,
+   "page_y": 420,
+   "h": 17,
+   "crop": "01_ocr_420-1080.png"
+  },
+  {
+   "text": ">",
+   "conf": 0.3,
+   "page_y": 420,
+   "h": 45,
+   "crop": "01_ocr_420-1080.png"
+  },
+  {
+   "text": "강선은명과로 마음을 전하세요.",
+   "conf": 0.5,
+   "page_y": 440,
+   "h": 21,
+   "crop": "01_ocr_420-1080.png"
+  },
+  {
+   "text": "상품 보러가기",
+   "conf": 1.0,
+   "page_y": 509,
+   "h": 17,
+   "crop": "01_ocr_420-1080.png"
+  },
+  {
+   "text": "강성은뎅국",
+   "conf": 0.3,
+   "page_y": 642,
+   "h": 24,
+   "crop": "01_ocr_420-1080.png"
+  },
+  {
+   "text": "베스트",
+   "conf": 1.0,
+   "page_y": 869,
+   "h": 27,
+   "crop": "01_ocr_420-1080.png"
+  },
+  {
+   "text": "SEOUIL COOKIE CO•",
+   "conf": 1.0,
+   "page_y": 3481,
+   "h": 35,
+   "crop": "03_both_2920-3580.png"
+  },
+  {
+   "text": "고객센터",
+   "conf": 1.0,
+   "page_y": 3481,
+   "h": 19,
+   "crop": "03_both_2920-3580.png"
+  },
+  {
+   "text": "입금 계좌안내",
+   "conf": 0.5,
+   "page_y": 3481,
+   "h": 19,
+   "crop": "03_both_2920-3580.png"
+  },
+  {
+   "text": "031-872-2622",
+   "conf": 1.0,
+   "page_y": 3511,
+   "h": 25,
+   "crop": "03_both_2920-3580.png"
+  },
+  {
+   "text": "기업은행 439-055418-04-015",
+   "conf": 1.0,
+   "page_y": 3523,
+   "h": 12,
+   "crop": "03_both_2920-3580.png"
+  },
+  {
+   "text": "예금주 : (주)서울쿠키컴퍼니",
+   "conf": 0.5,
+   "page_y": 3548,
+   "h": 18,
+   "crop": "03_both_2920-3580.png"
+  },
+  {
+   "text": "평일 08:00 -17:00",
+   "conf": 1.0,
+   "page_y": 3550,
+   "h": 16,
+   "crop": "03_both_2920-3580.png"
+  }
+ ]
+}

@@ -53,6 +53,8 @@ def run(engine_name: str, ref_id: str, force: bool = False) -> dict:
                         "conf": round(ln.conf, 3),
                         # 조각 안 좌표를 페이지 절대좌표로 되돌린다
                         "page_y": (item["y0"] + ln.y) if ln.y is not None else None,
+                        # 글자 높이. 카피를 고를 때 '큰 글자'를 판단하는 근거가 된다
+                        "h": ln.h,
                         "crop": item["file"],
                     }
                 )
