@@ -1,0 +1,152 @@
+{
+ "threshold": 0.62,
+ "hit": 7,
+ "total": 15,
+ "recall": 0.4666666666666667,
+ "recall_excl_nav": 0.5833333333333334,
+ "hit_excl_nav": 7,
+ "total_excl_nav": 12,
+ "n_taken": 1,
+ "per_ref": {
+  "gyodong_manwol": {
+   "total": 5,
+   "hit": 4,
+   "recall": 0.8,
+   "n_predicted": 6,
+   "n_taken": 0,
+   "rows": [
+    {
+     "truth": "네비게이터",
+     "matched": null,
+     "nearest": "히어로/메인비주얼",
+     "similarity": 0.509,
+     "hit": false,
+     "reason": "below"
+    },
+    {
+     "truth": "히어로 배너",
+     "matched": "히어로/메인비주얼",
+     "similarity": 0.623,
+     "hit": true,
+     "reason": ""
+    },
+    {
+     "truth": "구성 및 가격 안내",
+     "matched": "패키지 소개",
+     "similarity": 0.643,
+     "hit": true,
+     "reason": ""
+    },
+    {
+     "truth": "제품 소개",
+     "matched": "제품 소개",
+     "similarity": 1.0,
+     "hit": true,
+     "reason": ""
+    },
+    {
+     "truth": "제품사용 Tip",
+     "matched": "사용법·보관법",
+     "similarity": 0.655,
+     "hit": true,
+     "reason": ""
+    }
+   ]
+  },
+  "hangamall_dao": {
+   "total": 5,
+   "hit": 2,
+   "recall": 0.4,
+   "n_predicted": 8,
+   "n_taken": 0,
+   "rows": [
+    {
+     "truth": "네이게이터, 로고",
+     "matched": null,
+     "nearest": "히어로/메인비주얼",
+     "similarity": 0.501,
+     "hit": false,
+     "reason": "below"
+    },
+    {
+     "truth": "히어로 제품, 원산지, 가격정보",
+     "matched": null,
+     "nearest": "성분·원산지",
+     "similarity": 0.574,
+     "hit": false,
+     "reason": "below"
+    },
+    {
+     "truth": "배송안내",
+     "matched": "배송 안내",
+     "similarity": 0.971,
+     "hit": true,
+     "reason": ""
+    },
+    {
+     "truth": "Q&A",
+     "matched": null,
+     "nearest": "교환·반품",
+     "similarity": 0.515,
+     "hit": false,
+     "reason": "below"
+    },
+    {
+     "truth": "패키지 소개",
+     "matched": "패키지 소개",
+     "similarity": 1.0,
+     "hit": true,
+     "reason": ""
+    }
+   ]
+  },
+  "hanpoom_99flower": {
+   "total": 5,
+   "hit": 1,
+   "recall": 0.2,
+   "n_predicted": 5,
+   "n_taken": 1,
+   "rows": [
+    {
+     "truth": "네비게이터",
+     "matched": null,
+     "nearest": "제품 소개",
+     "similarity": 0.48,
+     "hit": false,
+     "reason": "below"
+    },
+    {
+     "truth": "메인 사진, 가격",
+     "matched": null,
+     "nearest": "할인/정가",
+     "similarity": 0.532,
+     "hit": false,
+     "reason": "below"
+    },
+    {
+     "truth": "선물추천",
+     "matched": null,
+     "nearest": "제품 소개",
+     "similarity": 0.678,
+     "hit": false,
+     "reason": "taken"
+    },
+    {
+     "truth": "연출샷",
+     "matched": null,
+     "nearest": "제품 소개",
+     "similarity": 0.438,
+     "hit": false,
+     "reason": "below"
+    },
+    {
+     "truth": "상세안내(품목명 등)",
+     "matched": "제품 소개",
+     "similarity": 0.695,
+     "hit": true,
+     "reason": ""
+    }
+   ]
+  }
+ }
+}
