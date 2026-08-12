@@ -65,7 +65,7 @@
     }
    },
    "C": {
-    "seconds": 20.5,
+    "seconds": 15.3,
     "copy_n": 25,
     "copy_recall": 0.5714285714285714,
     "copy_recall_all": 0.8571428571428571,
@@ -162,7 +162,7 @@
     }
    },
    "C": {
-    "seconds": 16.7,
+    "seconds": 12.3,
     "copy_n": 25,
     "copy_recall": 1.0,
     "copy_recall_all": 1.0,
@@ -259,7 +259,7 @@
     }
    },
    "C": {
-    "seconds": 40.6,
+    "seconds": 30.8,
     "copy_n": 25,
     "copy_recall": 0.3333333333333333,
     "copy_recall_all": 0.6666666666666666,
@@ -311,7 +311,7 @@
    "leaked": 2
   },
   "C": {
-   "seconds": 77.8,
+   "seconds": 58.4,
    "copy_n": 75,
    "copy_recall": 0.6349206349206349,
    "grounding": 1.0,
