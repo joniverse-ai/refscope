@@ -2,64 +2,106 @@
 #
 # 저작권: 이 파일은 "어디를 봤는지"만 기록한다.
 # 수집한 원본 스크린샷은 저장소에 올리지 않는다 (.gitignore).
-# 남이 재현하려면 `make collect`를 돌려 각자 로컬에 수집한다.
+# 재현하려면 각자 `uv run refscope collect`를 돌려 로컬에 수집한다.
 #
 # group:
 #   competitor — 단정과 직접 겹치는 경쟁군
 #   tone       — 카테고리는 다르지만 톤·격을 참고할 브랜드
-#   own        — 내 소유 자산 (대조군 겸 저작권 안전한 시연용)
+#   own        — 내 소유 자산 (저작권 안전한 시연·문서용)
+#
+# page_type:
+#   home   — 브랜드 첫인상. 대체로 DOM에 텍스트가 있다
+#   detail — 상품 상세. 한국 커머스에서는 대체로 통이미지다 ← 이 PoC의 표적
+#
+# 두 종류를 일부러 섞어 둔 이유: "상세페이지만 글자가 이미지에 갇힌다"는
+# 이 도메인의 특성을 숫자로 보이기 위해서다. (검증 문서 참고)
 
 meta:
   project: 단정 · Danjeong
   category: B2B 프리미엄 답례 선물
   collected_for: Main Quest 2 레퍼런스 리서치 자동 정리기
-  # 사용자 확인 필요: 아래 목록은 제안이며 실제 경쟁군 판단에 따라 교체한다.
 
 refs:
-  - id: barunson
-    name: 바른손더기프트
-    url: https://www.barunsonthegift.com/
-    group: competitor
-    note: 답례품 전문몰. B2B 답례 선물이라는 포지션이 단정과 가장 가깝다.
-
-  - id: hanpoom
-    name: 한품
-    url: https://hanpoom.co.kr/
-    group: competitor
-    note: 프리미엄 한식 기프트. 패키지·촬영 톤 참고.
-
+  # ── 경쟁군: 브랜드 첫인상 ────────────────────────────────────────────
   - id: gyodong
     name: 교동한과
     url: https://gyodong.co.kr/
     group: competitor
-    note: 전통 한과 카테고리 대표. 상세페이지가 통이미지일 가능성이 높다 → OCR 경로 검증용.
+    page_type: home
+    note: 전통 한과 카테고리 대표. 1999년 창업, "정성으로 만든 수제과자".
 
   - id: hangamall
     name: 강릉명일한과
     url: https://hangamall.com/
     group: competitor
+    page_type: home
     note: 4대째 수제 한과. "전통·정성" 메시지군의 전형.
 
-  - id: hyojadong
-    name: 효자동떡
-    url: https://www.hyojadongdessert.co.kr/gift_set
+  - id: barunson
+    name: 바른손더기프트
+    url: https://www.barunsonthegift.com/
     group: competitor
-    note: 원목 선물세트. 프리미엄 포장 소구.
+    page_type: home
+    note: 답례품 전문몰. B2B 답례 선물 포지션이 단정과 가장 가깝다.
+
+  - id: hanpoom
+    name: 한품
+    url: https://hanpoom.co.kr/
+    group: competitor
+    page_type: home
+    note: 프리미엄 한식 기프트. 해외 배송. 패키지·촬영 톤 참고.
 
   - id: seoulcookie
     name: 서울쿠키
     url: https://seoulcookie.com/
     group: competitor
+    page_type: home
     note: HACCP·대량생산 소구. 위 브랜드들과 메시지 축이 다르다 → 클러스터 분리 확인용.
 
+  # ── 경쟁군: 상품 상세 (통이미지 표적) ────────────────────────────────
+  - id: gyodong_manwol
+    name: 교동한과 만월 (상세)
+    url: https://gyodong.co.kr/product/%EB%A7%8C%EC%9B%94/23/category/24/display/1/
+    group: competitor
+    page_type: detail
+    note: 17,275px. 첫 측정에서 75%가 이미지에 갇힌 글자로 판정됐다.
+
+  - id: barunson_goods
+    name: 바른손더기프트 상품 (상세)
+    url: https://www.barunsonthegift.com/goods/view?no=1967
+    group: competitor
+    page_type: detail
+
+  - id: hangamall_dao
+    name: 강릉명일한과 강릉줄게 한과다오 (상세)
+    url: https://hangamall.com/product/%EA%B0%95%EB%A6%89%EC%A4%84%EA%B2%8C-%ED%95%9C%EA%B3%BC%EB%8B%A4%EC%98%A4/114/category/4/display/1/
+    group: competitor
+    page_type: detail
+
+  - id: hanpoom_99flower
+    name: 한품 99플라워 감사한 마음으로 (상세)
+    url: https://hanpoom.co.kr/products/99%ED%94%8C%EB%9D%BC%EC%9B%8C-%EB%8A%98-%EA%B0%90%EC%82%AC%ED%95%9C-%EB%A7%88%EC%9D%8C%EC%9C%BC%EB%A1%9C-b513
+    group: competitor
+    page_type: detail
+
+  - id: seoulcookie_mugunghwa
+    name: 서울쿠키 무궁화세트 (상세)
+    url: https://seoulcookie.com/product/%EB%AC%B4%EA%B6%81%ED%99%94%EC%84%B8%ED%8A%B8/53/category/24/display/2/
+    group: competitor
+    page_type: detail
+
+  # ── 톤 레퍼런스 ──────────────────────────────────────────────────────
   - id: osulloc
     name: 오설록
     url: https://www.osulloc.com/kr/ko
     group: tone
+    page_type: home
     note: 한국 프리미엄 브랜딩의 기준선. 여백·타이포·컬러 절제.
 
+  # ── 내 자산 (대조군) ─────────────────────────────────────────────────
   - id: danjeong
     name: 단정 (내 프로젝트)
     url: https://joniverse-ai.github.io/danjeong/
     group: own
+    page_type: home
     note: 내 소유 자산. 저작권 걱정 없이 문서·README에 스크린샷을 실을 수 있다.

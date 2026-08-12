@@ -210,18 +210,31 @@ def _screenshot(page, dest: Path) -> list[str]:
     return warnings
 
 
-def judge_reading_path(dom_chars: int, long_image_area: int, page_area: int) -> str:
-    """이 페이지를 어느 눈으로 읽어야 하는가 — 파이프라인의 첫 갈림길.
+# 오류 페이지를 조용히 삼키지 않기 위한 방어.
+# 처음 돌렸을 때 404 페이지 두 개를 정상 수집물로 받아들였다. 리서치 도구가
+# 오류 화면을 데이터로 세면 "이 브랜드는 카피가 없다" 같은 헛된 결론이 나온다.
+ERROR_PAGE_HINTS = (
+    "페이지를 찾을 수 없",
+    "찾을 수 없음",
+    "사라졌거나 다른 페이지로",
+    "주소를 다시 확인",
+    "존재하지 않는 상품",
+    "잘못된 접근",
+    "page not found",
+    "404 not found",
+)
+THIN_PAGE_H = 1800  # 이보다 짧으면서 오류 문구가 있으면 오류 페이지로 본다
 
-    모델을 고르기 전에 하는 '검사'다. DOM에 텍스트가 충분하면 OCR을 돌리지
-    않는다. 정확한 원본을 흐릿한 사본으로 바꾸는 짓이기 때문이다.
-    """
-    image_ratio = long_image_area / page_area if page_area else 0.0
-    if dom_chars >= 800 and image_ratio < 0.35:
-        return "dom"  # 무손실 경로만으로 충분
-    if dom_chars < 300 and image_ratio >= 0.35:
-        return "ocr"  # 전형적인 통이미지 상세페이지
-    return "hybrid"  # DOM으로 뼈대, 이미지 영역은 OCR
+
+def looks_like_error_page(title: str, dom: list[dict], page_h: int) -> str:
+    """오류 페이지로 의심되면 그 이유를, 아니면 빈 문자열을 준다."""
+    haystack = (title + " " + " ".join(d["text"] for d in dom[:60])).lower()
+    for hint in ERROR_PAGE_HINTS:
+        if hint.lower() in haystack:
+            return f"오류 페이지 문구 감지: {hint!r}"
+    if page_h <= 1000 and sum(len(d["text"]) for d in dom) < 200:
+        return f"내용이 거의 없음 ({page_h}px, DOM 200자 미만)"
+    return ""
 
 
 def capture_one(browser, ref: dict, out_root: Path, timeout_ms: int = 60_000) -> CaptureResult:
@@ -247,7 +260,11 @@ def capture_one(browser, ref: dict, out_root: Path, timeout_ms: int = 60_000) ->
     )
     page = context.new_page()
     try:
-        page.goto(url, wait_until="domcontentloaded", timeout=timeout_ms)
+        response = page.goto(url, wait_until="domcontentloaded", timeout=timeout_ms)
+        status = response.status if response else 0
+        if status >= 400:
+            res.reason = f"HTTP {status} — 수집하지 않음"
+            return res
         try:
             page.wait_for_load_state("networkidle", timeout=15_000)
         except PlaywrightTimeout:
@@ -265,13 +282,19 @@ def capture_one(browser, ref: dict, out_root: Path, timeout_ms: int = 60_000) ->
         width = page.evaluate("document.body.scrollWidth")
         title = page.title()
 
+        # HTTP 200으로 위장한 오류 페이지가 흔하다 (카페24·Shopify 모두 그렇다)
+        if height <= THIN_PAGE_H:
+            why_error = looks_like_error_page(title, dom, height)
+            if why_error:
+                res.reason = f"{why_error} — URL을 확인하세요"
+                return res
+
         res.warnings += _screenshot(page, out_dir / "page.png")
 
         dom_chars = sum(len(d["text"]) for d in dom)
         long_area = sum(
             i["w"] * i["h"] for i in images if i["h"] >= 400 and i["h"] >= i["w"] * 0.8
         )
-        verdict = judge_reading_path(dom_chars, long_area, width * height)
 
         (out_dir / "dom.json").write_text(
             json.dumps(dom, ensure_ascii=False, indent=1), encoding="utf-8"
@@ -286,6 +309,7 @@ def capture_one(browser, ref: dict, out_root: Path, timeout_ms: int = 60_000) ->
                     "name": ref.get("name", ref_id),
                     "group": ref.get("group", ""),
                     "url": url,
+                    "http_status": status,
                     "title": title,
                     "captured_at": datetime.now(timezone.utc).isoformat(),
                     "viewport": VIEWPORT,
@@ -295,7 +319,6 @@ def capture_one(browser, ref: dict, out_root: Path, timeout_ms: int = 60_000) ->
                     "dom_chars": dom_chars,
                     "image_elements": len(images),
                     "long_image_area": long_area,
-                    "reading_path": verdict,
                     "robots": why,
                     "warnings": res.warnings,
                 },
@@ -309,7 +332,6 @@ def capture_one(browser, ref: dict, out_root: Path, timeout_ms: int = 60_000) ->
         res.page_height = height
         res.dom_chars = dom_chars
         res.long_image_area = long_area
-        res.verdict = verdict
     except Exception as e:  # 한 사이트가 죽어도 나머지는 계속 간다
         res.reason = f"{type(e).__name__}: {e}"
     finally:
@@ -330,7 +352,7 @@ def capture_all(
                 results.append(r)
                 mark = "✓" if r.ok else "✗"
                 detail = (
-                    f"{r.page_height:>6}px  DOM {r.dom_chars:>6}자  → {r.verdict}"
+                    f"{r.page_height:>6}px  DOM {r.dom_chars:>6}자"
                     if r.ok
                     else r.reason[:70]
                 )
