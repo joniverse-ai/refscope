@@ -1,0 +1,30 @@
+# ── 저작권: 수집한 타사 페이지 원본은 저장소에 올리지 않는다 ──────────────
+# 재현은 refs.yaml(URL 목록) + 수집 스크립트로 한다.
+data/refs/*/
+!data/refs/.gitkeep
+*.png
+*.jpg
+*.jpeg
+*.webp
+# 단, 내 소유 자산과 문서용 시연 스크린샷은 예외
+!docs/assets/**
+!data/samples/**
+
+# 산출물 (재생성 가능)
+out/
+!out/.gitkeep
+
+# 파이썬
+.venv/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.pytest_cache/
+
+# 비밀
+.env
+.env.*
+!.env.example
+
+# macOS
+.DS_Store
