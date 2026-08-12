@@ -17,6 +17,15 @@ dependencies = [
 [project.scripts]
 refscope = "refscope.cli:main"
 
+[project.optional-dependencies]
+ocr = [
+    "easyocr>=1.7.2",
+    "paddleocr>=2.10.0",
+    "paddlepaddle>=3.3.1",
+    "pyobjc-framework-quartz>=12.2.2",
+    "pyobjc-framework-vision>=12.2.2",
+]
+
 [build-system]
 requires = ["uv_build>=0.12.3,<0.13.0"]
 build-backend = "uv_build"

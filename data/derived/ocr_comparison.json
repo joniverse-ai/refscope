@@ -1,0 +1,132 @@
+{
+ "engines": {
+  "apple_vision": {
+   "recall": 1.0,
+   "hit": 13,
+   "total": 13,
+   "chars": 10106,
+   "lines": 698,
+   "seconds": 13.5,
+   "garbage_ratio": 0.0,
+   "corroboration": 0.754,
+   "missing_refs": [],
+   "per_ref": {
+    "gyodong_manwol": {
+     "recall": 1.0,
+     "hit": 7,
+     "total": 7,
+     "misses": [],
+     "chars": 1827,
+     "seconds": 3.2,
+     "errors": []
+    },
+    "hanpoom_99flower": {
+     "recall": 1.0,
+     "hit": 3,
+     "total": 3,
+     "misses": [],
+     "chars": 1988,
+     "seconds": 2.8,
+     "errors": []
+    },
+    "hangamall_dao": {
+     "recall": 1.0,
+     "hit": 3,
+     "total": 3,
+     "misses": [],
+     "chars": 6291,
+     "seconds": 7.5,
+     "errors": []
+    }
+   }
+  },
+  "paddleocr": {
+   "recall": 0.9230769230769231,
+   "hit": 12,
+   "total": 13,
+   "chars": 5607,
+   "lines": 800,
+   "seconds": 162.7,
+   "garbage_ratio": 0.0,
+   "corroboration": 0.887,
+   "missing_refs": [],
+   "per_ref": {
+    "gyodong_manwol": {
+     "recall": 0.8571428571428571,
+     "hit": 6,
+     "total": 7,
+     "misses": [
+      "영양"
+     ],
+     "chars": 568,
+     "seconds": 24.5,
+     "errors": []
+    },
+    "hanpoom_99flower": {
+     "recall": 1.0,
+     "hit": 3,
+     "total": 3,
+     "misses": [],
+     "chars": 1011,
+     "seconds": 32.1,
+     "errors": []
+    },
+    "hangamall_dao": {
+     "recall": 1.0,
+     "hit": 3,
+     "total": 3,
+     "misses": [],
+     "chars": 4028,
+     "seconds": 106.1,
+     "errors": []
+    }
+   }
+  },
+  "easyocr": {
+   "recall": 1.0,
+   "hit": 13,
+   "total": 13,
+   "chars": 13402,
+   "lines": 1117,
+   "seconds": 110.0,
+   "garbage_ratio": 0.286,
+   "corroboration": 0.544,
+   "missing_refs": [],
+   "per_ref": {
+    "gyodong_manwol": {
+     "recall": 1.0,
+     "hit": 7,
+     "total": 7,
+     "misses": [],
+     "chars": 3271,
+     "seconds": 27.4,
+     "errors": []
+    },
+    "hanpoom_99flower": {
+     "recall": 1.0,
+     "hit": 3,
+     "total": 3,
+     "misses": [],
+     "chars": 2029,
+     "seconds": 18.9,
+     "errors": []
+    },
+    "hangamall_dao": {
+     "recall": 1.0,
+     "hit": 3,
+     "total": 3,
+     "misses": [],
+     "chars": 8102,
+     "seconds": 63.7,
+     "errors": []
+    }
+   }
+  }
+ },
+ "human": {
+  "minutes": 43.0,
+  "seconds": 2580.0,
+  "copy_lines": 13,
+  "chars": 120
+ }
+}

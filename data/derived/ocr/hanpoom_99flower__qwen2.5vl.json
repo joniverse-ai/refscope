@@ -1,0 +1,677 @@
+{
+ "ref_id": "hanpoom_99flower",
+ "engine": "qwen2.5vl",
+ "n_crops": 4,
+ "n_lines": 111,
+ "chars": 2190,
+ "seconds": 211.2,
+ "errors": [],
+ "lines": [
+  {
+   "text": "한국배송",
+   "conf": 1.0,
+   "page_y": null,
+   "crop": "00_both_0-1080.png"
+  },
+  {
+   "text": "카테고리 추천선물 소개 주문안내",
+   "conf": 1.0,
+   "page_y": null,
+   "crop": "00_both_0-1080.png"
+  },
+  {
+   "text": "수취인 연락처는 '한국 전화번호'로 입력해 주셔야 배송이 가능합니다",
+   "conf": 1.0,
+   "page_y": null,
+   "crop": "00_both_0-1080.png"
+  },
+  {
+   "text": "[99플라워] 늘 감사한 마음으로 B513",
+   "conf": 1.0,
+   "page_y": null,
+   "crop": "00_both_0-1080.png"
+  },
+  {
+   "text": "$79.99 USD $85.99 USD",
+   "conf": 1.0,
+   "page_y": null,
+   "crop": "00_both_0-1080.png"
+  },
+  {
+   "text": "장바구니",
+   "conf": 1.0,
+   "page_y": null,
+   "crop": "00_both_0-1080.png"
+  },
+  {
+   "text": "이메일 구독하고",
+   "conf": 1.0,
+   "page_y": null,
+   "crop": "00_both_0-1080.png"
+  },
+  {
+   "text": "최신 소식 받으세요",
+   "conf": 1.0,
+   "page_y": null,
+   "crop": "00_both_0-1080.png"
+  },
+  {
+   "text": "구독자라면 누구보다 빠르게, 할인 소식과",
+   "conf": 1.0,
+   "page_y": null,
+   "crop": "00_both_0-1080.png"
+  },
+  {
+   "text": "신상품 소식을 제일 먼저 확인하세요.",
+   "conf": 1.0,
+   "page_y": null,
+   "crop": "00_both_0-1080.png"
+  },
+  {
+   "text": "Email",
+   "conf": 1.0,
+   "page_y": null,
+   "crop": "00_both_0-1080.png"
+  },
+  {
+   "text": "구독하기",
+   "conf": 1.0,
+   "page_y": null,
+   "crop": "00_both_0-1080.png"
+  },
+  {
+   "text": "선물추천",
+   "conf": 1.0,
+   "page_y": null,
+   "crop": "00_both_0-1080.png"
+  },
+  {
+   "text": "[가락과일] 실속 과일바구니 8호",
+   "conf": 1.0,
+   "page_y": null,
+   "crop": "00_both_0-1080.png"
+  },
+  {
+   "text": "[가락과일] 우드과일바구니 10호",
+   "conf": 1.0,
+   "page_y": null,
+   "crop": "00_both_0-1080.png"
+  },
+  {
+   "text": "[가락과일] 모듬 혼합세트 9호",
+   "conf": 1.0,
+   "page_y": null,
+   "crop": "00_both_0-1080.png"
+  },
+  {
+   "text": "[가락과일] 고품격 바구니10호",
+   "conf": 1.0,
+   "page_y": null,
+   "crop": "00_both_0-1080.png"
+  },
+  {
+   "text": "[설성목장] 설성한우 명품 성(城) 스테이크",
+   "conf": 1.0,
+   "page_y": null,
+   "crop": "00_both_0-1080.png"
+  },
+  {
+   "text": "View all",
+   "conf": 1.0,
+   "page_y": null,
+   "crop": "00_both_0-1080.png"
+  },
+  {
+   "text": "Check Point",
+   "conf": 1.0,
+   "page_y": null,
+   "crop": "02_ocr_1420-4914.png"
+  },
+  {
+   "text": "상품 이용 필독사항!",
+   "conf": 1.0,
+   "page_y": null,
+   "crop": "02_ocr_1420-4914.png"
+  },
+  {
+   "text": "상품은 홈페이지 이미지와 100% 동일 제작이 불가하며, 배송지역에 따라 화분/바구니/상자/화환받침대 등의 부소재가 변경될 수 있습니다.",
+   "conf": 1.0,
+   "page_y": null,
+   "crop": "02_ocr_1420-4914.png"
+  },
+  {
+   "text": "각 지역 시세와 계절에 맞춰 제작되므로 꽃종류, 구성, 제작방법 등은 차이가 있을 수 있으며, 후기사진을 참고해주시기 바랍니다. 이미지 다름으로 인한 교환 및 반품 환불은 불가합니다.",
+   "conf": 1.0,
+   "page_y": null,
+   "crop": "02_ocr_1420-4914.png"
+  },
+  {
+   "text": "한번 잘리면 다시 사용할 수 없는 생화 상품의 특성상, 제작이 완료된 상품은 단순 변심 및 수취인의 거부에 의한 상품 교환 및 반품 환불이 불가합니다.",
+   "conf": 1.0,
+   "page_y": null,
+   "crop": "02_ocr_1420-4914.png"
+  },
+  {
+   "text": "늘 감사한 마음으로",
+   "conf": 1.0,
+   "page_y": null,
+   "crop": "02_ocr_1420-4914.png"
+  },
+  {
+   "text": "ST-B513",
+   "conf": 1.0,
+   "page_y": null,
+   "crop": "02_ocr_1420-4914.png"
+  },
+  {
+   "text": "감사의 마음을 담은 카네이션 당일 꽃배달로",
+   "conf": 1.0,
+   "page_y": null,
+   "crop": "02_ocr_1420-4914.png"
+  },
+  {
+   "text": "존경의 마음을 표현하세요!",
+   "conf": 1.0,
+   "page_y": null,
+   "crop": "02_ocr_1420-4914.png"
+  },
+  {
+   "text": "FLOWERBOX",
+   "conf": 1.0,
+   "page_y": null,
+   "crop": "02_ocr_1420-4914.png"
+  },
+  {
+   "text": "M",
+   "conf": 1.0,
+   "page_y": null,
+   "crop": "02_ocr_1420-4914.png"
+  },
+  {
+   "text": "99 FLOWER",
+   "conf": 1.0,
+   "page_y": null,
+   "crop": "03_ocr_4754-8248.png"
+  },
+  {
+   "text": "신뢰와 믿음",
+   "conf": 1.0,
+   "page_y": null,
+   "crop": "03_ocr_4754-8248.png"
+  },
+  {
+   "text": "99플라워",
+   "conf": 1.0,
+   "page_y": null,
+   "crop": "03_ocr_4754-8248.png"
+  },
+  {
+   "text": "꽃배달 브랜드 1위",
+   "conf": 1.0,
+   "page_y": null,
+   "crop": "03_ocr_4754-8248.png"
+  },
+  {
+   "text": "은혜에 감사하는 마음을",
+   "conf": 1.0,
+   "page_y": null,
+   "crop": "03_ocr_4754-8248.png"
+  },
+  {
+   "text": "카네이션의 향기에 담아 멀리서나마 전해드립니다.",
+   "conf": 1.0,
+   "page_y": null,
+   "crop": "03_ocr_4754-8248.png"
+  },
+  {
+   "text": "조건이 마음",
+   "conf": 1.0,
+   "page_y": null,
+   "crop": "03_ocr_4754-8248.png"
+  },
+  {
+   "text": "존경의 마음을",
+   "conf": 1.0,
+   "page_y": null,
+   "crop": "04_ocr_8088-11580.png"
+  },
+  {
+   "text": "전하는 가장 확실한 방법",
+   "conf": 1.0,
+   "page_y": null,
+   "crop": "04_ocr_8088-11580.png"
+  },
+  {
+   "text": "어버이날, 부모님 사랑합니다.♡",
+   "conf": 1.0,
+   "page_y": null,
+   "crop": "04_ocr_8088-11580.png"
+  },
+  {
+   "text": "스승의날, 선생님 감사합니다.♥",
+   "conf": 1.0,
+   "page_y": null,
+   "crop": "04_ocr_8088-11580.png"
+  },
+  {
+   "text": "평생 효도할게요~건강하세요.♡",
+   "conf": 1.0,
+   "page_y": null,
+   "crop": "04_ocr_8088-11580.png"
+  },
+  {
+   "text": "존경하는 마음 잊지 않겠습니다.♥",
+   "conf": 1.0,
+   "page_y": null,
+   "crop": "04_ocr_8088-11580.png"
+  },
+  {
+   "text": "상품소재 혼합 계절 꽃 소재, 계절 그린소재, 리본 또는 카드 메세지",
+   "conf": 1.0,
+   "page_y": null,
+   "crop": "04_ocr_8088-11580.png"
+  },
+  {
+   "text": "사이즈 높이 약 20cm ~ 25cm 내외",
+   "conf": 1.0,
+   "page_y": null,
+   "crop": "04_ocr_8088-11580.png"
+  },
+  {
+   "text": "★ 상자의 모양, 포장, 꽃소재는 배송지역에 따라 차이가 있을 수 있습니다.",
+   "conf": 1.0,
+   "page_y": null,
+   "crop": "04_ocr_8088-11580.png"
+  },
+  {
+   "text": "★ 배송 지역에 따라 상자 소진시 바구니로 제작될수 있습니다.",
+   "conf": 1.0,
+   "page_y": null,
+   "crop": "04_ocr_8088-11580.png"
+  },
+  {
+   "text": "원산지",
+   "conf": 1.0,
+   "page_y": null,
+   "crop": "04_ocr_8088-11580.png"
+  },
+  {
+   "text": "품목명",
+   "conf": 1.0,
+   "page_y": null,
+   "crop": "04_ocr_8088-11580.png"
+  },
+  {
+   "text": "국산",
+   "conf": 1.0,
+   "page_y": null,
+   "crop": "04_ocr_8088-11580.png"
+  },
+  {
+   "text": "장미, 국화, 카네이션, 백합, 툴립, 글라디올러스, 거베라, 아이리스,",
+   "conf": 1.0,
+   "page_y": null,
+   "crop": "04_ocr_8088-11580.png"
+  },
+  {
+   "text": "프리지아, 카라, 안개꽃, 관엽식물, 동양란, 서양란, 분재, 다육선인장,",
+   "conf": 1.0,
+   "page_y": null,
+   "crop": "04_ocr_8088-11580.png"
+  },
+  {
+   "text": "부자재(화분, 화병, 꽃바구니, 꽃상자, 꽃포장재, 리본 등)",
+   "conf": 1.0,
+   "page_y": null,
+   "crop": "04_ocr_8088-11580.png"
+  },
+  {
+   "text": "중국/대만",
+   "conf": 1.0,
+   "page_y": null,
+   "crop": "04_ocr_8088-11580.png"
+  },
+  {
+   "text": "장미, 국화, 카네이션, 거베라, 골든볼, 다알리아, 금어초, 르네브, 미스터블루,",
+   "conf": 1.0,
+   "page_y": null,
+   "crop": "04_ocr_8088-11580.png"
+  },
+  {
+   "text": "메리골드, 대국, 소철, 스타치스, 스토크, 퐁퐁소국, 시네신스, 천일홍, 백합, 툴립,",
+   "conf": 1.0,
+   "page_y": null,
+   "crop": "04_ocr_8088-11580.png"
+  },
+  {
+   "text": "프리지아, 해바라기, 후룩스, 석죽, 관엽식물, 동양란, 서양란, 분재, 다육선인장,",
+   "conf": 1.0,
+   "page_y": null,
+   "crop": "04_ocr_8088-11580.png"
+  },
+  {
+   "text": "부자재(화분, 화병, 꽃바구니, 꽃상자, 꽃포장재, 리본 등)",
+   "conf": 1.0,
+   "page_y": null,
+   "crop": "04_ocr_8088-11580.png"
+  },
+  {
+   "text": "베트남",
+   "conf": 1.0,
+   "page_y": null,
+   "crop": "04_ocr_8088-11580.png"
+  },
+  {
+   "text": "장미, 카네이션, 관엽식물, 동양란, 서양란, 부자재(화분, 화병, 꽃바구니, 꽃상자,",
+   "conf": 1.0,
+   "page_y": null,
+   "crop": "04_ocr_8088-11580.png"
+  },
+  {
+   "text": "꽃포장재, 리본 등)",
+   "conf": 1.0,
+   "page_y": null,
+   "crop": "04_ocr_8088-11580.png"
+  },
+  {
+   "text": "일본",
+   "conf": 1.0,
+   "page_y": null,
+   "crop": "04_ocr_8088-11580.png"
+  },
+  {
+   "text": "백합, 프리저브드",
+   "conf": 1.0,
+   "page_y": null,
+   "crop": "04_ocr_8088-11580.png"
+  },
+  {
+   "text": "아르헨티나",
+   "conf": 1.0,
+   "page_y": null,
+   "crop": "04_ocr_8088-11580.png"
+  },
+  {
+   "text": "스티파",
+   "conf": 1.0,
+   "page_y": null,
+   "crop": "04_ocr_8088-11580.png"
+  },
+  {
+   "text": "수입산",
+   "conf": 1.0,
+   "page_y": null,
+   "crop": "04_ocr_8088-11580.png"
+  },
+  {
+   "text": "말레이시/인도네시아/",
+   "conf": 1.0,
+   "page_y": null,
+   "crop": "04_ocr_8088-11580.png"
+  },
+  {
+   "text": "태국/필리핀/파키스탄",
+   "conf": 1.0,
+   "page_y": null,
+   "crop": "04_ocr_8088-11580.png"
+  },
+  {
+   "text": "카네이션, 관엽식물, 부자재(화분, 화병, 꽃바구니, 꽃상자, 꽃포장재, 리본 등)",
+   "conf": 1.0,
+   "page_y": null,
+   "crop": "04_ocr_8088-11580.png"
+  },
+  {
+   "text": "콜롬비아/코스타리카",
+   "conf": 1.0,
+   "page_y": null,
+   "crop": "04_ocr_8088-11580.png"
+  },
+  {
+   "text": "카네이션, 수국, 레몬잎, 프리저브드, 골든볼, 다알리아, 부바르디아, 라런쿨러스,",
+   "conf": 1.0,
+   "page_y": null,
+   "crop": "04_ocr_8088-11580.png"
+  },
+  {
+   "text": "아스텔베, 아이리스, 안개, 카라, 툴립, 레몬잎",
+   "conf": 1.0,
+   "page_y": null,
+   "crop": "04_ocr_8088-11580.png"
+  },
+  {
+   "text": "호주",
+   "conf": 1.0,
+   "page_y": null,
+   "crop": "04_ocr_8088-11580.png"
+  },
+  {
+   "text": "브로니아, 그레빌리아, 유칼립투스",
+   "conf": 1.0,
+   "page_y": null,
+   "crop": "04_ocr_8088-11580.png"
+  },
+  {
+   "text": "에티오피아",
+   "conf": 1.0,
+   "page_y": null,
+   "crop": "04_ocr_8088-11580.png"
+  },
+  {
+   "text": "장미, 안개, 백묘국",
+   "conf": 1.0,
+   "page_y": null,
+   "crop": "04_ocr_8088-11580.png"
+  },
+  {
+   "text": "이스라엘",
+   "conf": 1.0,
+   "page_y": null,
+   "crop": "04_ocr_8088-11580.png"
+  },
+  {
+   "text": "엘렌지움, 목화",
+   "conf": 1.0,
+   "page_y": null,
+   "crop": "04_ocr_8088-11580.png"
+  },
+  {
+   "text": "네델란드",
+   "conf": 1.0,
+   "page_y": null,
+   "crop": "04_ocr_8088-11580.png"
+  },
+  {
+   "text": "브바르디아, 다알리아, 라런쿨러스, 툴립",
+   "conf": 1.0,
+   "page_y": null,
+   "crop": "04_ocr_8088-11580.png"
+  },
+  {
+   "text": "오늘",
+   "conf": 1.0,
+   "page_y": null,
+   "crop": "04_ocr_8088-11580.png"
+  },
+  {
+   "text": "브로나이, 그레클리아, 뉴클립부드",
+   "conf": 1.0,
+   "page_y": null,
+   "crop": "04_ocr_8088-11580.png"
+  },
+  {
+   "text": "에티오피아",
+   "conf": 1.0,
+   "page_y": null,
+   "crop": "04_ocr_8088-11580.png"
+  },
+  {
+   "text": "장미, 안개, 백묘국",
+   "conf": 1.0,
+   "page_y": null,
+   "crop": "04_ocr_8088-11580.png"
+  },
+  {
+   "text": "이스라엘",
+   "conf": 1.0,
+   "page_y": null,
+   "crop": "04_ocr_8088-11580.png"
+  },
+  {
+   "text": "엘엔지움, 목화",
+   "conf": 1.0,
+   "page_y": null,
+   "crop": "04_ocr_8088-11580.png"
+  },
+  {
+   "text": "네델란드",
+   "conf": 1.0,
+   "page_y": null,
+   "crop": "04_ocr_8088-11580.png"
+  },
+  {
+   "text": "브바르디아, 다알리아, 라넌큘러스, 툴립",
+   "conf": 1.0,
+   "page_y": null,
+   "crop": "04_ocr_8088-11580.png"
+  },
+  {
+   "text": "이탈리아",
+   "conf": 1.0,
+   "page_y": null,
+   "crop": "04_ocr_8088-11580.png"
+  },
+  {
+   "text": "라그라스",
+   "conf": 1.0,
+   "page_y": null,
+   "crop": "04_ocr_8088-11580.png"
+  },
+  {
+   "text": "스페인",
+   "conf": 1.0,
+   "page_y": null,
+   "crop": "04_ocr_8088-11580.png"
+  },
+  {
+   "text": "프리저브드",
+   "conf": 1.0,
+   "page_y": null,
+   "crop": "04_ocr_8088-11580.png"
+  },
+  {
+   "text": "남아공",
+   "conf": 1.0,
+   "page_y": null,
+   "crop": "04_ocr_8088-11580.png"
+  },
+  {
+   "text": "버질리아, 울부시, 왁스플라워, 만다린믹스, 부케믹스, 핑쿠션, 방크샤",
+   "conf": 1.0,
+   "page_y": null,
+   "crop": "04_ocr_8088-11580.png"
+  },
+  {
+   "text": "모든 상품은 배송지역 인근 제작업체, 꽃 수급 상황 등에 따라 원산지가 달라질 수 있으므로",
+   "conf": 1.0,
+   "page_y": null,
+   "crop": "04_ocr_8088-11580.png"
+  },
+  {
+   "text": "배송되는 상품의 포장재 또는 영수증, 배송장, 스티커 등에 원산지를 표시하여 배송됩니다.",
+   "conf": 1.0,
+   "page_y": null,
+   "crop": "04_ocr_8088-11580.png"
+  },
+  {
+   "text": "소재 특성에 대한 오해",
+   "conf": 1.0,
+   "page_y": null,
+   "crop": "04_ocr_8088-11580.png"
+  },
+  {
+   "text": "장미",
+   "conf": 1.0,
+   "page_y": null,
+   "crop": "04_ocr_8088-11580.png"
+  },
+  {
+   "text": "장미의 꽃잎은 꽃잎의 색이 고르지 않고 바랜 듯해 보이고 말려있어서",
+   "conf": 1.0,
+   "page_y": null,
+   "crop": "04_ocr_8088-11580.png"
+  },
+  {
+   "text": "시든 꽃으로 오해할 수 있으나, 장미가 끝까지 잘 피어나도록 반처주는",
+   "conf": 1.0,
+   "page_y": null,
+   "crop": "04_ocr_8088-11580.png"
+  },
+  {
+   "text": "역할로 더 오랜시간 장미를 싱싱하고 예쁜 형태로 감상할 수 있도록",
+   "conf": 1.0,
+   "page_y": null,
+   "crop": "04_ocr_8088-11580.png"
+  },
+  {
+   "text": "유지시켜주기 때문에 떼지 않고 디자인을 하는 경우가 있습니다.",
+   "conf": 1.0,
+   "page_y": null,
+   "crop": "04_ocr_8088-11580.png"
+  },
+  {
+   "text": "리시안셔스",
+   "conf": 1.0,
+   "page_y": null,
+   "crop": "04_ocr_8088-11580.png"
+  },
+  {
+   "text": "리시안셔스는 하늘거리고 얇은 꽃잎의 특성 때문에",
+   "conf": 1.0,
+   "page_y": null,
+   "crop": "04_ocr_8088-11580.png"
+  },
+  {
+   "text": "꽃봉오리의 형태가 찌그러지기 쉬워 꽃잎이 시든 꽃으로 오해하는",
+   "conf": 1.0,
+   "page_y": null,
+   "crop": "04_ocr_8088-11580.png"
+  },
+  {
+   "text": "경우가 있을 수 있습니다.",
+   "conf": 1.0,
+   "page_y": null,
+   "crop": "04_ocr_8088-11580.png"
+  },
+  {
+   "text": "스톡",
+   "conf": 1.0,
+   "page_y": null,
+   "crop": "04_ocr_8088-11580.png"
+  },
+  {
+   "text": "비단향꽃무라고도 불리는 스톡은 꽃잎이 연약하고 꽃봉우리가",
+   "conf": 1.0,
+   "page_y": null,
+   "crop": "04_ocr_8088-11580.png"
+  },
+  {
+   "text": "가깝게 모여있어 형태가 쉽게 놀리거나 말리는 특성 때문에",
+   "conf": 1.0,
+   "page_y": null,
+   "crop": "04_ocr_8088-11580.png"
+  },
+  {
+   "text": "시든 꽃으로 오해하는 경우가 있을 수 있습니다.",
+   "conf": 1.0,
+   "page_y": null,
+   "crop": "04_ocr_8088-11580.png"
+  },
+  {
+   "text": "비단향꽃무라고도 불리는 스톡은 꽃잎이 연약하고 꽃봉우리가 가깝게 모여있어 형태가 쉽게 놀리거나 말리는 특성 때문에 시든 꽃으로 오해하는 경우가 있을 수 있습니다.",
+   "conf": 1.0,
+   "page_y": null,
+   "crop": "04_ocr_8088-11580.png"
+  }
+ ]
+}

@@ -1,0 +1,977 @@
+{
+ "ref_id": "gyodong_manwol",
+ "engine": "qwen2.5vl",
+ "n_crops": 6,
+ "n_lines": 161,
+ "chars": 2104,
+ "seconds": 347.2,
+ "errors": [],
+ "lines": [
+  {
+   "text": "한국은 우리와 대표적인 전통가치입니다",
+   "conf": 1.0,
+   "page_y": null,
+   "crop": "01_both_420-1080.png"
+  },
+  {
+   "text": "홈 > 한과선물세트",
+   "conf": 1.0,
+   "page_y": null,
+   "crop": "01_both_420-1080.png"
+  },
+  {
+   "text": "상품명 만월",
+   "conf": 1.0,
+   "page_y": null,
+   "crop": "01_both_420-1080.png"
+  },
+  {
+   "text": "제조사 (주)교동씨엠",
+   "conf": 1.0,
+   "page_y": null,
+   "crop": "01_both_420-1080.png"
+  },
+  {
+   "text": "원산지 상세설명 참조",
+   "conf": 1.0,
+   "page_y": null,
+   "crop": "01_both_420-1080.png"
+  },
+  {
+   "text": "소비자가 300,000원",
+   "conf": 1.0,
+   "page_y": null,
+   "crop": "01_both_420-1080.png"
+  },
+  {
+   "text": "적립금 3,000원 (1%)",
+   "conf": 1.0,
+   "page_y": null,
+   "crop": "01_both_420-1080.png"
+  },
+  {
+   "text": "배송비 3,000원 (65,000원 이상 구매 시 무료)",
+   "conf": 1.0,
+   "page_y": null,
+   "crop": "01_both_420-1080.png"
+  },
+  {
+   "text": "(최소주문수량 1개 이상)",
+   "conf": 1.0,
+   "page_y": null,
+   "crop": "01_both_420-1080.png"
+  },
+  {
+   "text": "! 수량을 선택해주세요.",
+   "conf": 1.0,
+   "page_y": null,
+   "crop": "01_both_420-1080.png"
+  },
+  {
+   "text": "만월 1",
+   "conf": 1.0,
+   "page_y": null,
+   "crop": "01_both_420-1080.png"
+  },
+  {
+   "text": "300,000원",
+   "conf": 1.0,
+   "page_y": null,
+   "crop": "01_both_420-1080.png"
+  },
+  {
+   "text": "총 상품금액(수량) : 300,000원 (1개)",
+   "conf": 1.0,
+   "page_y": null,
+   "crop": "01_both_420-1080.png"
+  },
+  {
+   "text": "관련상품",
+   "conf": 1.0,
+   "page_y": null,
+   "crop": "03_both_1920-2580.png"
+  },
+  {
+   "text": "상품상세정보",
+   "conf": 1.0,
+   "page_y": null,
+   "crop": "03_both_1920-2580.png"
+  },
+  {
+   "text": "상품구매안내",
+   "conf": 1.0,
+   "page_y": null,
+   "crop": "03_both_1920-2580.png"
+  },
+  {
+   "text": "상품사용후기",
+   "conf": 1.0,
+   "page_y": null,
+   "crop": "03_both_1920-2580.png"
+  },
+  {
+   "text": "상품Q&A",
+   "conf": 1.0,
+   "page_y": null,
+   "crop": "03_both_1920-2580.png"
+  },
+  {
+   "text": "만월",
+   "conf": 1.0,
+   "page_y": null,
+   "crop": "03_both_1920-2580.png"
+  },
+  {
+   "text": "한국화분",
+   "conf": 1.0,
+   "page_y": null,
+   "crop": "03_both_1920-2580.png"
+  },
+  {
+   "text": "K.Hee",
+   "conf": 1.0,
+   "page_y": null,
+   "crop": "03_both_1920-2580.png"
+  },
+  {
+   "text": "[유과]쌀,흑미,숙,백련초,호박,녹차",
+   "conf": 1.0,
+   "page_y": null,
+   "crop": "04_ocr_2420-5830.png"
+  },
+  {
+   "text": "[청과]호두,키위,금귤 대추조린 [감정]흑미 현미,숙참쌀 백련초참쌀",
+   "conf": 1.0,
+   "page_y": null,
+   "crop": "04_ocr_2420-5830.png"
+  },
+  {
+   "text": "[한물곡식]장깨의독콩,들깨의독콩,흑깨의독콩,다시마의독미,현미와멥치",
+   "conf": 1.0,
+   "page_y": null,
+   "crop": "04_ocr_2420-5830.png"
+  },
+  {
+   "text": "[다식]참깨,흑깨 [약과] [고시불] [홍삼] [육포]",
+   "conf": 1.0,
+   "page_y": null,
+   "crop": "04_ocr_2420-5830.png"
+  },
+  {
+   "text": "교동한과",
+   "conf": 1.0,
+   "page_y": null,
+   "crop": "04_ocr_2420-5830.png"
+  },
+  {
+   "text": "만월",
+   "conf": 1.0,
+   "page_y": null,
+   "crop": "04_ocr_2420-5830.png"
+  },
+  {
+   "text": "1단",
+   "conf": 1.0,
+   "page_y": null,
+   "crop": "04_ocr_2420-5830.png"
+  },
+  {
+   "text": "2단",
+   "conf": 1.0,
+   "page_y": null,
+   "crop": "04_ocr_2420-5830.png"
+  },
+  {
+   "text": "상면",
+   "conf": 1.0,
+   "page_y": null,
+   "crop": "04_ocr_2420-5830.png"
+  },
+  {
+   "text": "보자기 포장",
+   "conf": 1.0,
+   "page_y": null,
+   "crop": "04_ocr_2420-5830.png"
+  },
+  {
+   "text": "제품의 구성상태는 제품개선을 위해",
+   "conf": 1.0,
+   "page_y": null,
+   "crop": "04_ocr_2420-5830.png"
+  },
+  {
+   "text": "임의대로 변경되어 배송될 수 있습니다",
+   "conf": 1.0,
+   "page_y": null,
+   "crop": "04_ocr_2420-5830.png"
+  },
+  {
+   "text": "달항아리 작품의",
+   "conf": 1.0,
+   "page_y": null,
+   "crop": "04_ocr_2420-5830.png"
+  },
+  {
+   "text": "아트콜라보 프로젝트",
+   "conf": 1.0,
+   "page_y": null,
+   "crop": "04_ocr_2420-5830.png"
+  },
+  {
+   "text": "보름달을 닮은 달항아리는",
+   "conf": 1.0,
+   "page_y": null,
+   "crop": "04_ocr_2420-5830.png"
+  },
+  {
+   "text": "예로부터 좋은 기운을 담아둘 복과 풍요를 상징합니다.",
+   "conf": 1.0,
+   "page_y": null,
+   "crop": "04_ocr_2420-5830.png"
+  },
+  {
+   "text": "김경희 작가의 달항아리 작품에 담긴 평안과 행복의 감성을,",
+   "conf": 1.0,
+   "page_y": null,
+   "crop": "04_ocr_2420-5830.png"
+  },
+  {
+   "text": "교동한과의 따뜻한 풍요와 함께 전해드립니다",
+   "conf": 1.0,
+   "page_y": null,
+   "crop": "04_ocr_2420-5830.png"
+  },
+  {
+   "text": "만월 540X400X105mm, 지함2단",
+   "conf": 1.0,
+   "page_y": null,
+   "crop": "04_ocr_2420-5830.png"
+  },
+  {
+   "text": "1단 구성(위)",
+   "conf": 1.0,
+   "page_y": null,
+   "crop": "04_ocr_2420-5830.png"
+  },
+  {
+   "text": "유과(러틀유과흑미, 러틀유과백련초, 러틀유과녹차, 러틀유과호박)",
+   "conf": 1.0,
+   "page_y": null,
+   "crop": "04_ocr_2420-5830.png"
+  },
+  {
+   "text": "강정(현미, 흑미, 쑥찹쌀, 백련초잡쌀)악과, 고시불, 육포,홍삼",
+   "conf": 1.0,
+   "page_y": null,
+   "crop": "04_ocr_2420-5830.png"
+  },
+  {
+   "text": "다식(참깨, 호깨)정과(금귤, 키위, 호두, 대추조란)",
+   "conf": 1.0,
+   "page_y": null,
+   "crop": "04_ocr_2420-5830.png"
+  },
+  {
+   "text": "한들곡식(참깨와 흑콩, 흑깨와흑콩, 들깨와 흑콩, 다시마와 흑미, 현미와멸치)",
+   "conf": 1.0,
+   "page_y": null,
+   "crop": "04_ocr_2420-5830.png"
+  },
+  {
+   "text": "2단 구성(아래)",
+   "conf": 1.0,
+   "page_y": null,
+   "crop": "04_ocr_2420-5830.png"
+  },
+  {
+   "text": "유과(쌀,흑미,쑥,백련초)",
+   "conf": 1.0,
+   "page_y": null,
+   "crop": "04_ocr_2420-5830.png"
+  },
+  {
+   "text": "2단 구성(아래)",
+   "conf": 1.0,
+   "page_y": null,
+   "crop": "04_ocr_2420-5830.png"
+  },
+  {
+   "text": "유과(쌀,흑미,쑥,백련초)",
+   "conf": 1.0,
+   "page_y": null,
+   "crop": "04_ocr_2420-5830.png"
+  },
+  {
+   "text": "Since 1999, Gyodong",
+   "conf": 1.0,
+   "page_y": null,
+   "crop": "04_ocr_2420-5830.png"
+  },
+  {
+   "text": "교동한과",
+   "conf": 1.0,
+   "page_y": null,
+   "crop": "04_ocr_2420-5830.png"
+  },
+  {
+   "text": "전통의 지혜와 정성의 맛을 담아",
+   "conf": 1.0,
+   "page_y": null,
+   "crop": "04_ocr_2420-5830.png"
+  },
+  {
+   "text": "GYODONG",
+   "conf": 1.0,
+   "page_y": null,
+   "crop": "04_ocr_2420-5830.png"
+  },
+  {
+   "text": "없음",
+   "conf": 1.0,
+   "page_y": null,
+   "crop": "04_ocr_2420-5830.png"
+  },
+  {
+   "text": "果",
+   "conf": 1.0,
+   "page_y": null,
+   "crop": "05_ocr_5670-9080.png"
+  },
+  {
+   "text": "물려주고 싶은 전통의 맛,",
+   "conf": 1.0,
+   "page_y": null,
+   "crop": "05_ocr_5670-9080.png"
+  },
+  {
+   "text": "고마운 분께 전하는 정성",
+   "conf": 1.0,
+   "page_y": null,
+   "crop": "05_ocr_5670-9080.png"
+  },
+  {
+   "text": "한과의 품격을 담았습니다",
+   "conf": 1.0,
+   "page_y": null,
+   "crop": "05_ocr_5670-9080.png"
+  },
+  {
+   "text": "전통의 맛과 가치를 지키기 위해,",
+   "conf": 1.0,
+   "page_y": null,
+   "crop": "05_ocr_5670-9080.png"
+  },
+  {
+   "text": "우리 들녘에서 자란 곡식과 열매를 정성껏 엄선하고",
+   "conf": 1.0,
+   "page_y": null,
+   "crop": "05_ocr_5670-9080.png"
+  },
+  {
+   "text": "오랜 수제 방식을 현대의 위생 기준에 맞춰",
+   "conf": 1.0,
+   "page_y": null,
+   "crop": "05_ocr_5670-9080.png"
+  },
+  {
+   "text": "정직하게 재현합니다",
+   "conf": 1.0,
+   "page_y": null,
+   "crop": "05_ocr_5670-9080.png"
+  },
+  {
+   "text": "한국",
+   "conf": 1.0,
+   "page_y": null,
+   "crop": "05_ocr_5670-9080.png"
+  },
+  {
+   "text": "좋은 한과는 좋은 재료에서 시작됩니다",
+   "conf": 1.0,
+   "page_y": null,
+   "crop": "05_ocr_5670-9080.png"
+  },
+  {
+   "text": "교동한과는 믿을 수 있는 국내산 참쌀로",
+   "conf": 1.0,
+   "page_y": null,
+   "crop": "05_ocr_5670-9080.png"
+  },
+  {
+   "text": "우리 농산물의 가치를 정직하게 담아냅니다",
+   "conf": 1.0,
+   "page_y": null,
+   "crop": "05_ocr_5670-9080.png"
+  },
+  {
+   "text": "정성",
+   "conf": 1.0,
+   "page_y": null,
+   "crop": "05_ocr_5670-9080.png"
+  },
+  {
+   "text": "오랜 시간, 천천히 숨을 고르듯",
+   "conf": 1.0,
+   "page_y": null,
+   "crop": "05_ocr_5670-9080.png"
+  },
+  {
+   "text": "십여 일간 발효해 완성되는",
+   "conf": 1.0,
+   "page_y": null,
+   "crop": "05_ocr_5670-9080.png"
+  },
+  {
+   "text": "정성과 시간으로 완성된 전통의 맛입니다",
+   "conf": 1.0,
+   "page_y": null,
+   "crop": "05_ocr_5670-9080.png"
+  },
+  {
+   "text": "성",
+   "conf": 1.0,
+   "page_y": null,
+   "crop": "05_ocr_5670-9080.png"
+  },
+  {
+   "text": "조한시간, 한천이 숨을 모으듯",
+   "conf": 1.0,
+   "page_y": null,
+   "crop": "05_ocr_5670-9080.png"
+  },
+  {
+   "text": "십여 일간 발효해 완성되는",
+   "conf": 1.0,
+   "page_y": null,
+   "crop": "05_ocr_5670-9080.png"
+  },
+  {
+   "text": "정성과 시간으로 완성된 전통의 맛입니다",
+   "conf": 1.0,
+   "page_y": null,
+   "crop": "05_ocr_5670-9080.png"
+  },
+  {
+   "text": "맛",
+   "conf": 1.0,
+   "page_y": null,
+   "crop": "05_ocr_5670-9080.png"
+  },
+  {
+   "text": "재료 본연의 맛을 살리는 정성,",
+   "conf": 1.0,
+   "page_y": null,
+   "crop": "05_ocr_5670-9080.png"
+  },
+  {
+   "text": "그 깊이를 한과에 담았습니다",
+   "conf": 1.0,
+   "page_y": null,
+   "crop": "05_ocr_5670-9080.png"
+  },
+  {
+   "text": "營養",
+   "conf": 1.0,
+   "page_y": null,
+   "crop": "06_ocr_8920-12330.png"
+  },
+  {
+   "text": "좋은 곡식으로, 좋은 조화를,",
+   "conf": 1.0,
+   "page_y": null,
+   "crop": "06_ocr_8920-12330.png"
+  },
+  {
+   "text": "교동한과는 우리 곡식 본연의",
+   "conf": 1.0,
+   "page_y": null,
+   "crop": "06_ocr_8920-12330.png"
+  },
+  {
+   "text": "영양과 맛을 온전히 담습니다",
+   "conf": 1.0,
+   "page_y": null,
+   "crop": "06_ocr_8920-12330.png"
+  },
+  {
+   "text": "교동 한과는",
+   "conf": 1.0,
+   "page_y": null,
+   "crop": "06_ocr_8920-12330.png"
+  },
+  {
+   "text": "각 재료들이 가진 본연의 맛이",
+   "conf": 1.0,
+   "page_y": null,
+   "crop": "06_ocr_8920-12330.png"
+  },
+  {
+   "text": "그대로 전해질 수 있도록",
+   "conf": 1.0,
+   "page_y": null,
+   "crop": "06_ocr_8920-12330.png"
+  },
+  {
+   "text": "제품 하나하나에",
+   "conf": 1.0,
+   "page_y": null,
+   "crop": "06_ocr_8920-12330.png"
+  },
+  {
+   "text": "정성을 담았습니다",
+   "conf": 1.0,
+   "page_y": null,
+   "crop": "06_ocr_8920-12330.png"
+  },
+  {
+   "text": "정성을 다하는 기업",
+   "conf": 1.0,
+   "page_y": null,
+   "crop": "06_ocr_8920-12330.png"
+  },
+  {
+   "text": "교동한과 입니다",
+   "conf": 1.0,
+   "page_y": null,
+   "crop": "06_ocr_8920-12330.png"
+  },
+  {
+   "text": "교동한과",
+   "conf": 1.0,
+   "page_y": null,
+   "crop": "06_ocr_8920-12330.png"
+  },
+  {
+   "text": "GYODONG",
+   "conf": 1.0,
+   "page_y": null,
+   "crop": "06_ocr_8920-12330.png"
+  },
+  {
+   "text": "대한민국",
+   "conf": 1.0,
+   "page_y": null,
+   "crop": "06_ocr_8920-12330.png"
+  },
+  {
+   "text": "식품명인",
+   "conf": 1.0,
+   "page_y": null,
+   "crop": "06_ocr_8920-12330.png"
+  },
+  {
+   "text": "농림축산식품부",
+   "conf": 1.0,
+   "page_y": null,
+   "crop": "06_ocr_8920-12330.png"
+  },
+  {
+   "text": "제59호 전통식품명인",
+   "conf": 1.0,
+   "page_y": null,
+   "crop": "06_ocr_8920-12330.png"
+  },
+  {
+   "text": "한과류(유과류)",
+   "conf": 1.0,
+   "page_y": null,
+   "crop": "06_ocr_8920-12330.png"
+  },
+  {
+   "text": "식품안전관리인증",
+   "conf": 1.0,
+   "page_y": null,
+   "crop": "06_ocr_8920-12330.png"
+  },
+  {
+   "text": "HACCP",
+   "conf": 1.0,
+   "page_y": null,
+   "crop": "06_ocr_8920-12330.png"
+  },
+  {
+   "text": "HACCP 인증 기업",
+   "conf": 1.0,
+   "page_y": null,
+   "crop": "06_ocr_8920-12330.png"
+  },
+  {
+   "text": "교동한과는 HACCP 인증 기업으로",
+   "conf": 1.0,
+   "page_y": null,
+   "crop": "06_ocr_8920-12330.png"
+  },
+  {
+   "text": "위생적이고 안전한 식품을 생산합니다",
+   "conf": 1.0,
+   "page_y": null,
+   "crop": "06_ocr_8920-12330.png"
+  },
+  {
+   "text": "상품명:",
+   "conf": 1.0,
+   "page_y": null,
+   "crop": "06_ocr_8920-12330.png"
+  },
+  {
+   "text": "색상:",
+   "conf": 1.0,
+   "page_y": null,
+   "crop": "06_ocr_8920-12330.png"
+  },
+  {
+   "text": "사이즈:",
+   "conf": 1.0,
+   "page_y": null,
+   "crop": "06_ocr_8920-12330.png"
+  },
+  {
+   "text": "가격:",
+   "conf": 1.0,
+   "page_y": null,
+   "crop": "06_ocr_8920-12330.png"
+  },
+  {
+   "text": "교동한과 제품사용 TIP",
+   "conf": 1.0,
+   "page_y": null,
+   "crop": "07_ocr_12170-15580.png"
+  },
+  {
+   "text": "이렇게 이용하면 좋습니다",
+   "conf": 1.0,
+   "page_y": null,
+   "crop": "07_ocr_12170-15580.png"
+  },
+  {
+   "text": "1. 통풍이 잘되는 곳",
+   "conf": 1.0,
+   "page_y": null,
+   "crop": "07_ocr_12170-15580.png"
+  },
+  {
+   "text": "직사광선과 습기를 피해 서늘하고",
+   "conf": 1.0,
+   "page_y": null,
+   "crop": "07_ocr_12170-15580.png"
+  },
+  {
+   "text": "통풍이 잘되는 실온에 보관하세요",
+   "conf": 1.0,
+   "page_y": null,
+   "crop": "07_ocr_12170-15580.png"
+  },
+  {
+   "text": "2. 개봉 후 빠른 섭취",
+   "conf": 1.0,
+   "page_y": null,
+   "crop": "07_ocr_12170-15580.png"
+  },
+  {
+   "text": "가급적 최대한 빠른 시간내에",
+   "conf": 1.0,
+   "page_y": null,
+   "crop": "07_ocr_12170-15580.png"
+  },
+  {
+   "text": "드셔야 한과 본연의 맛을 느낄 수 있습니다",
+   "conf": 1.0,
+   "page_y": null,
+   "crop": "07_ocr_12170-15580.png"
+  },
+  {
+   "text": "3. 겨울엔 30분 해동",
+   "conf": 1.0,
+   "page_y": null,
+   "crop": "07_ocr_12170-15580.png"
+  },
+  {
+   "text": "겨울철, 약 30분 전 따뜻한 곳에 잠시 두었다가",
+   "conf": 1.0,
+   "page_y": null,
+   "crop": "07_ocr_12170-15580.png"
+  },
+  {
+   "text": "드시면 더욱 부드럽게 드실 수 있습니다",
+   "conf": 1.0,
+   "page_y": null,
+   "crop": "07_ocr_12170-15580.png"
+  },
+  {
+   "text": "제품명",
+   "conf": 1.0,
+   "page_y": null,
+   "crop": "07_ocr_12170-15580.png"
+  },
+  {
+   "text": "만월",
+   "conf": 1.0,
+   "page_y": null,
+   "crop": "07_ocr_12170-15580.png"
+  },
+  {
+   "text": "품목보건번호",
+   "conf": 1.0,
+   "page_y": null,
+   "crop": "07_ocr_12170-15580.png"
+  },
+  {
+   "text": "19990386335256",
+   "conf": 1.0,
+   "page_y": null,
+   "crop": "07_ocr_12170-15580.png"
+  },
+  {
+   "text": "제조원",
+   "conf": 1.0,
+   "page_y": null,
+   "crop": "07_ocr_12170-15580.png"
+  },
+  {
+   "text": "(주)교동씨엠,강원 강릉시 구정면 봉양1길 49",
+   "conf": 1.0,
+   "page_y": null,
+   "crop": "07_ocr_12170-15580.png"
+  },
+  {
+   "text": "내용량",
+   "conf": 1.0,
+   "page_y": null,
+   "crop": "07_ocr_12170-15580.png"
+  },
+  {
+   "text": "1215g(4,745kcal)",
+   "conf": 1.0,
+   "page_y": null,
+   "crop": "07_ocr_12170-15580.png"
+  },
+  {
+   "text": "까지",
+   "conf": 1.0,
+   "page_y": null,
+   "crop": "07_ocr_12170-15580.png"
+  },
+  {
+   "text": "식품유형",
+   "conf": 1.0,
+   "page_y": null,
+   "crop": "07_ocr_12170-15580.png"
+  },
+  {
+   "text": "제품명",
+   "conf": 1.0,
+   "page_y": null,
+   "crop": "07_ocr_12170-15580.png"
+  },
+  {
+   "text": "원재료명",
+   "conf": 1.0,
+   "page_y": null,
+   "crop": "07_ocr_12170-15580.png"
+  },
+  {
+   "text": "내용량(g)",
+   "conf": 1.0,
+   "page_y": null,
+   "crop": "07_ocr_12170-15580.png"
+  },
+  {
+   "text": "(해당발생)",
+   "conf": 1.0,
+   "page_y": null,
+   "crop": "07_ocr_12170-15580.png"
+  },
+  {
+   "text": "열량 kcal",
+   "conf": 1.0,
+   "page_y": null,
+   "crop": "07_ocr_12170-15580.png"
+  },
+  {
+   "text": "탄수화물 g(%)",
+   "conf": 1.0,
+   "page_y": null,
+   "crop": "07_ocr_12170-15580.png"
+  },
+  {
+   "text": "당류 g(%)",
+   "conf": 1.0,
+   "page_y": null,
+   "crop": "07_ocr_12170-15580.png"
+  },
+  {
+   "text": "지방 g(%)",
+   "conf": 1.0,
+   "page_y": null,
+   "crop": "07_ocr_12170-15580.png"
+  },
+  {
+   "text": "트랜스포지지지지지지지지지지지지지지지지지지지지지지지지지지지지지지지",
+   "conf": 1.0,
+   "page_y": null,
+   "crop": "07_ocr_12170-15580.png"
+  },
+  {
+   "text": "상품필수정보",
+   "conf": 1.0,
+   "page_y": null,
+   "crop": "07_ocr_12170-15580.png"
+  },
+  {
+   "text": "제품명",
+   "conf": 1.0,
+   "page_y": null,
+   "crop": "07_ocr_12170-15580.png"
+  },
+  {
+   "text": "만월",
+   "conf": 1.0,
+   "page_y": null,
+   "crop": "07_ocr_12170-15580.png"
+  },
+  {
+   "text": "식품의유형",
+   "conf": 1.0,
+   "page_y": null,
+   "crop": "07_ocr_12170-15580.png"
+  },
+  {
+   "text": "과자(유탕처리제품) 외",
+   "conf": 1.0,
+   "page_y": null,
+   "crop": "07_ocr_12170-15580.png"
+  },
+  {
+   "text": "생산자 및 소재지",
+   "conf": 1.0,
+   "page_y": null,
+   "crop": "07_ocr_12170-15580.png"
+  },
+  {
+   "text": "(주)교동씨엠, 강원도 강릉시 구정면 봉양1길 49",
+   "conf": 1.0,
+   "page_y": null,
+   "crop": "07_ocr_12170-15580.png"
+  },
+  {
+   "text": "소비기한",
+   "conf": 1.0,
+   "page_y": null,
+   "crop": "07_ocr_12170-15580.png"
+  },
+  {
+   "text": "주문일로부터 최소 1개월내 제조, 생산제품을 순차적 배송 (제조일로부터 6개월)",
+   "conf": 1.0,
+   "page_y": null,
+   "crop": "07_ocr_12170-15580.png"
+  },
+  {
+   "text": "포장단위별 용량 (중량), 수량, 크기",
+   "conf": 1.0,
+   "page_y": null,
+   "crop": "07_ocr_12170-15580.png"
+  },
+  {
+   "text": "1215g / 540x400x105mm / 지름2단",
+   "conf": 1.0,
+   "page_y": null,
+   "crop": "07_ocr_12170-15580.png"
+  },
+  {
+   "text": "원재료명 및 함량",
+   "conf": 1.0,
+   "page_y": null,
+   "crop": "07_ocr_12170-15580.png"
+  },
+  {
+   "text": "상세설명 및 상품이미지 참조",
+   "conf": 1.0,
+   "page_y": null,
+   "crop": "07_ocr_12170-15580.png"
+  },
+  {
+   "text": "영양성분",
+   "conf": 1.0,
+   "page_y": null,
+   "crop": "07_ocr_12170-15580.png"
+  },
+  {
+   "text": "상세설명 및 상품이미지 참조",
+   "conf": 1.0,
+   "page_y": null,
+   "crop": "07_ocr_12170-15580.png"
+  },
+  {
+   "text": "유전자 변형식품에 해당하는 경우의 표시",
+   "conf": 1.0,
+   "page_y": null,
+   "crop": "07_ocr_12170-15580.png"
+  },
+  {
+   "text": "해당사항 없음",
+   "conf": 1.0,
+   "page_y": null,
+   "crop": "07_ocr_12170-15580.png"
+  },
+  {
+   "text": "소비자 상담 관련 건화번호",
+   "conf": 1.0,
+   "page_y": null,
+   "crop": "07_ocr_12170-15580.png"
+  },
+  {
+   "text": "교동한과 소비자상담실 02-517-1599",
+   "conf": 1.0,
+   "page_y": null,
+   "crop": "07_ocr_12170-15580.png"
+  },
+  {
+   "text": "식품위생법에 해당하는 경우 '식품위생법에 따른 수입신고를 말함'의 문구",
+   "conf": 1.0,
+   "page_y": null,
+   "crop": "07_ocr_12170-15580.png"
+  },
+  {
+   "text": "해당사항 없음",
+   "conf": 1.0,
+   "page_y": null,
+   "crop": "07_ocr_12170-15580.png"
+  },
+  {
+   "text": "소비자안전을 위한 주의사항",
+   "conf": 1.0,
+   "page_y": null,
+   "crop": "07_ocr_12170-15580.png"
+  },
+  {
+   "text": "이 제품은 우유, 대두, 밀, 알류(계란), 땅콩, 호두, 메밀, 곶을 사용한 제품과 같은 제조시설에서 제조하고 있습니다.",
+   "conf": 1.0,
+   "page_y": null,
+   "crop": "07_ocr_12170-15580.png"
+  },
+  {
+   "text": "상품명:",
+   "conf": 1.0,
+   "page_y": null,
+   "crop": "07_ocr_12170-15580.png"
+  },
+  {
+   "text": "색상:",
+   "conf": 1.0,
+   "page_y": null,
+   "crop": "07_ocr_12170-15580.png"
+  },
+  {
+   "text": "사이즈:",
+   "conf": 1.0,
+   "page_y": null,
+   "crop": "07_ocr_12170-15580.png"
+  },
+  {
+   "text": "가격:",
+   "conf": 1.0,
+   "page_y": null,
+   "crop": "07_ocr_12170-15580.png"
+  }
+ ]
+}

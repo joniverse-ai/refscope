@@ -1,0 +1,2627 @@
+{
+ "ref_id": "hangamall_dao",
+ "engine": "qwen2.5vl",
+ "n_crops": 12,
+ "n_lines": 436,
+ "chars": 8966,
+ "seconds": 742.8,
+ "errors": [],
+ "lines": [
+  {
+   "text": "한과선물세트 수제한과 간식거리 개별포장 간식거리 디저트 간식 BEST",
+   "conf": 1.0,
+   "page_y": null,
+   "crop": "00_both_0-1080.png"
+  },
+  {
+   "text": "강릉명실 한과",
+   "conf": 1.0,
+   "page_y": null,
+   "crop": "00_both_0-1080.png"
+  },
+  {
+   "text": "강릉줄게 한과다오",
+   "conf": 1.0,
+   "page_y": null,
+   "crop": "00_both_0-1080.png"
+  },
+  {
+   "text": "9,500원",
+   "conf": 1.0,
+   "page_y": null,
+   "crop": "00_both_0-1080.png"
+  },
+  {
+   "text": "제조사 주식회사 명일",
+   "conf": 1.0,
+   "page_y": null,
+   "crop": "00_both_0-1080.png"
+  },
+  {
+   "text": "원산지 강릉한과 상세페이지참조",
+   "conf": 1.0,
+   "page_y": null,
+   "crop": "00_both_0-1080.png"
+  },
+  {
+   "text": "적립금 100원 (1%)",
+   "conf": 1.0,
+   "page_y": null,
+   "crop": "00_both_0-1080.png"
+  },
+  {
+   "text": "상품코드 P00000EK",
+   "conf": 1.0,
+   "page_y": null,
+   "crop": "00_both_0-1080.png"
+  },
+  {
+   "text": "결제수단 카드 결제, 무통장 입금, 카카오페이(간편결제), 가상계좌, 적립금, 실시간 계좌이체, 삼성페이",
+   "conf": 1.0,
+   "page_y": null,
+   "crop": "00_both_0-1080.png"
+  },
+  {
+   "text": "상품규격 325*145 *70mm",
+   "conf": 1.0,
+   "page_y": null,
+   "crop": "00_both_0-1080.png"
+  },
+  {
+   "text": "배송비 3,000원 (10,000원 이상 구매 시 무료)",
+   "conf": 1.0,
+   "page_y": null,
+   "crop": "00_both_0-1080.png"
+  },
+  {
+   "text": "한과 강릉한과 한과선물세트 수제한과 조청유과 과즙 유과",
+   "conf": 1.0,
+   "page_y": null,
+   "crop": "00_both_0-1080.png"
+  },
+  {
+   "text": "총 제품금액 9,500원 (1개)",
+   "conf": 1.0,
+   "page_y": null,
+   "crop": "00_both_0-1080.png"
+  },
+  {
+   "text": "CART",
+   "conf": 1.0,
+   "page_y": null,
+   "crop": "00_both_0-1080.png"
+  },
+  {
+   "text": "BUY NOW",
+   "conf": 1.0,
+   "page_y": null,
+   "crop": "00_both_0-1080.png"
+  },
+  {
+   "text": "NAVER",
+   "conf": 1.0,
+   "page_y": null,
+   "crop": "00_both_0-1080.png"
+  },
+  {
+   "text": "네이버ID로 간편구매",
+   "conf": 1.0,
+   "page_y": null,
+   "crop": "00_both_0-1080.png"
+  },
+  {
+   "text": "네이버페이",
+   "conf": 1.0,
+   "page_y": null,
+   "crop": "00_both_0-1080.png"
+  },
+  {
+   "text": "pay 구매",
+   "conf": 1.0,
+   "page_y": null,
+   "crop": "00_both_0-1080.png"
+  },
+  {
+   "text": "찜",
+   "conf": 1.0,
+   "page_y": null,
+   "crop": "00_both_0-1080.png"
+  },
+  {
+   "text": "N",
+   "conf": 1.0,
+   "page_y": null,
+   "crop": "00_both_0-1080.png"
+  },
+  {
+   "text": "이벤트 100% 지급! 최대 1만원 혜택 확인하기",
+   "conf": 1.0,
+   "page_y": null,
+   "crop": "00_both_0-1080.png"
+  },
+  {
+   "text": "< >",
+   "conf": 1.0,
+   "page_y": null,
+   "crop": "00_both_0-1080.png"
+  },
+  {
+   "text": "kakao",
+   "conf": 1.0,
+   "page_y": null,
+   "crop": "00_both_0-1080.png"
+  },
+  {
+   "text": "톡체크아웃",
+   "conf": 1.0,
+   "page_y": null,
+   "crop": "00_both_0-1080.png"
+  },
+  {
+   "text": "간편구매",
+   "conf": 1.0,
+   "page_y": null,
+   "crop": "00_both_0-1080.png"
+  },
+  {
+   "text": "찜",
+   "conf": 1.0,
+   "page_y": null,
+   "crop": "00_both_0-1080.png"
+  },
+  {
+   "text": "이벤트 페이포인트 적립 혜택 2배 UP!",
+   "conf": 1.0,
+   "page_y": null,
+   "crop": "00_both_0-1080.png"
+  },
+  {
+   "text": ">",
+   "conf": 1.0,
+   "page_y": null,
+   "crop": "00_both_0-1080.png"
+  },
+  {
+   "text": "8.15",
+   "conf": 1.0,
+   "page_y": null,
+   "crop": "02_ocr_1420-4914.png"
+  },
+  {
+   "text": "광복절",
+   "conf": 1.0,
+   "page_y": null,
+   "crop": "02_ocr_1420-4914.png"
+  },
+  {
+   "text": "배송안내",
+   "conf": 1.0,
+   "page_y": null,
+   "crop": "02_ocr_1420-4914.png"
+  },
+  {
+   "text": "일",
+   "conf": 1.0,
+   "page_y": null,
+   "crop": "02_ocr_1420-4914.png"
+  },
+  {
+   "text": "월",
+   "conf": 1.0,
+   "page_y": null,
+   "crop": "02_ocr_1420-4914.png"
+  },
+  {
+   "text": "화",
+   "conf": 1.0,
+   "page_y": null,
+   "crop": "02_ocr_1420-4914.png"
+  },
+  {
+   "text": "수",
+   "conf": 1.0,
+   "page_y": null,
+   "crop": "02_ocr_1420-4914.png"
+  },
+  {
+   "text": "목",
+   "conf": 1.0,
+   "page_y": null,
+   "crop": "02_ocr_1420-4914.png"
+  },
+  {
+   "text": "금",
+   "conf": 1.0,
+   "page_y": null,
+   "crop": "02_ocr_1420-4914.png"
+  },
+  {
+   "text": "토",
+   "conf": 1.0,
+   "page_y": null,
+   "crop": "02_ocr_1420-4914.png"
+  },
+  {
+   "text": "9",
+   "conf": 1.0,
+   "page_y": null,
+   "crop": "02_ocr_1420-4914.png"
+  },
+  {
+   "text": "10",
+   "conf": 1.0,
+   "page_y": null,
+   "crop": "02_ocr_1420-4914.png"
+  },
+  {
+   "text": "11",
+   "conf": 1.0,
+   "page_y": null,
+   "crop": "02_ocr_1420-4914.png"
+  },
+  {
+   "text": "12",
+   "conf": 1.0,
+   "page_y": null,
+   "crop": "02_ocr_1420-4914.png"
+  },
+  {
+   "text": "13",
+   "conf": 1.0,
+   "page_y": null,
+   "crop": "02_ocr_1420-4914.png"
+  },
+  {
+   "text": "14",
+   "conf": 1.0,
+   "page_y": null,
+   "crop": "02_ocr_1420-4914.png"
+  },
+  {
+   "text": "15",
+   "conf": 1.0,
+   "page_y": null,
+   "crop": "02_ocr_1420-4914.png"
+  },
+  {
+   "text": "발송마감",
+   "conf": 1.0,
+   "page_y": null,
+   "crop": "02_ocr_1420-4914.png"
+  },
+  {
+   "text": "(13시 주문 마감)",
+   "conf": 1.0,
+   "page_y": null,
+   "crop": "02_ocr_1420-4914.png"
+  },
+  {
+   "text": "택배없는날",
+   "conf": 1.0,
+   "page_y": null,
+   "crop": "02_ocr_1420-4914.png"
+  },
+  {
+   "text": "광복절",
+   "conf": 1.0,
+   "page_y": null,
+   "crop": "02_ocr_1420-4914.png"
+  },
+  {
+   "text": "16",
+   "conf": 1.0,
+   "page_y": null,
+   "crop": "02_ocr_1420-4914.png"
+  },
+  {
+   "text": "17",
+   "conf": 1.0,
+   "page_y": null,
+   "crop": "02_ocr_1420-4914.png"
+  },
+  {
+   "text": "대체공휴일",
+   "conf": 1.0,
+   "page_y": null,
+   "crop": "02_ocr_1420-4914.png"
+  },
+  {
+   "text": "발송재개",
+   "conf": 1.0,
+   "page_y": null,
+   "crop": "02_ocr_1420-4914.png"
+  },
+  {
+   "text": "18",
+   "conf": 1.0,
+   "page_y": null,
+   "crop": "02_ocr_1420-4914.png"
+  },
+  {
+   "text": "19",
+   "conf": 1.0,
+   "page_y": null,
+   "crop": "02_ocr_1420-4914.png"
+  },
+  {
+   "text": "20",
+   "conf": 1.0,
+   "page_y": null,
+   "crop": "02_ocr_1420-4914.png"
+  },
+  {
+   "text": "21",
+   "conf": 1.0,
+   "page_y": null,
+   "crop": "02_ocr_1420-4914.png"
+  },
+  {
+   "text": "22",
+   "conf": 1.0,
+   "page_y": null,
+   "crop": "02_ocr_1420-4914.png"
+  },
+  {
+   "text": "12일(수) 13시 이전 주문 건 당일 발송되며,",
+   "conf": 1.0,
+   "page_y": null,
+   "crop": "02_ocr_1420-4914.png"
+  },
+  {
+   "text": "이후 주문은 10일 뒤에 배송됩니다.",
+   "conf": 1.0,
+   "page_y": null,
+   "crop": "02_ocr_1420-4914.png"
+  },
+  {
+   "text": "12일(수) 13시 이전 주문 건 당일 발송되며,",
+   "conf": 1.0,
+   "page_y": null,
+   "crop": "02_ocr_1420-4914.png"
+  },
+  {
+   "text": "이후 주문 건 18일 발송 예정입니다.",
+   "conf": 1.0,
+   "page_y": null,
+   "crop": "02_ocr_1420-4914.png"
+  },
+  {
+   "text": "2025 설시즌",
+   "conf": 1.0,
+   "page_y": null,
+   "crop": "02_ocr_1420-4914.png"
+  },
+  {
+   "text": "스마트스토어",
+   "conf": 1.0,
+   "page_y": null,
+   "crop": "02_ocr_1420-4914.png"
+  },
+  {
+   "text": "전통과자 월간",
+   "conf": 1.0,
+   "page_y": null,
+   "crop": "02_ocr_1420-4914.png"
+  },
+  {
+   "text": "BEST BRAND 1위",
+   "conf": 1.0,
+   "page_y": null,
+   "crop": "02_ocr_1420-4914.png"
+  },
+  {
+   "text": "과자·베이커리 제품 구매 1위 / 전통과자 브랜드 1위",
+   "conf": 1.0,
+   "page_y": null,
+   "crop": "02_ocr_1420-4914.png"
+  },
+  {
+   "text": "모두가 좋아하는 •",
+   "conf": 1.0,
+   "page_y": null,
+   "crop": "02_ocr_1420-4914.png"
+  },
+  {
+   "text": "BEST BRAND",
+   "conf": 1.0,
+   "page_y": null,
+   "crop": "02_ocr_1420-4914.png"
+  },
+  {
+   "text": "ALL",
+   "conf": 1.0,
+   "page_y": null,
+   "crop": "02_ocr_1420-4914.png"
+  },
+  {
+   "text": "전체",
+   "conf": 1.0,
+   "page_y": null,
+   "crop": "02_ocr_1420-4914.png"
+  },
+  {
+   "text": "패션의류",
+   "conf": 1.0,
+   "page_y": null,
+   "crop": "02_ocr_1420-4914.png"
+  },
+  {
+   "text": "패션잡화",
+   "conf": 1.0,
+   "page_y": null,
+   "crop": "02_ocr_1420-4914.png"
+  },
+  {
+   "text": "화장품미용",
+   "conf": 1.0,
+   "page_y": null,
+   "crop": "02_ocr_1420-4914.png"
+  },
+  {
+   "text": "디지털가전",
+   "conf": 1.0,
+   "page_y": null,
+   "crop": "02_ocr_1420-4914.png"
+  },
+  {
+   "text": "가구/인테리어",
+   "conf": 1.0,
+   "page_y": null,
+   "crop": "02_ocr_1420-4914.png"
+  },
+  {
+   "text": "출산육아",
+   "conf": 1.0,
+   "page_y": null,
+   "crop": "02_ocr_1420-4914.png"
+  },
+  {
+   "text": "식품",
+   "conf": 1.0,
+   "page_y": null,
+   "crop": "02_ocr_1420-4914.png"
+  },
+  {
+   "text": "스포츠/레저",
+   "conf": 1.0,
+   "page_y": null,
+   "crop": "02_ocr_1420-4914.png"
+  },
+  {
+   "text": "생활/건강",
+   "conf": 1.0,
+   "page_y": null,
+   "crop": "02_ocr_1420-4914.png"
+  },
+  {
+   "text": "전체 건강식품 다이어트식품 음료 조미료 양동/간편조리식품 축산물 과자·베이커리 가루/분말류 소스/드레싱 수산물 식용유 >",
+   "conf": 1.0,
+   "page_y": null,
+   "crop": "02_ocr_1420-4914.png"
+  },
+  {
+   "text": "전체 초콜릿 빵 젤리 기타과자 사탕 시리얼 스낵 막 전통과자",
+   "conf": 1.0,
+   "page_y": null,
+   "crop": "02_ocr_1420-4914.png"
+  },
+  {
+   "text": "아이스크림/빙수 케이크 가공안주류 만든강남이류 장 >",
+   "conf": 1.0,
+   "page_y": null,
+   "crop": "02_ocr_1420-4914.png"
+  },
+  {
+   "text": "1 - 명일한과",
+   "conf": 1.0,
+   "page_y": null,
+   "crop": "02_ocr_1420-4914.png"
+  },
+  {
+   "text": "만과 #강릉명일한과 #유과",
+   "conf": 1.0,
+   "page_y": null,
+   "crop": "02_ocr_1420-4914.png"
+  },
+  {
+   "text": "명일한과 공식 브랜드스토어,",
+   "conf": 1.0,
+   "page_y": null,
+   "crop": "02_ocr_1420-4914.png"
+  },
+  {
+   "text": "고급 수제 영절한과세트 강원도 한과 과물 유과선물세트 3단...",
+   "conf": 1.0,
+   "page_y": null,
+   "crop": "02_ocr_1420-4914.png"
+  },
+  {
+   "text": "수제 강릉 한과선물세트 개별포장 혼합 2단",
+   "conf": 1.0,
+   "page_y": null,
+   "crop": "02_ocr_1420-4914.png"
+  },
+  {
+   "text": "개별포장 수제 한과 세트 한국 전통과자 협심유과",
+   "conf": 1.0,
+   "page_y": null,
+   "crop": "02_ocr_1420-4914.png"
+  },
+  {
+   "text": "GANGNEUNG MYEONGIL HANGWA",
+   "conf": 1.0,
+   "page_y": null,
+   "crop": "02_ocr_1420-4914.png"
+  },
+  {
+   "text": "GANGNEUNG MYEONGIL HANGWA",
+   "conf": 1.0,
+   "page_y": null,
+   "crop": "02_ocr_1420-4914.png"
+  },
+  {
+   "text": "GANGNEUNG MYEONGIL HANGWA",
+   "conf": 1.0,
+   "page_y": null,
+   "crop": "02_ocr_1420-4914.png"
+  },
+  {
+   "text": "강릉명일한과 고객센터",
+   "conf": 1.0,
+   "page_y": null,
+   "crop": "02_ocr_1420-4914.png"
+  },
+  {
+   "text": "033-642-0101",
+   "conf": 1.0,
+   "page_y": null,
+   "crop": "02_ocr_1420-4914.png"
+  },
+  {
+   "text": "033-647-9881",
+   "conf": 1.0,
+   "page_y": null,
+   "crop": "02_ocr_1420-4914.png"
+  },
+  {
+   "text": "033-647-9882",
+   "conf": 1.0,
+   "page_y": null,
+   "crop": "02_ocr_1420-4914.png"
+  },
+  {
+   "text": "급한 문의는 전화주시면 빠르게 처리 도와드리겠습니다.",
+   "conf": 1.0,
+   "page_y": null,
+   "crop": "02_ocr_1420-4914.png"
+  },
+  {
+   "text": "상담 가능 시간 월~금 9:00 ~ 18:00",
+   "conf": 1.0,
+   "page_y": null,
+   "crop": "02_ocr_1420-4914.png"
+  },
+  {
+   "text": "보내는 분 표기 안내",
+   "conf": 1.0,
+   "page_y": null,
+   "crop": "02_ocr_1420-4914.png"
+  },
+  {
+   "text": "보내는 분 표기 안내",
+   "conf": 1.0,
+   "page_y": null,
+   "crop": "02_ocr_1420-4914.png"
+  },
+  {
+   "text": "6904-2164-3983",
+   "conf": 1.0,
+   "page_y": null,
+   "crop": "02_ocr_1420-4914.png"
+  },
+  {
+   "text": "2025.03.06",
+   "conf": 1.0,
+   "page_y": null,
+   "crop": "02_ocr_1420-4914.png"
+  },
+  {
+   "text": "6904-2164-3983",
+   "conf": 1.0,
+   "page_y": null,
+   "crop": "02_ocr_1420-4914.png"
+  },
+  {
+   "text": "2025.03.06",
+   "conf": 1.0,
+   "page_y": null,
+   "crop": "02_ocr_1420-4914.png"
+  },
+  {
+   "text": "보내는 분 표기 안내",
+   "conf": 1.0,
+   "page_y": null,
+   "crop": "03_ocr_4754-8248.png"
+  },
+  {
+   "text": "23일 발송요양 / 개별주소",
+   "conf": 1.0,
+   "page_y": null,
+   "crop": "03_ocr_4754-8248.png"
+  },
+  {
+   "text": "T15 - 2d",
+   "conf": 1.0,
+   "page_y": null,
+   "crop": "03_ocr_4754-8248.png"
+  },
+  {
+   "text": "노동 450",
+   "conf": 1.0,
+   "page_y": null,
+   "crop": "03_ocr_4754-8248.png"
+  },
+  {
+   "text": "김명일",
+   "conf": 1.0,
+   "page_y": null,
+   "crop": "03_ocr_4754-8248.png"
+  },
+  {
+   "text": "강원도 강릉시 사천면 한과마을길 55-7 강릉명일한과 [노동리 450]",
+   "conf": 1.0,
+   "page_y": null,
+   "crop": "03_ocr_4754-8248.png"
+  },
+  {
+   "text": "033-642-0101",
+   "conf": 1.0,
+   "page_y": null,
+   "crop": "03_ocr_4754-8248.png"
+  },
+  {
+   "text": "주문진",
+   "conf": 1.0,
+   "page_y": null,
+   "crop": "03_ocr_4754-8248.png"
+  },
+  {
+   "text": "I06",
+   "conf": 1.0,
+   "page_y": null,
+   "crop": "03_ocr_4754-8248.png"
+  },
+  {
+   "text": "CJ",
+   "conf": 1.0,
+   "page_y": null,
+   "crop": "03_ocr_4754-8248.png"
+  },
+  {
+   "text": "택배이용문의: (전국어디서나) 1588-1255",
+   "conf": 1.0,
+   "page_y": null,
+   "crop": "03_ocr_4754-8248.png"
+  },
+  {
+   "text": "1/1",
+   "conf": 1.0,
+   "page_y": null,
+   "crop": "03_ocr_4754-8248.png"
+  },
+  {
+   "text": "배송메세지 출력",
+   "conf": 1.0,
+   "page_y": null,
+   "crop": "03_ocr_4754-8248.png"
+  },
+  {
+   "text": "받는분 정보",
+   "conf": 1.0,
+   "page_y": null,
+   "crop": "03_ocr_4754-8248.png"
+  },
+  {
+   "text": "보내는분 : 자동으로 주문자명이 표기되어 출고됩니다.",
+   "conf": 1.0,
+   "page_y": null,
+   "crop": "03_ocr_4754-8248.png"
+  },
+  {
+   "text": "별도요청하지 않으셔도 보내는분 성함은 주문자명으로 출고됩니다.",
+   "conf": 1.0,
+   "page_y": null,
+   "crop": "03_ocr_4754-8248.png"
+  },
+  {
+   "text": "한과선물 개별 배송안내",
+   "conf": 1.0,
+   "page_y": null,
+   "crop": "03_ocr_4754-8248.png"
+  },
+  {
+   "text": "주문 시 상세주소/배송메세지에 \"개별배송\"을 기입해주세요.",
+   "conf": 1.0,
+   "page_y": null,
+   "crop": "03_ocr_4754-8248.png"
+  },
+  {
+   "text": "1 주문 시 상세주소/배송메세지에 \"개별배송\"을 기입해주세요.",
+   "conf": 1.0,
+   "page_y": null,
+   "crop": "03_ocr_4754-8248.png"
+  },
+  {
+   "text": "2 미기입 시 배송주소로 일괄배송 됩니다.",
+   "conf": 1.0,
+   "page_y": null,
+   "crop": "03_ocr_4754-8248.png"
+  },
+  {
+   "text": "3 배송지",
+   "conf": 1.0,
+   "page_y": null,
+   "crop": "03_ocr_4754-8248.png"
+  },
+  {
+   "text": "4 (개별배송)",
+   "conf": 1.0,
+   "page_y": null,
+   "crop": "03_ocr_4754-8248.png"
+  },
+  {
+   "text": "5 요청사항 직접 입력하기",
+   "conf": 1.0,
+   "page_y": null,
+   "crop": "03_ocr_4754-8248.png"
+  },
+  {
+   "text": "6 개별배송 요청합니다.",
+   "conf": 1.0,
+   "page_y": null,
+   "crop": "03_ocr_4754-8248.png"
+  },
+  {
+   "text": "7 다음에도 사용할게요",
+   "conf": 1.0,
+   "page_y": null,
+   "crop": "03_ocr_4754-8248.png"
+  },
+  {
+   "text": "8 메일 혹은 톡톡으로 개별주소지를 보내주세요.",
+   "conf": 1.0,
+   "page_y": null,
+   "crop": "03_ocr_4754-8248.png"
+  },
+  {
+   "text": "9 6420101@naver.com",
+   "conf": 1.0,
+   "page_y": null,
+   "crop": "03_ocr_4754-8248.png"
+  },
+  {
+   "text": "10 강릉명일한과 Q&A",
+   "conf": 1.0,
+   "page_y": null,
+   "crop": "03_ocr_4754-8248.png"
+  },
+  {
+   "text": "11 한과의 소비기한과 보관방법이 궁금해요.",
+   "conf": 1.0,
+   "page_y": null,
+   "crop": "03_ocr_4754-8248.png"
+  },
+  {
+   "text": "12 한과의 소비기한은 제조일로부터 6개월이며, 직사광선을 피해 서늘한 실온에 보관해주시면 됩니다.",
+   "conf": 1.0,
+   "page_y": null,
+   "crop": "03_ocr_4754-8248.png"
+  },
+  {
+   "text": "조청 색이 진해요.(연해요)",
+   "conf": 1.0,
+   "page_y": null,
+   "crop": "03_ocr_4754-8248.png"
+  },
+  {
+   "text": "한과 제조시 조청을 끓여가며 유과에 입히기 때문에",
+   "conf": 1.0,
+   "page_y": null,
+   "crop": "03_ocr_4754-8248.png"
+  },
+  {
+   "text": "끓이는 시간에 따라 조청색이 진해지거나 연해질 수 있습니다.",
+   "conf": 1.0,
+   "page_y": null,
+   "crop": "03_ocr_4754-8248.png"
+  },
+  {
+   "text": "약간의 농도 차이일 뿐 제품에는 이상이 없으니 편히 드셔도 됩니다.",
+   "conf": 1.0,
+   "page_y": null,
+   "crop": "03_ocr_4754-8248.png"
+  },
+  {
+   "text": "제품 언제 발송되나요?",
+   "conf": 1.0,
+   "page_y": null,
+   "crop": "03_ocr_4754-8248.png"
+  },
+  {
+   "text": "오후 1시 이전 주문 당일 발송됩니다.",
+   "conf": 1.0,
+   "page_y": null,
+   "crop": "03_ocr_4754-8248.png"
+  },
+  {
+   "text": "명절 직전에는 출고까지 2~3일 소요될 수 있습니다.",
+   "conf": 1.0,
+   "page_y": null,
+   "crop": "03_ocr_4754-8248.png"
+  },
+  {
+   "text": "나중에 배송받고 싶어요.",
+   "conf": 1.0,
+   "page_y": null,
+   "crop": "03_ocr_4754-8248.png"
+  },
+  {
+   "text": "주문 시 배송메세지에 원하는 발송일자를 적어주시면(최대 한달)",
+   "conf": 1.0,
+   "page_y": null,
+   "crop": "03_ocr_4754-8248.png"
+  },
+  {
+   "text": "확인 후 출고하고 있습니다. 간혹 택배가 2~3일 이상 걸리는",
+   "conf": 1.0,
+   "page_y": null,
+   "crop": "03_ocr_4754-8248.png"
+  },
+  {
+   "text": "경우가 있으므로, 날짜 여유를 두고 받아보시는 걸 추천드립니다.",
+   "conf": 1.0,
+   "page_y": null,
+   "crop": "03_ocr_4754-8248.png"
+  },
+  {
+   "text": "필요 없어져서 반품하고 싶어요.",
+   "conf": 1.0,
+   "page_y": null,
+   "crop": "03_ocr_4754-8248.png"
+  },
+  {
+   "text": "수제 한과 특성상 출고 후 반품 시 변질 우려가 있어 전량 폐기됩니다.",
+   "conf": 1.0,
+   "page_y": null,
+   "crop": "03_ocr_4754-8248.png"
+  },
+  {
+   "text": "제품 하자가 아닌 단순변심에 의한 반품이 불가하오니",
+   "conf": 1.0,
+   "page_y": null,
+   "crop": "03_ocr_4754-8248.png"
+  },
+  {
+   "text": "신중한 구매를 부탁드립니다.",
+   "conf": 1.0,
+   "page_y": null,
+   "crop": "03_ocr_4754-8248.png"
+  },
+  {
+   "text": "여름인데 녹녹해지지 않을까요?",
+   "conf": 1.0,
+   "page_y": null,
+   "crop": "03_ocr_4754-8248.png"
+  },
+  {
+   "text": "여름인데 녹녹해지지 않을까요?",
+   "conf": 1.0,
+   "page_y": null,
+   "crop": "04_ocr_8088-11580.png"
+  },
+  {
+   "text": "한과의 식감을 신선하게 유지할 수 있도록 식품용 제습제를 함께 넣어드립니다. 여름철 고온다습한 환경에서도 걱정없이 드실 수 있도록 작은 부분까지 세심하게 챙겼습니다.",
+   "conf": 1.0,
+   "page_y": null,
+   "crop": "04_ocr_8088-11580.png"
+  },
+  {
+   "text": "개발포장 상품에는 포함되지 않습니다.",
+   "conf": 1.0,
+   "page_y": null,
+   "crop": "04_ocr_8088-11580.png"
+  },
+  {
+   "text": "GANGNEUNG MYEONGIL HANGWA",
+   "conf": 1.0,
+   "page_y": null,
+   "crop": "04_ocr_8088-11580.png"
+  },
+  {
+   "text": "GANGNEUNG MYEONGIL HANGWA",
+   "conf": 1.0,
+   "page_y": null,
+   "crop": "04_ocr_8088-11580.png"
+  },
+  {
+   "text": "GANGNEUNG MYEONGIL HANGWA",
+   "conf": 1.0,
+   "page_y": null,
+   "crop": "04_ocr_8088-11580.png"
+  },
+  {
+   "text": "강릉줄게",
+   "conf": 1.0,
+   "page_y": null,
+   "crop": "04_ocr_8088-11580.png"
+  },
+  {
+   "text": "한과다오",
+   "conf": 1.0,
+   "page_y": null,
+   "crop": "04_ocr_8088-11580.png"
+  },
+  {
+   "text": "귀한 재료로 만든 수제 한과에",
+   "conf": 1.0,
+   "page_y": null,
+   "crop": "04_ocr_8088-11580.png"
+  },
+  {
+   "text": "강릉의 시그니처를 패키지로 가득 담아낸",
+   "conf": 1.0,
+   "page_y": null,
+   "crop": "04_ocr_8088-11580.png"
+  },
+  {
+   "text": "명일한과의 기념품 선물세트입니다.",
+   "conf": 1.0,
+   "page_y": null,
+   "crop": "04_ocr_8088-11580.png"
+  },
+  {
+   "text": "전통의 손맛을 고집스레 이어온",
+   "conf": 1.0,
+   "page_y": null,
+   "crop": "04_ocr_8088-11580.png"
+  },
+  {
+   "text": "강릉명일한과의 입안 가득 퍼지는 깊은 맛을",
+   "conf": 1.0,
+   "page_y": null,
+   "crop": "04_ocr_8088-11580.png"
+  },
+  {
+   "text": "소중한 분들께 감사의 마음으로 전하세요",
+   "conf": 1.0,
+   "page_y": null,
+   "crop": "04_ocr_8088-11580.png"
+  },
+  {
+   "text": "보관이 편리한 개별포장으로 부담없게,",
+   "conf": 1.0,
+   "page_y": null,
+   "crop": "04_ocr_8088-11580.png"
+  },
+  {
+   "text": "감사의 마음을 전해 드립니다.",
+   "conf": 1.0,
+   "page_y": null,
+   "crop": "04_ocr_8088-11580.png"
+  },
+  {
+   "text": "없음",
+   "conf": 1.0,
+   "page_y": null,
+   "crop": "04_ocr_8088-11580.png"
+  },
+  {
+   "text": "넉넉하고 풍요로운",
+   "conf": 1.0,
+   "page_y": null,
+   "crop": "05_ocr_11920-15955.png"
+  },
+  {
+   "text": "명일한과를 만나보세요",
+   "conf": 1.0,
+   "page_y": null,
+   "crop": "05_ocr_11920-15955.png"
+  },
+  {
+   "text": "자연에서 얻은 귀한 재료를 사용하여 만든",
+   "conf": 1.0,
+   "page_y": null,
+   "crop": "05_ocr_11920-15955.png"
+  },
+  {
+   "text": "'강릉줄게 한과다오'는 1단 구성으로",
+   "conf": 1.0,
+   "page_y": null,
+   "crop": "05_ocr_11920-15955.png"
+  },
+  {
+   "text": "유과 5개가 들어있습니다.",
+   "conf": 1.0,
+   "page_y": null,
+   "crop": "05_ocr_11920-15955.png"
+  },
+  {
+   "text": "유과 5종",
+   "conf": 1.0,
+   "page_y": null,
+   "crop": "05_ocr_11920-15955.png"
+  },
+  {
+   "text": "찹쌀, 단호박, 흑임자, 파프리카, 흑미",
+   "conf": 1.0,
+   "page_y": null,
+   "crop": "05_ocr_11920-15955.png"
+  },
+  {
+   "text": "1단",
+   "conf": 1.0,
+   "page_y": null,
+   "crop": "05_ocr_11920-15955.png"
+  },
+  {
+   "text": "제품 크기",
+   "conf": 1.0,
+   "page_y": null,
+   "crop": "05_ocr_11920-15955.png"
+  },
+  {
+   "text": "150 × 230 × 50 mm",
+   "conf": 1.0,
+   "page_y": null,
+   "crop": "05_ocr_11920-15955.png"
+  },
+  {
+   "text": "강릉줄게 한과다오",
+   "conf": 1.0,
+   "page_y": null,
+   "crop": "05_ocr_11920-15955.png"
+  },
+  {
+   "text": "총내용량 50g (10g×5개)",
+   "conf": 1.0,
+   "page_y": null,
+   "crop": "05_ocr_11920-15955.png"
+  },
+  {
+   "text": "300kcal",
+   "conf": 1.0,
+   "page_y": null,
+   "crop": "05_ocr_11920-15955.png"
+  },
+  {
+   "text": "150",
+   "conf": 1.0,
+   "page_y": null,
+   "crop": "05_ocr_11920-15955.png"
+  },
+  {
+   "text": "GANGNEUNG MYEONGIL HANGWA",
+   "conf": 1.0,
+   "page_y": null,
+   "crop": "05_ocr_11920-15955.png"
+  },
+  {
+   "text": "GANGNEUNG MYEONGIL HANGWA",
+   "conf": 1.0,
+   "page_y": null,
+   "crop": "05_ocr_11920-15955.png"
+  },
+  {
+   "text": "GANGNEUNG MYEONGIL HANGWA",
+   "conf": 1.0,
+   "page_y": null,
+   "crop": "05_ocr_11920-15955.png"
+  },
+  {
+   "text": "01",
+   "conf": 1.0,
+   "page_y": null,
+   "crop": "05_ocr_11920-15955.png"
+  },
+  {
+   "text": "100% 조청만을",
+   "conf": 1.0,
+   "page_y": null,
+   "crop": "05_ocr_11920-15955.png"
+  },
+  {
+   "text": "100% 조청만을 사용합니다",
+   "conf": 1.0,
+   "page_y": null,
+   "crop": "05_ocr_11920-15955.png"
+  },
+  {
+   "text": "좋은 한과를 만들기 위한 진심이 가득한 강릉명일한과는 100% 조청만을 사용하여 치아에 달라붙거나 너무 달지 않은 특징을 가지고 있습니다",
+   "conf": 1.0,
+   "page_y": null,
+   "crop": "05_ocr_11920-15955.png"
+  },
+  {
+   "text": "이는 떡반죽이 아닌 수작업으로만 가능한 물반죽으로 찹쌀 반죽을 진행해 부풀림이 크면서 작은 기공이 치밀해 식감이 풍부하기 때문입니다",
+   "conf": 1.0,
+   "page_y": null,
+   "crop": "05_ocr_11920-15955.png"
+  },
+  {
+   "text": "또한, 손수 조청을 바름으로 과하게 달지 않고 쫀득하며 장시간 보관하여도 그 맛이 유지될 수 있습니다",
+   "conf": 1.0,
+   "page_y": null,
+   "crop": "05_ocr_11920-15955.png"
+  },
+  {
+   "text": "또한, 손수 조청을 바름으로 과하게 달지 않고 쫀득하며",
+   "conf": 1.0,
+   "page_y": null,
+   "crop": "06_ocr_15795-19830.png"
+  },
+  {
+   "text": "장시간 보관하여도 그 맛이 유지될 수 있습니다",
+   "conf": 1.0,
+   "page_y": null,
+   "crop": "06_ocr_15795-19830.png"
+  },
+  {
+   "text": "02",
+   "conf": 1.0,
+   "page_y": null,
+   "crop": "06_ocr_15795-19830.png"
+  },
+  {
+   "text": "어떠한 첨가물 없이",
+   "conf": 1.0,
+   "page_y": null,
+   "crop": "06_ocr_15795-19830.png"
+  },
+  {
+   "text": "자연 그대로의 맛을",
+   "conf": 1.0,
+   "page_y": null,
+   "crop": "06_ocr_15795-19830.png"
+  },
+  {
+   "text": "전달합니다",
+   "conf": 1.0,
+   "page_y": null,
+   "crop": "06_ocr_15795-19830.png"
+  },
+  {
+   "text": "강릉명일과는 찹쌀을 발효 시에",
+   "conf": 1.0,
+   "page_y": null,
+   "crop": "06_ocr_15795-19830.png"
+  },
+  {
+   "text": "국내산 100% 찹쌀 외에는 아무것도 넣지 않고",
+   "conf": 1.0,
+   "page_y": null,
+   "crop": "06_ocr_15795-19830.png"
+  },
+  {
+   "text": "순수한 자연의 발효과정을 30일 동안 기다립니다",
+   "conf": 1.0,
+   "page_y": null,
+   "crop": "06_ocr_15795-19830.png"
+  },
+  {
+   "text": "모든 향과 맛을 내는 재료를(설탕, 소금, 술, 베이킹 파우더 등)",
+   "conf": 1.0,
+   "page_y": null,
+   "crop": "06_ocr_15795-19830.png"
+  },
+  {
+   "text": "넣지 않기에 순수 그 자체 수제한과입니다",
+   "conf": 1.0,
+   "page_y": null,
+   "crop": "06_ocr_15795-19830.png"
+  },
+  {
+   "text": "합성 보존제 無",
+   "conf": 1.0,
+   "page_y": null,
+   "crop": "06_ocr_15795-19830.png"
+  },
+  {
+   "text": "첨가물 無",
+   "conf": 1.0,
+   "page_y": null,
+   "crop": "06_ocr_15795-19830.png"
+  },
+  {
+   "text": "합성 착향료 無",
+   "conf": 1.0,
+   "page_y": null,
+   "crop": "06_ocr_15795-19830.png"
+  },
+  {
+   "text": "03",
+   "conf": 1.0,
+   "page_y": null,
+   "crop": "06_ocr_15795-19830.png"
+  },
+  {
+   "text": "다양한 맛을",
+   "conf": 1.0,
+   "page_y": null,
+   "crop": "06_ocr_15795-19830.png"
+  },
+  {
+   "text": "건강하게 즐기세요",
+   "conf": 1.0,
+   "page_y": null,
+   "crop": "06_ocr_15795-19830.png"
+  },
+  {
+   "text": "강원도지역 농가에서 수확한 작물을 깐깐하게 선별하여",
+   "conf": 1.0,
+   "page_y": null,
+   "crop": "06_ocr_15795-19830.png"
+  },
+  {
+   "text": "세척과 건조과정을 거친 분말을 사용해 자연을 담았습니다",
+   "conf": 1.0,
+   "page_y": null,
+   "crop": "06_ocr_15795-19830.png"
+  },
+  {
+   "text": "세척과 건조과정을 거친 분말을 사용해 자연을 담았습니다",
+   "conf": 1.0,
+   "page_y": null,
+   "crop": "06_ocr_15795-19830.png"
+  },
+  {
+   "text": "흑미",
+   "conf": 1.0,
+   "page_y": null,
+   "crop": "06_ocr_15795-19830.png"
+  },
+  {
+   "text": "Black Rice",
+   "conf": 1.0,
+   "page_y": null,
+   "crop": "06_ocr_15795-19830.png"
+  },
+  {
+   "text": "땅의 검은 진주라고",
+   "conf": 1.0,
+   "page_y": null,
+   "crop": "06_ocr_15795-19830.png"
+  },
+  {
+   "text": "불릴정도로 영양분이",
+   "conf": 1.0,
+   "page_y": null,
+   "crop": "06_ocr_15795-19830.png"
+  },
+  {
+   "text": "풍부하고 구수한 맛이",
+   "conf": 1.0,
+   "page_y": null,
+   "crop": "06_ocr_15795-19830.png"
+  },
+  {
+   "text": "일품인 흑미를 사용한",
+   "conf": 1.0,
+   "page_y": null,
+   "crop": "06_ocr_15795-19830.png"
+  },
+  {
+   "text": "찹쌀",
+   "conf": 1.0,
+   "page_y": null,
+   "crop": "06_ocr_15795-19830.png"
+  },
+  {
+   "text": "Glutinous Rice",
+   "conf": 1.0,
+   "page_y": null,
+   "crop": "06_ocr_15795-19830.png"
+  },
+  {
+   "text": "옛 방식 그대로 만들어",
+   "conf": 1.0,
+   "page_y": null,
+   "crop": "06_ocr_15795-19830.png"
+  },
+  {
+   "text": "전통을 느낄 수 있는",
+   "conf": 1.0,
+   "page_y": null,
+   "crop": "06_ocr_15795-19830.png"
+  },
+  {
+   "text": "오리지널 강점입니다",
+   "conf": 1.0,
+   "page_y": null,
+   "crop": "06_ocr_15795-19830.png"
+  },
+  {
+   "text": "엄격하게 선별한",
+   "conf": 1.0,
+   "page_y": null,
+   "crop": "06_ocr_15795-19830.png"
+  },
+  {
+   "text": "불릴정도로 영양분이 풍부하고 구수한 맛이 일품인 흥미를 사용한 영양만점 한과입니다",
+   "conf": 1.0,
+   "page_y": null,
+   "crop": "07_ocr_19670-23705.png"
+  },
+  {
+   "text": "전통을 느낄 수 있는 오리지널 강정입니다",
+   "conf": 1.0,
+   "page_y": null,
+   "crop": "07_ocr_19670-23705.png"
+  },
+  {
+   "text": "엄격하게 선별한 영양 가득한 찹쌀을 사용해 정성껏 만들었습니다",
+   "conf": 1.0,
+   "page_y": null,
+   "crop": "07_ocr_19670-23705.png"
+  },
+  {
+   "text": "참깨",
+   "conf": 1.0,
+   "page_y": null,
+   "crop": "07_ocr_19670-23705.png"
+  },
+  {
+   "text": "Sesame",
+   "conf": 1.0,
+   "page_y": null,
+   "crop": "07_ocr_19670-23705.png"
+  },
+  {
+   "text": "참깨의 깊고 고소한 풍미를 느낄 수 있는 강정입니다.",
+   "conf": 1.0,
+   "page_y": null,
+   "crop": "07_ocr_19670-23705.png"
+  },
+  {
+   "text": "단호박",
+   "conf": 1.0,
+   "page_y": null,
+   "crop": "07_ocr_19670-23705.png"
+  },
+  {
+   "text": "Sweet Green Pumpkin",
+   "conf": 1.0,
+   "page_y": null,
+   "crop": "07_ocr_19670-23705.png"
+  },
+  {
+   "text": "잘 자라 먹음직스러운 노란 빛깔의 단호박의 은은한 단맛을 느낄 수 있는 부드러운 강정입니다",
+   "conf": 1.0,
+   "page_y": null,
+   "crop": "07_ocr_19670-23705.png"
+  },
+  {
+   "text": "흑임자",
+   "conf": 1.0,
+   "page_y": null,
+   "crop": "07_ocr_19670-23705.png"
+  },
+  {
+   "text": "Black Sesame",
+   "conf": 1.0,
+   "page_y": null,
+   "crop": "07_ocr_19670-23705.png"
+  },
+  {
+   "text": "씹을수록 고소한 맛을",
+   "conf": 1.0,
+   "page_y": null,
+   "crop": "07_ocr_19670-23705.png"
+  },
+  {
+   "text": "느낄 수 있는 흑임자강정",
+   "conf": 1.0,
+   "page_y": null,
+   "crop": "07_ocr_19670-23705.png"
+  },
+  {
+   "text": "검은깨를 강릉명일한과에서",
+   "conf": 1.0,
+   "page_y": null,
+   "crop": "07_ocr_19670-23705.png"
+  },
+  {
+   "text": "직접 말리고 볶아",
+   "conf": 1.0,
+   "page_y": null,
+   "crop": "07_ocr_19670-23705.png"
+  },
+  {
+   "text": "고소함을 더했습니다",
+   "conf": 1.0,
+   "page_y": null,
+   "crop": "07_ocr_19670-23705.png"
+  },
+  {
+   "text": "파프리카",
+   "conf": 1.0,
+   "page_y": null,
+   "crop": "07_ocr_19670-23705.png"
+  },
+  {
+   "text": "Paprika",
+   "conf": 1.0,
+   "page_y": null,
+   "crop": "07_ocr_19670-23705.png"
+  },
+  {
+   "text": "빨간 파프리카를",
+   "conf": 1.0,
+   "page_y": null,
+   "crop": "07_ocr_19670-23705.png"
+  },
+  {
+   "text": "이용해 만들어",
+   "conf": 1.0,
+   "page_y": null,
+   "crop": "07_ocr_19670-23705.png"
+  },
+  {
+   "text": "약간의 매운맛과",
+   "conf": 1.0,
+   "page_y": null,
+   "crop": "07_ocr_19670-23705.png"
+  },
+  {
+   "text": "향을 느낄 수 있는",
+   "conf": 1.0,
+   "page_y": null,
+   "crop": "07_ocr_19670-23705.png"
+  },
+  {
+   "text": "강릉명일한과만의",
+   "conf": 1.0,
+   "page_y": null,
+   "crop": "07_ocr_19670-23705.png"
+  },
+  {
+   "text": "특별한 강정입니다",
+   "conf": 1.0,
+   "page_y": null,
+   "crop": "07_ocr_19670-23705.png"
+  },
+  {
+   "text": "솔잎",
+   "conf": 1.0,
+   "page_y": null,
+   "crop": "07_ocr_19670-23705.png"
+  },
+  {
+   "text": "Pine Leaf",
+   "conf": 1.0,
+   "page_y": null,
+   "crop": "07_ocr_19670-23705.png"
+  },
+  {
+   "text": "백년초",
+   "conf": 1.0,
+   "page_y": null,
+   "crop": "07_ocr_19670-23705.png"
+  },
+  {
+   "text": "Opuntia",
+   "conf": 1.0,
+   "page_y": null,
+   "crop": "07_ocr_19670-23705.png"
+  },
+  {
+   "text": "솔잎",
+   "conf": 1.0,
+   "page_y": null,
+   "crop": "07_ocr_19670-23705.png"
+  },
+  {
+   "text": "Pine Leaf",
+   "conf": 1.0,
+   "page_y": null,
+   "crop": "07_ocr_19670-23705.png"
+  },
+  {
+   "text": "강릉 앞바다의 해풍을 맞고",
+   "conf": 1.0,
+   "page_y": null,
+   "crop": "07_ocr_19670-23705.png"
+  },
+  {
+   "text": "자란 소나무에서 채취한",
+   "conf": 1.0,
+   "page_y": null,
+   "crop": "07_ocr_19670-23705.png"
+  },
+  {
+   "text": "솔잎으로 만들어 상쾌한",
+   "conf": 1.0,
+   "page_y": null,
+   "crop": "07_ocr_19670-23705.png"
+  },
+  {
+   "text": "향을 느낄 수 있습니다",
+   "conf": 1.0,
+   "page_y": null,
+   "crop": "07_ocr_19670-23705.png"
+  },
+  {
+   "text": "백년초",
+   "conf": 1.0,
+   "page_y": null,
+   "crop": "07_ocr_19670-23705.png"
+  },
+  {
+   "text": "Opuntia",
+   "conf": 1.0,
+   "page_y": null,
+   "crop": "07_ocr_19670-23705.png"
+  },
+  {
+   "text": "한 입 베어물면",
+   "conf": 1.0,
+   "page_y": null,
+   "crop": "07_ocr_19670-23705.png"
+  },
+  {
+   "text": "백년초만의 새콤달콤함을",
+   "conf": 1.0,
+   "page_y": null,
+   "crop": "07_ocr_19670-23705.png"
+  },
+  {
+   "text": "느낄 수 있는",
+   "conf": 1.0,
+   "page_y": null,
+   "crop": "07_ocr_19670-23705.png"
+  },
+  {
+   "text": "강릉명일한과만의",
+   "conf": 1.0,
+   "page_y": null,
+   "crop": "07_ocr_19670-23705.png"
+  },
+  {
+   "text": "특별한 강정입니다",
+   "conf": 1.0,
+   "page_y": null,
+   "crop": "07_ocr_19670-23705.png"
+  },
+  {
+   "text": "원물의 특성을 살리기 위해",
+   "conf": 1.0,
+   "page_y": null,
+   "crop": "07_ocr_19670-23705.png"
+  },
+  {
+   "text": "동결건조 분말을 고집합니다",
+   "conf": 1.0,
+   "page_y": null,
+   "crop": "07_ocr_19670-23705.png"
+  },
+  {
+   "text": "여러 가지 맛을 표현하기 위해",
+   "conf": 1.0,
+   "page_y": null,
+   "crop": "07_ocr_19670-23705.png"
+  },
+  {
+   "text": "일반 분말이 아닌 동결건조 분말을 사용합니다.",
+   "conf": 1.0,
+   "page_y": null,
+   "crop": "07_ocr_19670-23705.png"
+  },
+  {
+   "text": "동결건조는 저온에서 수분만 제거하는 방식으로,",
+   "conf": 1.0,
+   "page_y": null,
+   "crop": "07_ocr_19670-23705.png"
+  },
+  {
+   "text": "일반 건조 방식보다 원물의 성분 변화가 적은",
+   "conf": 1.0,
+   "page_y": null,
+   "crop": "07_ocr_19670-23705.png"
+  },
+  {
+   "text": "공법으로 알려져 있습니다.",
+   "conf": 1.0,
+   "page_y": null,
+   "crop": "07_ocr_19670-23705.png"
+  },
+  {
+   "text": "인공 색소에 의존하지 않고",
+   "conf": 1.0,
+   "page_y": null,
+   "crop": "07_ocr_19670-23705.png"
+  },
+  {
+   "text": "재료 본연의 색과 풍미로 완성한 한과입니다.",
+   "conf": 1.0,
+   "page_y": null,
+   "crop": "07_ocr_19670-23705.png"
+  },
+  {
+   "text": "인공 색소에 의존하지 않고",
+   "conf": 1.0,
+   "page_y": null,
+   "crop": "08_ocr_23545-27580.png"
+  },
+  {
+   "text": "재료 본연의 색과 풍미로 완성한 한과입니다.",
+   "conf": 1.0,
+   "page_y": null,
+   "crop": "08_ocr_23545-27580.png"
+  },
+  {
+   "text": "04",
+   "conf": 1.0,
+   "page_y": null,
+   "crop": "08_ocr_23545-27580.png"
+  },
+  {
+   "text": "04",
+   "conf": 1.0,
+   "page_y": null,
+   "crop": "08_ocr_23545-27580.png"
+  },
+  {
+   "text": "깨끗하고 정갈한 포장으로",
+   "conf": 1.0,
+   "page_y": null,
+   "crop": "08_ocr_23545-27580.png"
+  },
+  {
+   "text": "처음 그 맛 그대로",
+   "conf": 1.0,
+   "page_y": null,
+   "crop": "08_ocr_23545-27580.png"
+  },
+  {
+   "text": "개별 포장으로 한과를 더욱 신선하고",
+   "conf": 1.0,
+   "page_y": null,
+   "crop": "08_ocr_23545-27580.png"
+  },
+  {
+   "text": "오래 보관할 수 있으며 외출시 일상에서도",
+   "conf": 1.0,
+   "page_y": null,
+   "crop": "08_ocr_23545-27580.png"
+  },
+  {
+   "text": "간편하게 간식으로 즐기실수 있습니다",
+   "conf": 1.0,
+   "page_y": null,
+   "crop": "08_ocr_23545-27580.png"
+  },
+  {
+   "text": "Together with earth",
+   "conf": 1.0,
+   "page_y": null,
+   "crop": "08_ocr_23545-27580.png"
+  },
+  {
+   "text": "Gangneung Myeongil Hangwa",
+   "conf": 1.0,
+   "page_y": null,
+   "crop": "08_ocr_23545-27580.png"
+  },
+  {
+   "text": "05",
+   "conf": 1.0,
+   "page_y": null,
+   "crop": "08_ocr_23545-27580.png"
+  },
+  {
+   "text": "강릉명일한과는",
+   "conf": 1.0,
+   "page_y": null,
+   "crop": "08_ocr_23545-27580.png"
+  },
+  {
+   "text": "사람과 자연이",
+   "conf": 1.0,
+   "page_y": null,
+   "crop": "08_ocr_23545-27580.png"
+  },
+  {
+   "text": "행복하길 바랍니다",
+   "conf": 1.0,
+   "page_y": null,
+   "crop": "08_ocr_23545-27580.png"
+  },
+  {
+   "text": "강릉명일한과는 자연과 오래오래 행복하게 지낼 수 있도록",
+   "conf": 1.0,
+   "page_y": null,
+   "crop": "08_ocr_23545-27580.png"
+  },
+  {
+   "text": "환경문제에 지속적으로 관심을 가지며",
+   "conf": 1.0,
+   "page_y": null,
+   "crop": "08_ocr_23545-27580.png"
+  },
+  {
+   "text": "친환경 FSC 인쇄 유지와 콩기름으로 인쇄를 진행하여왔습니다",
+   "conf": 1.0,
+   "page_y": null,
+   "crop": "08_ocr_23545-27580.png"
+  },
+  {
+   "text": "PRINTED WITH SOY INK™",
+   "conf": 1.0,
+   "page_y": null,
+   "crop": "08_ocr_23545-27580.png"
+  },
+  {
+   "text": "Forest Stewardship Council",
+   "conf": 1.0,
+   "page_y": null,
+   "crop": "08_ocr_23545-27580.png"
+  },
+  {
+   "text": "백년가게 백년소공인",
+   "conf": 1.0,
+   "page_y": null,
+   "crop": "08_ocr_23545-27580.png"
+  },
+  {
+   "text": "Hangwa Gangneung Myeo",
+   "conf": 1.0,
+   "page_y": null,
+   "crop": "08_ocr_23545-27580.png"
+  },
+  {
+   "text": "4대째 이어져 내려온 90여년 전통 수제한과",
+   "conf": 1.0,
+   "page_y": null,
+   "crop": "08_ocr_23545-27580.png"
+  },
+  {
+   "text": "대대손손 이어지는",
+   "conf": 1.0,
+   "page_y": null,
+   "crop": "08_ocr_23545-27580.png"
+  },
+  {
+   "text": "손맛가득한 한과",
+   "conf": 1.0,
+   "page_y": null,
+   "crop": "08_ocr_23545-27580.png"
+  },
+  {
+   "text": "강릉 명일한과는 강원도 강릉시 한과마을에 위치하여 4대째 이어온 한과 명가입니다.",
+   "conf": 1.0,
+   "page_y": null,
+   "crop": "09_ocr_27420-31455.png"
+  },
+  {
+   "text": "1932년대 1대 장기호 할아버님의 한과제조를 시작으로 2대, 3대, 4대 장원준에 이르기까지 오랜 기간 동안 한과 제조에 몰두하며 전통 한과의 맛을 이어가고 있습니다.",
+   "conf": 1.0,
+   "page_y": null,
+   "crop": "09_ocr_27420-31455.png"
+  },
+  {
+   "text": "한과의 종류는 다양하나 강릉 지역의 한과는 유과와 산자만을 제조하는 것이 특징입니다.",
+   "conf": 1.0,
+   "page_y": null,
+   "crop": "09_ocr_27420-31455.png"
+  },
+  {
+   "text": "유과와 산자만을 제조하는 것이 특징입니다.",
+   "conf": 1.0,
+   "page_y": null,
+   "crop": "09_ocr_27420-31455.png"
+  },
+  {
+   "text": "강릉 명일한과는 전통 제조방식을 유지하면서",
+   "conf": 1.0,
+   "page_y": null,
+   "crop": "09_ocr_27420-31455.png"
+  },
+  {
+   "text": "다양한 레시피를 이용하여 다양한 제품을 개발하고",
+   "conf": 1.0,
+   "page_y": null,
+   "crop": "09_ocr_27420-31455.png"
+  },
+  {
+   "text": "맛을 개선하고자 노력하고 있습니다.",
+   "conf": 1.0,
+   "page_y": null,
+   "crop": "09_ocr_27420-31455.png"
+  },
+  {
+   "text": "직접재배하고 수확하여",
+   "conf": 1.0,
+   "page_y": null,
+   "crop": "09_ocr_27420-31455.png"
+  },
+  {
+   "text": "내아이가 먹어도 안심,",
+   "conf": 1.0,
+   "page_y": null,
+   "crop": "09_ocr_27420-31455.png"
+  },
+  {
+   "text": "신선한 재료에 담은 제품을 향한 진심",
+   "conf": 1.0,
+   "page_y": null,
+   "crop": "09_ocr_27420-31455.png"
+  },
+  {
+   "text": "강원도 자연의",
+   "conf": 1.0,
+   "page_y": null,
+   "crop": "09_ocr_27420-31455.png"
+  },
+  {
+   "text": "신선한 재료를 담은 한과",
+   "conf": 1.0,
+   "page_y": null,
+   "crop": "09_ocr_27420-31455.png"
+  },
+  {
+   "text": "한과의 종류는 다양하나 강릉 지역의 한과는 유과와 산자만을 제조하는 것이 특징입니다. 강릉 명일한과는 전통 제조방식을 유지하면서 다양한 레시피를 이용하여 다양한 제품을 개발하고 맛을 개선하고자 노력하고 있습니다.",
+   "conf": 1.0,
+   "page_y": null,
+   "crop": "09_ocr_27420-31455.png"
+  },
+  {
+   "text": "Ralph",
+   "conf": 1.0,
+   "page_y": null,
+   "crop": "09_ocr_27420-31455.png"
+  },
+  {
+   "text": "순수한 찹쌀의 발효",
+   "conf": 1.0,
+   "page_y": null,
+   "crop": "10_ocr_31295-35330.png"
+  },
+  {
+   "text": "30일의 기다림",
+   "conf": 1.0,
+   "page_y": null,
+   "crop": "10_ocr_31295-35330.png"
+  },
+  {
+   "text": "강릉명일한과",
+   "conf": 1.0,
+   "page_y": null,
+   "crop": "10_ocr_31295-35330.png"
+  },
+  {
+   "text": "강릉 명일한과는 찹쌀을 발효 시에",
+   "conf": 1.0,
+   "page_y": null,
+   "crop": "10_ocr_31295-35330.png"
+  },
+  {
+   "text": "국내산 100% 찹쌀 외에는 아무것도 넣지 않고",
+   "conf": 1.0,
+   "page_y": null,
+   "crop": "10_ocr_31295-35330.png"
+  },
+  {
+   "text": "순수한 자연의 발효과정을 30일 동안 기다립니다.",
+   "conf": 1.0,
+   "page_y": null,
+   "crop": "10_ocr_31295-35330.png"
+  },
+  {
+   "text": "한과의 맛을 좌우하는 것은 발효와 반죽입니다.",
+   "conf": 1.0,
+   "page_y": null,
+   "crop": "10_ocr_31295-35330.png"
+  },
+  {
+   "text": "無합성 첨가물",
+   "conf": 1.0,
+   "page_y": null,
+   "crop": "10_ocr_31295-35330.png"
+  },
+  {
+   "text": "無합성 착향료",
+   "conf": 1.0,
+   "page_y": null,
+   "crop": "10_ocr_31295-35330.png"
+  },
+  {
+   "text": "无합성 착향료",
+   "conf": 1.0,
+   "page_y": null,
+   "crop": "10_ocr_31295-35330.png"
+  },
+  {
+   "text": "無합성 보존제",
+   "conf": 1.0,
+   "page_y": null,
+   "crop": "10_ocr_31295-35330.png"
+  },
+  {
+   "text": "오랜 노하우로 한과에 적합한 적정 발효 온도와",
+   "conf": 1.0,
+   "page_y": null,
+   "crop": "10_ocr_31295-35330.png"
+  },
+  {
+   "text": "알맞은 반죽을 통해 바삭하며",
+   "conf": 1.0,
+   "page_y": null,
+   "crop": "10_ocr_31295-35330.png"
+  },
+  {
+   "text": "입에서 사르르 녹는 한과를 제조하며",
+   "conf": 1.0,
+   "page_y": null,
+   "crop": "10_ocr_31295-35330.png"
+  },
+  {
+   "text": "3無와 그 외의 모든 향과 맛을 내는 재료",
+   "conf": 1.0,
+   "page_y": null,
+   "crop": "10_ocr_31295-35330.png"
+  },
+  {
+   "text": "(설탕, 소금, 술, 베이킹파우더 등)를",
+   "conf": 1.0,
+   "page_y": null,
+   "crop": "10_ocr_31295-35330.png"
+  },
+  {
+   "text": "넣지 않기에 순수 그 자체 수제 한과입니다.",
+   "conf": 1.0,
+   "page_y": null,
+   "crop": "10_ocr_31295-35330.png"
+  },
+  {
+   "text": "100% 조청 사용",
+   "conf": 1.0,
+   "page_y": null,
+   "crop": "10_ocr_31295-35330.png"
+  },
+  {
+   "text": "손으로 빚은 기품",
+   "conf": 1.0,
+   "page_y": null,
+   "crop": "10_ocr_31295-35330.png"
+  },
+  {
+   "text": "입안 가득 퍼지는 깊은 맛",
+   "conf": 1.0,
+   "page_y": null,
+   "crop": "10_ocr_31295-35330.png"
+  },
+  {
+   "text": "강릉 명일한과는 전통 제조 방식을 유지하며",
+   "conf": 1.0,
+   "page_y": null,
+   "crop": "10_ocr_31295-35330.png"
+  },
+  {
+   "text": "100% 조청으로 만들고 있어 치아에 달라붙거나",
+   "conf": 1.0,
+   "page_y": null,
+   "crop": "10_ocr_31295-35330.png"
+  },
+  {
+   "text": "너무 달지 않은 특징을 가지고 있습니다.",
+   "conf": 1.0,
+   "page_y": null,
+   "crop": "10_ocr_31295-35330.png"
+  },
+  {
+   "text": "이는 떡반죽이 아닌 수작업으로만 가능한 물반죽으로",
+   "conf": 1.0,
+   "page_y": null,
+   "crop": "10_ocr_31295-35330.png"
+  },
+  {
+   "text": "찹쌀반죽을 진행해 부풀림이 크면서",
+   "conf": 1.0,
+   "page_y": null,
+   "crop": "10_ocr_31295-35330.png"
+  },
+  {
+   "text": "작은 기공이 치밀해 식감이 풍부하기 때문입니다.",
+   "conf": 1.0,
+   "page_y": null,
+   "crop": "10_ocr_31295-35330.png"
+  },
+  {
+   "text": "또한, 손수 조청을 바름으로 과하게 달지 않고 쫀득하며",
+   "conf": 1.0,
+   "page_y": null,
+   "crop": "10_ocr_31295-35330.png"
+  },
+  {
+   "text": "장시간 보관하여도 그 맛이 유지될 수 있습니다.",
+   "conf": 1.0,
+   "page_y": null,
+   "crop": "10_ocr_31295-35330.png"
+  },
+  {
+   "text": "Broadcasting",
+   "conf": 1.0,
+   "page_y": null,
+   "crop": "10_ocr_31295-35330.png"
+  },
+  {
+   "text": "KBS 2 '다큐3일'",
+   "conf": 1.0,
+   "page_y": null,
+   "crop": "10_ocr_31295-35330.png"
+  },
+  {
+   "text": "다큐 3 장원준 _33세",
+   "conf": 1.0,
+   "page_y": null,
+   "crop": "11_ocr_35170-39205.png"
+  },
+  {
+   "text": "부담이 없진 않았어요. 아무래도 이 한과가 엄청 힘든 일이거든요",
+   "conf": 1.0,
+   "page_y": null,
+   "crop": "11_ocr_35170-39205.png"
+  },
+  {
+   "text": "솜씨, 이어지다- 강릉 모래내한과마을 편",
+   "conf": 1.0,
+   "page_y": null,
+   "crop": "11_ocr_35170-39205.png"
+  },
+  {
+   "text": "강릉명일한과 #젊은한과 #이색한과",
+   "conf": 1.0,
+   "page_y": null,
+   "crop": "11_ocr_35170-39205.png"
+  },
+  {
+   "text": "Tvn '금요일 금요일밤에'",
+   "conf": 1.0,
+   "page_y": null,
+   "crop": "11_ocr_35170-39205.png"
+  },
+  {
+   "text": "Tvn '금요일 금요일 밤에' 체험삶의 공장 이승기 편",
+   "conf": 1.0,
+   "page_y": null,
+   "crop": "11_ocr_35170-39205.png"
+  },
+  {
+   "text": "금요일금요일밤에 #체험삶의 현장 #한과공장",
+   "conf": 1.0,
+   "page_y": null,
+   "crop": "11_ocr_35170-39205.png"
+  },
+  {
+   "text": "SBS 드라마 '우주메리미'",
+   "conf": 1.0,
+   "page_y": null,
+   "crop": "11_ocr_35170-39205.png"
+  },
+  {
+   "text": "한과 좀 잘 나오게 찍어 줘요",
+   "conf": 1.0,
+   "page_y": null,
+   "crop": "11_ocr_35170-39205.png"
+  },
+  {
+   "text": "강릉명일한과는 '우주메리미' 명순당의 한과 협조입니다.",
+   "conf": 1.0,
+   "page_y": null,
+   "crop": "11_ocr_35170-39205.png"
+  },
+  {
+   "text": "직사광선과 습기를 피해 서늘한 실온에 보관",
+   "conf": 1.0,
+   "page_y": null,
+   "crop": "11_ocr_35170-39205.png"
+  },
+  {
+   "text": "강릉명일한과를",
+   "conf": 1.0,
+   "page_y": null,
+   "crop": "11_ocr_35170-39205.png"
+  },
+  {
+   "text": "맛있게 먹는 방법",
+   "conf": 1.0,
+   "page_y": null,
+   "crop": "11_ocr_35170-39205.png"
+  },
+  {
+   "text": "쉽게 변질되지 않는 제품으로 개봉 후 6개월까지",
+   "conf": 1.0,
+   "page_y": null,
+   "crop": "11_ocr_35170-39205.png"
+  },
+  {
+   "text": "섭취 가능하나 가급적 빨리 섭취하시는 것이 좋습니다.",
+   "conf": 1.0,
+   "page_y": null,
+   "crop": "11_ocr_35170-39205.png"
+  },
+  {
+   "text": "직사광선과 습기를 피하여 서늘한 실온에 보관하며",
+   "conf": 1.0,
+   "page_y": null,
+   "crop": "11_ocr_35170-39205.png"
+  },
+  {
+   "text": "드신 후에는 밀봉해주세요.",
+   "conf": 1.0,
+   "page_y": null,
+   "crop": "11_ocr_35170-39205.png"
+  },
+  {
+   "text": "한과 맛있게 먹는방법",
+   "conf": 1.0,
+   "page_y": null,
+   "crop": "11_ocr_35170-39205.png"
+  },
+  {
+   "text": "커피 또는 차와 곁들여 드시면 더욱 맛있습니다.",
+   "conf": 1.0,
+   "page_y": null,
+   "crop": "11_ocr_35170-39205.png"
+  },
+  {
+   "text": "추운 날 배송과정 중 조청이 딱딱해질 수 있습니다.",
+   "conf": 1.0,
+   "page_y": null,
+   "crop": "11_ocr_35170-39205.png"
+  },
+  {
+   "text": "잠시 따뜻한 곳에 두었다 드시면 한과 본연의 맛을",
+   "conf": 1.0,
+   "page_y": null,
+   "crop": "11_ocr_35170-39205.png"
+  },
+  {
+   "text": "즐길 수 있습니다.",
+   "conf": 1.0,
+   "page_y": null,
+   "crop": "11_ocr_35170-39205.png"
+  },
+  {
+   "text": "보내는 분 표기 안내",
+   "conf": 1.0,
+   "page_y": null,
+   "crop": "11_ocr_35170-39205.png"
+  },
+  {
+   "text": "6904-2164-3983 2025.03.06 6904-2164-3983 2025.03.06",
+   "conf": 1.0,
+   "page_y": null,
+   "crop": "11_ocr_35170-39205.png"
+  },
+  {
+   "text": "T15 -2d 노동 450",
+   "conf": 1.0,
+   "page_y": null,
+   "crop": "11_ocr_35170-39205.png"
+  },
+  {
+   "text": "김명일 010-0101******",
+   "conf": 1.0,
+   "page_y": null,
+   "crop": "11_ocr_35170-39205.png"
+  },
+  {
+   "text": "강원도 강릉시 사천면 한과마을길 55-7 강릉명일한과 [노동리 450]",
+   "conf": 1.0,
+   "page_y": null,
+   "crop": "11_ocr_35170-39205.png"
+  },
+  {
+   "text": "강릉명일한과",
+   "conf": 1.0,
+   "page_y": null,
+   "crop": "11_ocr_35170-39205.png"
+  },
+  {
+   "text": "033-642-0101",
+   "conf": 1.0,
+   "page_y": null,
+   "crop": "11_ocr_35170-39205.png"
+  },
+  {
+   "text": "Box수량 극소 D 1 운임 0 청산구분 선불",
+   "conf": 1.0,
+   "page_y": null,
+   "crop": "11_ocr_35170-39205.png"
+  },
+  {
+   "text": "23일 발송요망 / 개별주소",
+   "conf": 1.0,
+   "page_y": null,
+   "crop": "12_ocr_39045-43080.png"
+  },
+  {
+   "text": "010-0101-*****",
+   "conf": 1.0,
+   "page_y": null,
+   "crop": "12_ocr_39045-43080.png"
+  },
+  {
+   "text": "김영일",
+   "conf": 1.0,
+   "page_y": null,
+   "crop": "12_ocr_39045-43080.png"
+  },
+  {
+   "text": "033-642-0101",
+   "conf": 1.0,
+   "page_y": null,
+   "crop": "12_ocr_39045-43080.png"
+  },
+  {
+   "text": "강원도 강릉시 사천면 한과마을길 55-7 강릉명일한과 [노동리 450]",
+   "conf": 1.0,
+   "page_y": null,
+   "crop": "12_ocr_39045-43080.png"
+  },
+  {
+   "text": "033-642-0101 한과 [1개]",
+   "conf": 1.0,
+   "page_y": null,
+   "crop": "12_ocr_39045-43080.png"
+  },
+  {
+   "text": "주문진",
+   "conf": 1.0,
+   "page_y": null,
+   "crop": "12_ocr_39045-43080.png"
+  },
+  {
+   "text": "1/1",
+   "conf": 1.0,
+   "page_y": null,
+   "crop": "12_ocr_39045-43080.png"
+  },
+  {
+   "text": "대안동종 (전국어디서나) 1588-1255",
+   "conf": 1.0,
+   "page_y": null,
+   "crop": "12_ocr_39045-43080.png"
+  },
+  {
+   "text": "배송메세지 출력",
+   "conf": 1.0,
+   "page_y": null,
+   "crop": "12_ocr_39045-43080.png"
+  },
+  {
+   "text": "받는분 정보",
+   "conf": 1.0,
+   "page_y": null,
+   "crop": "12_ocr_39045-43080.png"
+  },
+  {
+   "text": "보내는분 : 자동으로 주문자명이 표기되어 출고됩니다.",
+   "conf": 1.0,
+   "page_y": null,
+   "crop": "12_ocr_39045-43080.png"
+  },
+  {
+   "text": "별도요청하지 않으셔도 보내는분 성함은 주문자명으로 출고됩니다.",
+   "conf": 1.0,
+   "page_y": null,
+   "crop": "12_ocr_39045-43080.png"
+  },
+  {
+   "text": "033-642-0101",
+   "conf": 1.0,
+   "page_y": null,
+   "crop": "12_ocr_39045-43080.png"
+  },
+  {
+   "text": "033-647-9881",
+   "conf": 1.0,
+   "page_y": null,
+   "crop": "12_ocr_39045-43080.png"
+  },
+  {
+   "text": "033-647-9882",
+   "conf": 1.0,
+   "page_y": null,
+   "crop": "12_ocr_39045-43080.png"
+  },
+  {
+   "text": "급한 문의는 전화주시면 빠르게 처리 도와드리겠습니다.",
+   "conf": 1.0,
+   "page_y": null,
+   "crop": "12_ocr_39045-43080.png"
+  },
+  {
+   "text": "상담 가능 시간 월~금 9:00 ~ 18:00",
+   "conf": 1.0,
+   "page_y": null,
+   "crop": "12_ocr_39045-43080.png"
+  },
+  {
+   "text": "상담 가능 시간 월~금 9:00 ~ 18:00",
+   "conf": 1.0,
+   "page_y": null,
+   "crop": "12_ocr_39045-43080.png"
+  },
+  {
+   "text": "언제나 함께하겠습니다",
+   "conf": 1.0,
+   "page_y": null,
+   "crop": "12_ocr_39045-43080.png"
+  },
+  {
+   "text": "강릉명일한과가",
+   "conf": 1.0,
+   "page_y": null,
+   "crop": "12_ocr_39045-43080.png"
+  },
+  {
+   "text": "드리는 약속",
+   "conf": 1.0,
+   "page_y": null,
+   "crop": "12_ocr_39045-43080.png"
+  },
+  {
+   "text": "만족도 1위 CJ대한통운만을 이용해 배송합니다",
+   "conf": 1.0,
+   "page_y": null,
+   "crop": "12_ocr_39045-43080.png"
+  },
+  {
+   "text": "033-647-9881 | 033-642-0101",
+   "conf": 1.0,
+   "page_y": null,
+   "crop": "12_ocr_39045-43080.png"
+  },
+  {
+   "text": "답답함이 없도록 저녁 6시까지 문의가 가능합니다",
+   "conf": 1.0,
+   "page_y": null,
+   "crop": "12_ocr_39045-43080.png"
+  },
+  {
+   "text": "신중한 구매 부탁드립니다",
+   "conf": 1.0,
+   "page_y": null,
+   "crop": "12_ocr_39045-43080.png"
+  },
+  {
+   "text": "제품이 아닌 식품을 판매하기에 한 번 출고된 식품은 다시 재사용하지 않습니다.",
+   "conf": 1.0,
+   "page_y": null,
+   "crop": "12_ocr_39045-43080.png"
+  },
+  {
+   "text": "단순변심으로 인한 반품은 안되니 꼭 신중히 주문해주세요",
+   "conf": 1.0,
+   "page_y": null,
+   "crop": "12_ocr_39045-43080.png"
+  },
+  {
+   "text": "단순변심으로 인한 반품은 안되니 꼭 신중히 주문해주세요.",
+   "conf": 1.0,
+   "page_y": null,
+   "crop": "12_ocr_39045-43080.png"
+  },
+  {
+   "text": "환경을 생각합니다 친환경 녹는 생분해비닐과 친환경 FSC 종이사용, 콩기름을 이용한 잉크를 사용합니다.",
+   "conf": 1.0,
+   "page_y": null,
+   "crop": "12_ocr_39045-43080.png"
+  },
+  {
+   "text": "제품 정보",
+   "conf": 1.0,
+   "page_y": null,
+   "crop": "12_ocr_39045-43080.png"
+  },
+  {
+   "text": "유형 과자류(유탕처리식품)",
+   "conf": 1.0,
+   "page_y": null,
+   "crop": "12_ocr_39045-43080.png"
+  },
+  {
+   "text": "업소명 주식회사 명일",
+   "conf": 1.0,
+   "page_y": null,
+   "crop": "12_ocr_39045-43080.png"
+  },
+  {
+   "text": "소재지 강릉시 과학단지로 24-54(제1공장), 강릉시 사천면 한과마을길 55-7(제2공장)",
+   "conf": 1.0,
+   "page_y": null,
+   "crop": "12_ocr_39045-43080.png"
+  },
+  {
+   "text": "품목 품목보고번호 / 원재료명 및 함량",
+   "conf": 1.0,
+   "page_y": null,
+   "crop": "12_ocr_39045-43080.png"
+  },
+  {
+   "text": "참쌀한과 품목보고번호 : 202405984061 / 참쌀가루97%(국산), 멩쌀튀밥(쌀:국산)1%, 대두유1%(대두(외국산미국,브라질 등)), 조청1%(옥수수기루(옥수수(외국산우크라이나, 호주, 브라질, 인도 등)),맥아효소,아황산나트륨(보존용))",
+   "conf": 1.0,
+   "page_y": null,
+   "crop": "12_ocr_39045-43080.png"
+  },
+  {
+   "text": "흑미한과 품목보고번호 : 202405984067 / 참쌀가루97%(국산), 흑미튀밥1%(쌀:국산), 대두유1%(대두(외국산미국,브라질 등)), 조청1%(옥수수기루(옥수수(외국산우크라이나, 호주, 브라질, 인도 등)),맥아효소,아황산나트륨(보존용))",
+   "conf": 1.0,
+   "page_y": null,
+   "crop": "12_ocr_39045-43080.png"
+  },
+  {
+   "text": "솔잎한과 품목보고번호 : 202405984068 / 참쌀기루96.5%(국산), 멩쌀튀밥1%(쌀:국산), 대두유1%(대두(외국산미국,브라질 등)), 조청1%(옥수수기루(옥수수(외국산우크라이나, 호주, 브라질, 인도 등)),맥아효소,아황산나트륨(보존용)), 솔잎분말0.5%(국산)",
+   "conf": 1.0,
+   "page_y": null,
+   "crop": "12_ocr_39045-43080.png"
+  },
+  {
+   "text": "파프리카한과 품목보고번호 : 202405984066 / 참쌀기루96.5%(국산), 멩쌀튀밥1%(쌀:국산), 대두유1%(대두(외국산미국,브라질 등)), 조청1%(옥수수기루(옥수수(외국산우크라이나, 호주, 브라질, 인도 등)),맥아효소,아황산나트륨(보존용)), 파프리카분말0.5%(국산)",
+   "conf": 1.0,
+   "page_y": null,
+   "crop": "12_ocr_39045-43080.png"
+  },
+  {
+   "text": "백년초한과 품목보고번호 : 202405984062 / 참쌀기루96.5%(국산), 멩쌀튀밥1%(쌀:국산), 대두유1%(대두(외국산미국,브라질 등)), 조청1%(옥수수기루(옥수수(외국산우크라이나, 호주, 브라질, 인도 등)),맥아효소,아황산나트륨(보존용)), 백년초분말(국산)",
+   "conf": 1.0,
+   "page_y": null,
+   "crop": "12_ocr_39045-43080.png"
+  },
+  {
+   "text": "단호박한과 품목보고번호 : 202405984065 / 참쌀기루96.5%(국산), 멩쌀튀밥1%(쌀:국산), 대두유1%(대두(외국산미국,브라질 등)), 조청1%(옥수수기루(옥수수(외국산우크라이나, 호주, 브라질, 인도 등)),맥아효소,아황산나트륨(보존용)), 단호박분말(국산)",
+   "conf": 1.0,
+   "page_y": null,
+   "crop": "12_ocr_39045-43080.png"
+  },
+  {
+   "text": "백년초한과",
+   "conf": 1.0,
+   "page_y": null,
+   "crop": "12_ocr_39045-43080.png"
+  },
+  {
+   "text": "품목보고번호 : 202405984062 / 잡쌀가루96.5%(국산), 멥쌀튀밥1%(쌀:국산), 대두유1%(대두(외국산:미국, 브라질 등)), 조청1%(옥수수가루(옥수수(외국산:우크라이나, 호주, 브라질, 인도 등)), 맥아효소, 아황산나트륨(보존용)), 백년초분말(국산)",
+   "conf": 1.0,
+   "page_y": null,
+   "crop": "12_ocr_39045-43080.png"
+  },
+  {
+   "text": "단호박한과",
+   "conf": 1.0,
+   "page_y": null,
+   "crop": "12_ocr_39045-43080.png"
+  },
+  {
+   "text": "품목보고번호 : 202405984065 / 잡쌀가루96.5%(국산), 멥쌀튀밥1%(쌀:국산), 대두유1%(대두(외국산:미국, 브라질 등)), 조청1%(옥수수가루(옥수수(외국산:우크라이나, 호주, 브라질, 인도 등))), 맥아효소, 아황산나트륨(보존용)), 단호박분말(국산)",
+   "conf": 1.0,
+   "page_y": null,
+   "crop": "12_ocr_39045-43080.png"
+  },
+  {
+   "text": "흑임자한과",
+   "conf": 1.0,
+   "page_y": null,
+   "crop": "12_ocr_39045-43080.png"
+  },
+  {
+   "text": "품목보고번호 : 202405984063 / 잡쌀가루95%(국산), 검은깨2%(외국산:중국), 조청2%(옥수수가루(옥수수(외국산:우크라이나, 호주, 브라질, 인도 등)), 맥아효소, 아황산나트륨(보존용)), 대두유1%(대두(외국산:미국, 브라질 등))",
+   "conf": 1.0,
+   "page_y": null,
+   "crop": "12_ocr_39045-43080.png"
+  },
+  {
+   "text": "참깨한과",
+   "conf": 1.0,
+   "page_y": null,
+   "crop": "12_ocr_39045-43080.png"
+  },
+  {
+   "text": "품목보고번호 : 202405984064 / 잡쌀가루95%(국산), 참깨2%(외국산:중국), 조청2%(옥수수가루(옥수수(외국산:우크라이나, 호주, 브라질, 인도 등)), 맥아효소, 아황산나트륨(보존용)), 대두유1%(대두(외국산:미국, 브라질 등))",
+   "conf": 1.0,
+   "page_y": null,
+   "crop": "12_ocr_39045-43080.png"
+  },
+  {
+   "text": "알레르기 정보",
+   "conf": 1.0,
+   "page_y": null,
+   "crop": "12_ocr_39045-43080.png"
+  },
+  {
+   "text": "대두, 아황산나트륨 함유",
+   "conf": 1.0,
+   "page_y": null,
+   "crop": "12_ocr_39045-43080.png"
+  },
+  {
+   "text": "이 제품은 대두를 사용한 제품과 같은 시설에서 제조하고 있습니다.",
+   "conf": 1.0,
+   "page_y": null,
+   "crop": "12_ocr_39045-43080.png"
+  },
+  {
+   "text": "반품 및 교환 : 변질된 제품은 제조원 및 구입처에서 교환",
+   "conf": 1.0,
+   "page_y": null,
+   "crop": "12_ocr_39045-43080.png"
+  },
+  {
+   "text": "보관상 주의사항 : 직사광선과 습기를 피하고 건조한 곳에 보관(개봉 후 밀봉하여 보관)",
+   "conf": 1.0,
+   "page_y": null,
+   "crop": "12_ocr_39045-43080.png"
+  },
+  {
+   "text": "부정·불량식품 신고는 국번없이 1399",
+   "conf": 1.0,
+   "page_y": null,
+   "crop": "12_ocr_39045-43080.png"
+  },
+  {
+   "text": "영양성분",
+   "conf": 1.0,
+   "page_y": null,
+   "crop": "12_ocr_39045-43080.png"
+  },
+  {
+   "text": "품목 | 나트륨 (mg/100g) | 당류 (g/100g) | 열량 (kcal/100g) | 콜레스테롤 (mg/100g) | 포화지방산 (g/100g) | 트랜스지방산 (g/100g) | 단백질 (g/100g) | 지방 (g/100g) | 탄수화물 (g/100g)",
+   "conf": 1.0,
+   "page_y": null,
+   "crop": "12_ocr_39045-43080.png"
+  },
+  {
+   "text": "| --- | --- | --- | --- | --- | --- | --- | --- | ---",
+   "conf": 1.0,
+   "page_y": null,
+   "crop": "12_ocr_39045-43080.png"
+  },
+  {
+   "text": "잡쌀한과 | 4.46 | 25.58 | 427.56 | 0 | 1.5 | 0.13 | 1.31 | 13.5 | 76.28",
+   "conf": 1.0,
+   "page_y": null,
+   "crop": "12_ocr_39045-43080.png"
+  },
+  {
+   "text": "흑미한과 | 14.7 | 31 | 387.1 | 0 | 1.6 | 0.1 | 1.6 | 6.7 | 80.1",
+   "conf": 1.0,
+   "page_y": null,
+   "crop": "12_ocr_39045-43080.png"
+  },
+  {
+   "text": "솔잎한과 | 14.3 | 23.7 | 444.4 | 0 | 2.6 | 0.5 | 15.8 | 1.4 | 82.9",
+   "conf": 1.0,
+   "page_y": null,
+   "crop": "12_ocr_39045-43080.png"
+  },
+  {
+   "text": "파프리카한과 | 4.16 | 21.54 | 425.27 | 0 | 1.83 | 0.15 | 7.85 | 22.65 | 60.04",
+   "conf": 1.0,
+   "page_y": null,
+   "crop": "12_ocr_39045-43080.png"
+  },
+  {
+   "text": "백년초한과 | 13.9 | 25.6 | 436.7 | 0 | 2.4 | 0.6 | 14.4 | 1.4 | 84.2",
+   "conf": 1.0,
+   "page_y": null,
+   "crop": "12_ocr_39045-43080.png"
+  },
+  {
+   "text": "단호박한과 | 6.43 | 26.54 | 392.28 | 0 | 0.99 | 0.08 | 1.17 | 8.6 | 80.6",
+   "conf": 1.0,
+   "page_y": null,
+   "crop": "12_ocr_39045-43080.png"
+  }
+ ]
+}
