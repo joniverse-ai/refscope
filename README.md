@@ -108,6 +108,58 @@ uv run python -m refscope.score_sections
 
 ---
 
+## 디자인 바꾸기
+
+결과 HTML의 모양만 고치는 데 모델을 다시 돌릴 필요는 없다.
+`refscope build`는 VLM을 다시 부르느라 3분쯤 걸리지만, **`refscope render`는 0.1초**다.
+`data/derived/cards.json`을 읽어 HTML만 다시 찍기 때문이다.
+
+```bash
+uv run refscope css --out themes/mine.css
+```
+지금 쓰는 CSS를 파일로 꺼낸다. 여기서부터 고쳐 나가면 된다.
+
+```bash
+uv run refscope render --css themes/mine.css --out out/mine.html
+```
+고친 CSS로 다시 찍는다. 저장하고 이 명령을 다시 치는 루프로 반복하면 된다.
+
+### 예제 테마: `themes/swatchbook.css`
+
+기본 테마 말고 하나를 더 넣어뒀다. 취향이 아니라 **기능 때문에** 다르게 만든 것이다.
+
+![swatchbook 테마](docs/assets/theme-swatchbook-light.png)
+
+- **바탕이 완전 중성 회색이다** (`R=G=B`). 인쇄에서 색을 볼 때는 흰 종이나 크림색이 아니라
+  중성 회색을 깐다. 바탕에 색기가 있으면 그 위의 색이 전부 그쪽으로 끌려간다.
+  기본 테마의 `#fbfaf8`은 따뜻한 쪽이라 레퍼런스 브랜드 색을 왜곡한다.
+- **무채색 스와치를 흐리게 칠하지 않는다.** 기본 테마는 `opacity:.45`로 뒤로 물렸는데,
+  그러면 화면에 찍힌 색이 실제 색이 아니게 된다. 색 자료에서 가짜 색을 보여주면 안 된다.
+  여기서는 투명도 대신 **크기**로 위계를 준다.
+- **모노스페이스와 넓은 자간은 라틴 문자에만.** 한글은 글자폭이 이미 고르기 때문에
+  자간을 벌리면 흩어져 보이고 모노로 깔면 오류 메시지처럼 읽힌다.
+  hex·픽셀 수·y좌표·DOM/OCR 같은 데이터에만 쓴다.
+
+### 고칠 때 쓸 수 있는 클래스
+
+HTML 구조는 그대로 두고 CSS만 갈아 끼우는 방식이라, 아래 이름들이 계약이다.
+
+| 클래스 | 내용 |
+|---|---|
+| `.stats` / `.stat b` `span` | 상단 총계 |
+| `.card` / `.card h2` / `.meta` / `.tag` / `.locked` | 브랜드 한 장 |
+| `.grid` | 좌우 2단 (자식 div 2개) |
+| `.sec` | 소제목 |
+| `.sw` / `.sw.neutral` / `div[data-hex]` | 컬러 스와치 (hex는 `::after`로 출력) |
+| `ol.flow` / `small` | 페이지 구성 (순서가 실제 정보라 번호가 정당하다) |
+| `ul.copy` / `.src` | 카피 목록과 출처 표시 |
+| `.tone` | VLM 서술 |
+| `.err` | 오류 |
+
+`out/patterns.html`은 CSS가 [`patterns.py`](src/refscope/patterns.py) 안에 따로 있다.
+
+---
+
 ## 파이프라인
 
 ```

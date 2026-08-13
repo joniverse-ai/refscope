@@ -147,6 +147,41 @@ def cmd_build(args: argparse.Namespace) -> int:
     return 0
 
 
+def cmd_render(args: argparse.Namespace) -> int:
+    """모양만 다시 찍는다. 디자인 반복용 — 모델을 부르지 않아 1초도 안 걸린다."""
+    import time
+
+    from .render import render_from_cache
+
+    t0 = time.perf_counter()
+    out = Path(args.out) if args.out else config.OUT_DIR / "research.html"
+    css = Path(args.css) if args.css else None
+    if css and not css.exists():
+        print(f"CSS 파일이 없습니다: {css}")
+        return 1
+    try:
+        render_from_cache(config.DERIVED_DIR / "cards.json", out, css)
+    except FileNotFoundError as e:
+        print(e)
+        return 1
+    print(f"{out}  ({time.perf_counter() - t0:.2f}s{', css=' + str(css) if css else ''})")
+    return 0
+
+
+def cmd_css(args: argparse.Namespace) -> int:
+    """지금 쓰는 CSS를 파일로 꺼낸다. 여기서부터 고쳐 나가면 된다."""
+    from .render import CSS
+
+    dest = Path(args.out)
+    if dest.exists() and not args.force:
+        print(f"{dest} 가 이미 있습니다. 덮어쓰려면 --force")
+        return 1
+    dest.parent.mkdir(parents=True, exist_ok=True)
+    dest.write_text(CSS.strip() + "\n", encoding="utf-8")
+    print(f"{dest} 로 꺼냈습니다. 고친 뒤:\n  uv run refscope render --css {dest}")
+    return 0
+
+
 def cmd_run(args: argparse.Namespace) -> int:
     print("[1/5] 수집")
     if cmd_collect(args) != 0:
@@ -200,6 +235,18 @@ def main(argv: list[str] | None = None) -> int:
     b.add_argument("--model", default="qwen2.5vl:7b")
     b.add_argument("--out", default=None, help="출력 HTML 경로")
     b.set_defaults(func=cmd_build)
+
+    rd = sub.add_parser(
+        "render", help="카드 HTML만 다시 찍는다 (모델 안 부름 — 디자인 반복용)"
+    )
+    rd.add_argument("--css", default=None, help="기본 CSS 대신 쓸 파일")
+    rd.add_argument("--out", default=None, help="출력 HTML 경로")
+    rd.set_defaults(func=cmd_render)
+
+    cs = sub.add_parser("css", help="지금 쓰는 CSS를 파일로 꺼낸다 (고쳐 쓰기 시작점)")
+    cs.add_argument("--out", default="themes/custom.css")
+    cs.add_argument("--force", action="store_true")
+    cs.set_defaults(func=cmd_css)
 
     r = sub.add_parser("run", help="수집부터 카드까지 한 번에")
     r.add_argument("--only", nargs="*")

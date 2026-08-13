@@ -5,6 +5,13 @@
 
 원본 스크린샷은 저장소에 올리지 않으므로 HTML도 이미지를 링크하지 않는다.
 페이지를 보고 싶으면 원문 URL로 간다.
+
+**디자인을 고치는 사람을 위해**: 모양만 바꾸려고 모델을 다시 돌릴 필요가 없다.
+`refscope render`는 `data/derived/cards.json`을 읽어 HTML만 다시 찍는다(1초 미만).
+`--css 파일` 을 주면 아래 기본 CSS 대신 그 파일을 쓴다. 파이썬을 건드리지 않고
+CSS 파일만 고쳐가며 반복할 수 있다.
+
+    uv run refscope render --css themes/mine.css --out out/mine.html
 """
 
 from __future__ import annotations
@@ -131,8 +138,14 @@ def _card_html(c: dict) -> str:
 </div>"""
 
 
-def render(cards: list, out_path: Path, title: str = "레퍼런스 리서치") -> Path:
+def render(
+    cards: list,
+    out_path: Path,
+    title: str = "레퍼런스 리서치",
+    css: str | None = None,
+) -> Path:
     data = [c if isinstance(c, dict) else asdict(c) for c in cards]
+    css = css if css is not None else CSS
     total_px = sum(c["page_height"] for c in data)
     total_copy = sum(len(c["copy_lines"]) for c in data)
     total_s = sum(c["seconds"] for c in data)
@@ -143,7 +156,7 @@ def render(cards: list, out_path: Path, title: str = "레퍼런스 리서치") -
     body = "".join(_card_html(c) for c in data)
     doc = f"""<!doctype html><html lang="ko"><head><meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
-<title>{html.escape(title)}</title><style>{CSS}</style></head><body><div class="wrap">
+<title>{html.escape(title)}</title><style>{css}</style></head><body><div class="wrap">
 <h1>{html.escape(title)}</h1>
 <p class="sub">refscope가 자동 생성 · 원본 스크린샷은 저장소에 포함되지 않습니다</p>
 <div class="stats">
@@ -160,6 +173,23 @@ Apple Vision(OCR) + Qwen2.5-VL(톤·구성) + k-means(컬러) 로컬 실행</foo
     out_path.parent.mkdir(parents=True, exist_ok=True)
     out_path.write_text(doc, encoding="utf-8")
     return out_path
+
+
+def render_from_cache(
+    cards_json: Path, out_path: Path, css_path: Path | None = None
+) -> Path:
+    """이미 만들어둔 카드로 HTML만 다시 찍는다. 모델을 부르지 않는다.
+
+    디자인 반복을 위한 경로다. `refscope build`는 VLM을 다시 돌려 3분쯤 걸리는데,
+    모양만 고칠 때 그 값을 치를 이유가 없다.
+    """
+    if not cards_json.exists():
+        raise FileNotFoundError(
+            f"{cards_json} 가 없습니다. `refscope build`를 한 번은 돌려야 합니다."
+        )
+    cards = json.loads(cards_json.read_text(encoding="utf-8"))
+    css = css_path.read_text(encoding="utf-8") if css_path else None
+    return render(cards, out_path, css=css)
 
 
 def dump_cards(cards: list, out_path: Path) -> Path:

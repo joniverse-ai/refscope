@@ -1,0 +1,614 @@
+<!doctype html><html lang="ko"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>레퍼런스 리서치</title><style>/* swatchbook — 잉크 견본첩 테마
+ *
+ * 기본 테마(warm cream)를 쓰지 않는 이유가 취향이 아니라 기능이다.
+ *
+ *   1. 바탕이 중성 회색이다. 인쇄에서 색을 볼 때는 흰 종이나 따뜻한 크림색이 아니라
+ *      중성 회색을 깐다. 바탕에 색기가 있으면 그 위의 색이 전부 그쪽으로 끌려간다.
+ *      기본 테마의 #fbfaf8은 따뜻한 쪽이라 레퍼런스 브랜드 색을 왜곡한다.
+ *      이 문서는 색을 판단하려고 보는 문서이므로 바탕은 R=G=B여야 한다.
+ *
+ *   2. 색을 흐리게 칠하지 않는다. 기본 테마는 무채색 스와치에 opacity:.45를 걸어
+ *      뒤로 물렸는데, 그러면 화면에 찍힌 색이 실제 색이 아니게 된다. 색 자료에서
+ *      가짜 색을 보여주는 것은 해서는 안 되는 일이다. 여기서는 투명도 대신
+ *      **크기**로 위계를 준다. 작아도 색은 정확하다.
+ *
+ * 타이포는 두 극단을 붙인다 — 제목은 굵고 자간을 조인 국문, 데이터는 모노스페이스.
+ * 견본첩 페이지의 "표제 + 색번호" 대비가 그 구조다.
+ *
+ * 단, 모노스페이스와 넓은 자간은 **라틴 문자에만** 쓴다. 한글은 이미 글자폭이
+ * 고르기 때문에 자간을 벌리면 글자가 흩어져 보이고, 모노스페이스로 깔면
+ * 오류 메시지처럼 읽힌다. 그래서 hex 값·픽셀 수·y좌표·DOM/OCR 같은
+ * **순수 데이터에만** 모노를 쓰고, 한글이 섞인 곳은 본문 서체로 되돌린다.
+ * (처음엔 전부 모노로 깔았다가 "무채색 · 배경"이 깨진 글자처럼 벌어져서 고쳤다)
+ *
+ * 사용:  uv run refscope render --css themes/swatchbook.css --out out/swatchbook.html
+ */
+
+:root {
+  /* 바탕은 완전 중성. 색상값에 색기를 넣지 않는다 */
+  --ground: #d6d6d6;
+  --sheet: #f2f2f2;
+  --ink: #121212;
+  --ink-2: #5e5e5e;
+  --rule: #b0b0b0;
+  --keyline: #9a9a9a;
+  /* 구조 표시용 프로세스 블루. 브랜드 색과 경쟁하지 않도록 채도만 높고 면적은 최소 */
+  --mark: #1a3cf0;
+  --mono: ui-monospace, "SF Mono", SFMono-Regular, Menlo, monospace;
+  --sans: -apple-system, BlinkMacSystemFont, "Pretendard", "Apple SD Gothic Neo", sans-serif;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --ground: #232323;
+    --sheet: #2e2e2e;
+    --ink: #ededed;
+    --ink-2: #a0a0a0;
+    --rule: #454545;
+    --keyline: #565656;
+    --mark: #7f96ff;
+  }
+}
+
+* { box-sizing: border-box; }
+
+body {
+  margin: 0;
+  background: var(--ground);
+  color: var(--ink);
+  font: 15px/1.6 var(--sans);
+  -webkit-font-smoothing: antialiased;
+}
+
+.wrap { max-width: 1080px; margin: 0 auto; padding: 64px 28px 120px; }
+
+/* ── 표제 ───────────────────────────────────────────────────────────── */
+h1 {
+  font-size: clamp(30px, 5vw, 46px);
+  font-weight: 800;
+  letter-spacing: -0.04em;
+  line-height: 1.05;
+  margin: 0 0 14px;
+}
+
+.sub {
+  font: 500 12px/1.5 var(--sans);
+  letter-spacing: 0.01em;
+  color: var(--ink-2);
+  margin: 0 0 44px;
+  padding-top: 12px;
+  border-top: 1.5px solid var(--ink);
+}
+
+/* ── 총계: 사양표 ───────────────────────────────────────────────────── */
+.stats {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+  gap: 0;
+  background: var(--sheet);
+  border: 1px solid var(--keyline);
+  margin-bottom: 52px;
+}
+
+.stat {
+  padding: 18px 18px 16px;
+  border-right: 1px solid var(--rule);
+}
+.stat:last-child { border-right: 0; }
+
+.stat b {
+  display: block;
+  font: 700 25px/1 var(--mono);
+  letter-spacing: -0.03em;
+  margin-bottom: 7px;
+}
+
+.stat span {
+  font: 500 11px/1.4 var(--sans);
+  letter-spacing: 0.005em;
+  color: var(--ink-2);
+}
+
+/* ── 브랜드 한 장 = 회색 대지 위의 교정쇄 ────────────────────────────── */
+.card {
+  background: var(--sheet);
+  border: 1px solid var(--keyline);
+  border-top: 3px solid var(--ink);
+  border-radius: 0;
+  padding: 26px 28px 30px;
+  margin-bottom: 26px;
+}
+
+.card h2 {
+  font-size: 21px;
+  font-weight: 700;
+  letter-spacing: -0.022em;
+  margin: 0 0 9px;
+}
+
+.card h2 a { color: inherit; text-decoration: none; border-bottom: 2px solid var(--rule); }
+.card h2 a:hover { border-bottom-color: var(--mark); }
+.card h2 a:focus-visible { outline: 2px solid var(--mark); outline-offset: 3px; }
+
+.meta {
+  font: 500 12px/1.7 var(--sans);
+  letter-spacing: 0.005em;
+  font-variant-numeric: tabular-nums;
+  color: var(--ink-2);
+  margin-bottom: 26px;
+  padding-bottom: 14px;
+  border-bottom: 1px solid var(--rule);
+}
+
+.tag {
+  display: inline-block;
+  padding: 2px 7px;
+  margin-right: 5px;
+  border: 1px solid var(--keyline);
+  border-radius: 0;
+  font-size: 9.5px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--ink);
+}
+
+/* 이 도메인의 핵심 수치. 눈에 걸리게 둔다 */
+.locked {
+  font-weight: 700;
+  color: var(--mark);
+  background: color-mix(in srgb, var(--mark) 12%, transparent);
+  padding: 1px 5px;
+}
+
+/* 좌: 색 견본 레일 · 우: 카피 */
+.grid { display: grid; grid-template-columns: 296px 1fr; gap: 40px; }
+@media (max-width: 780px) { .grid { grid-template-columns: 1fr; gap: 32px; } }
+
+.sec {
+  font: 600 11px/1 var(--sans);
+  letter-spacing: 0.02em;
+  color: var(--ink-2);
+  margin: 0 0 14px;
+  padding-bottom: 7px;
+  border-bottom: 1px solid var(--rule);
+}
+
+/* ── 색 견본 ────────────────────────────────────────────────────────── */
+.sw { display: flex; flex-wrap: wrap; gap: 10px 9px; margin-bottom: 30px; }
+
+.sw div {
+  width: 62px;
+  height: 74px;              /* 세로가 긴 칩 비율 — 견본첩 관행 */
+  border-radius: 0;
+  border: 1px solid var(--keyline);
+  position: relative;
+  margin-bottom: 15px;
+  transition: transform 0.12s ease;
+}
+
+.sw div:hover { transform: translateY(-3px); }
+
+.sw div::after {
+  content: attr(data-hex);
+  position: absolute;
+  bottom: -15px;
+  left: 0;
+  font: 500 9px/1 var(--mono);
+  letter-spacing: 0.02em;
+  color: var(--ink-2);
+}
+
+/* 무채색은 흐리게 하지 않는다. 크기로만 물린다 — 색은 정확해야 한다 */
+.sw.neutral div { width: 40px; height: 40px; opacity: 1; }
+
+/* ── 페이지 구성: 순서가 실제 정보인 곳에만 번호를 쓴다 ─────────────── */
+ol.flow { list-style: none; padding: 0; margin: 0; counter-reset: s; }
+
+ol.flow li {
+  counter-increment: s;
+  position: relative;
+  padding: 9px 0 9px 34px;
+  border-bottom: 1px solid var(--rule);
+  font-size: 13.5px;
+}
+ol.flow li:last-child { border-bottom: 0; }
+
+ol.flow li::before {
+  content: counter(s, decimal-leading-zero);
+  position: absolute;
+  left: 0;
+  top: 10px;
+  font: 600 10px/1 var(--mono);
+  letter-spacing: 0.04em;
+  color: var(--mark);
+}
+
+ol.flow small { display: block; font: 500 9.5px/1.4 var(--mono); color: var(--ink-2); margin-left: 0; }
+
+/* ── 카피 ───────────────────────────────────────────────────────────── */
+ul.copy { list-style: none; padding: 0; margin: 0; }
+
+ul.copy li {
+  padding: 8px 0;
+  border-bottom: 1px solid var(--rule);
+  font-size: 15px;
+  line-height: 1.45;
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  gap: 14px;
+}
+ul.copy li:last-child { border-bottom: 0; }
+
+/* 출처(dom/ocr)는 감사 정보다. 읽히되 앞서지 않게 */
+ul.copy .src {
+  flex: none;
+  margin-left: 0;
+  border: 0;
+  padding: 0;
+  font: 500 9px/1 var(--mono);
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--ink-2);
+}
+
+/* ── 톤 서술 ────────────────────────────────────────────────────────── */
+.tone { list-style: none; padding: 0; margin: 0; }
+
+.tone li {
+  font-size: 13.5px;
+  line-height: 1.55;
+  padding: 7px 0 7px 15px;
+  border-left: 2px solid var(--rule);
+  margin-bottom: 5px;
+  color: var(--ink);
+}
+
+.err {
+  margin-top: 18px;
+  padding: 9px 12px;
+  border-left: 3px solid var(--mark);
+  background: color-mix(in srgb, var(--mark) 8%, transparent);
+  font: 500 12.5px/1.55 var(--sans);
+}
+
+footer {
+  margin-top: 64px;
+  padding-top: 18px;
+  border-top: 1.5px solid var(--ink);
+  font: 500 11px/1.7 var(--sans);
+  letter-spacing: 0.01em;
+  color: var(--ink-2);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  * { transition: none !important; }
+}
+</style></head><body><div class="wrap">
+<h1>레퍼런스 리서치</h1>
+<p class="sub">refscope가 자동 생성 · 원본 스크린샷은 저장소에 포함되지 않습니다</p>
+<div class="stats">
+  <div class="stat"><b>12</b><span>레퍼런스</span></div>
+  <div class="stat"><b>167,088</b><span>훑은 세로 픽셀</span></div>
+  <div class="stat"><b>300</b><span>추출 카피 줄</span></div>
+  <div class="stat"><b>35%</b><span>평균 이미지 잠김</span></div>
+  <div class="stat"><b>181초</b><span>총 처리 시간</span></div>
+</div>
+<div class="card">
+  <h2><a href="https://gyodong.co.kr/" target="_blank" rel="noopener">교동한과</a></h2>
+  <div class="meta">
+    <span class="tag">competitor</span>
+    <span class="tag">home</span>
+    3,192px ·
+    글자가 이미지에 갇힌 비율 <span class="locked">0%</span> ·
+    처리 13초
+  </div>
+  <div class="grid">
+    <div>
+      <p class="sec">브랜드 컬러</p>
+      <div class="sw"><div style="background:#d7b4a3" data-hex="#d7b4a3" title="5.1%"></div><div style="background:#b0a26b" data-hex="#b0a26b" title="4.1%"></div><div style="background:#897b4e" data-hex="#897b4e" title="3.3%"></div><div style="background:#7d3e29" data-hex="#7d3e29" title="2.6%"></div><div style="background:#7899b0" data-hex="#7899b0" title="2.3%"></div><div style="background:#be777e" data-hex="#be777e" title="2.2%"></div><div style="background:#cb8324" data-hex="#cb8324" title="1.3%"></div></div>
+      <p class="sec" style="margin-top:26px">무채색 · 배경</p>
+      <div class="sw neutral"><div style="background:#ffffff" data-hex="#ffffff" title="46.8%"></div></div>
+      <p class="sec" style="margin-top:30px">페이지 구성</p>
+      <ol class="flow"><li>회사소개/브랜드소개<small>y 95</small></li><li>수제과자<small>y 487</small></li><li>Brand Story/신념과 가치관<small>y 860</small></li><li>한과단품<small>y 1,671</small></li><li>상품명/고시볼<small>y 2,168</small></li></ol>
+    </div>
+    <div>
+      <p class="sec">헤드라인 · 카피 (큰 글자 순)</p>
+      <ul class="copy"><li>교동한과<span class="src">ocr</span></li><li>수제과자<span class="src">ocr</span></li><li>GIFT SET<span class="src">dom</span></li><li>교동한과 선물세트<span class="src">dom</span></li><li>한과단품<span class="src">dom</span></li><li>고시볼<span class="src">dom</span></li><li>Brand Story<span class="src">dom</span></li><li>Way to Visit<span class="src">dom</span></li><li>정성으로 만든<span class="src">ocr</span></li><li>소비자가<span class="src">dom</span></li></ul>
+      <p class="sec" style="margin-top:26px">비주얼 인상 (VLM)</p>
+      <ul class="tone"><li>색·톤: 밝고 화사한 색감이 지배하며 명도 대비가 높아 시각적으로 강조된다.</li><li>사진 스타일: 제품컷 위주로, 배경은 단순화하여 제품을 돋보이게 한다.</li><li>레이아웃: 여백이 넉넉하여 정보 밀도는 적당한 수준이다.</li><li>전체 인상: 이 페이지는 깔끔하고 명확한 인상을 주며, 상품의 가치를 강조한다.</li></ul>
+    </div>
+  </div>
+  
+</div><div class="card">
+  <h2><a href="https://hangamall.com/" target="_blank" rel="noopener">강릉명일한과</a></h2>
+  <div class="meta">
+    <span class="tag">competitor</span>
+    <span class="tag">home</span>
+    5,782px ·
+    글자가 이미지에 갇힌 비율 <span class="locked">0%</span> ·
+    처리 14초
+  </div>
+  <div class="grid">
+    <div>
+      <p class="sec">브랜드 컬러</p>
+      <div class="sw"><div style="background:#dfc2a1" data-hex="#dfc2a1" title="9.1%"></div><div style="background:#ba9d78" data-hex="#ba9d78" title="2.8%"></div><div style="background:#877e70" data-hex="#877e70" title="2.1%"></div><div style="background:#30201e" data-hex="#30201e" title="2.1%"></div><div style="background:#020202" data-hex="#020202" title="2.1%"></div><div style="background:#4b322f" data-hex="#4b322f" title="1.7%"></div><div style="background:#6e594b" data-hex="#6e594b" title="1.5%"></div><div style="background:#7593ae" data-hex="#7593ae" title="0.7%"></div></div>
+      <p class="sec" style="margin-top:26px">무채색 · 배경</p>
+      
+      <p class="sec" style="margin-top:30px">페이지 구성</p>
+      <ol class="flow"><li>상품 소개<small>y 53</small></li><li>브랜드 스토리<small>y 1,966</small></li><li>제품 특징<small>y 3,046</small></li><li>추천 정보<small>y 3,722</small></li><li>후기 및 리뷰<small>y 4,674</small></li></ol>
+    </div>
+    <div>
+      <p class="sec">헤드라인 · 카피 (큰 글자 순)</p>
+      <ul class="copy"><li>힐링니다 강릉한과<span class="src">ocr</span></li><li>대대손손 이어지는<span class="src">dom</span></li><li>손맛 가득한 한과<span class="src">dom</span></li><li>행복한 한가위<span class="src">ocr</span></li><li>사랑 가득 웃음이 넘치는<span class="src">ocr</span></li><li>명일추천<span class="src">dom</span></li><li>한과<span class="src">ocr</span></li><li>더 많은 리뷰를 확인하세요<span class="src">ocr</span></li><li>BEST ITEM<span class="src">dom</span></li><li>BEST REVIEW<span class="src">dom</span></li></ul>
+      <p class="sec" style="margin-top:26px">비주얼 인상 (VLM)</p>
+      <ul class="tone"><li>지배적인 색감은 따뜻한 베이지색과 푸른색으로 명도 대비가 부드럽게 이루어져 있습니다.</li><li>제품컷 위주로 연출되며, 배경 처리는 깔끔하고 단순화되어 있어 제품의 주목을 끌 수 있도록 설계되었습니다.</li><li>여백이 넉넉하여 정보 밀도가 적당하며, 읽기 쉽고 편안한 인상을 줍니다.</li><li>이 페이지는 전통과 현대를 조화롭게 결합한 고급스러운 분위기를 자아냅니다.</li></ul>
+    </div>
+  </div>
+  
+</div><div class="card">
+  <h2><a href="https://www.barunsonthegift.com/" target="_blank" rel="noopener">바른손더기프트</a></h2>
+  <div class="meta">
+    <span class="tag">competitor</span>
+    <span class="tag">home</span>
+    19,648px ·
+    글자가 이미지에 갇힌 비율 <span class="locked">0%</span> ·
+    처리 17초
+  </div>
+  <div class="grid">
+    <div>
+      <p class="sec">브랜드 컬러</p>
+      <div class="sw"><div style="background:#ccc2b0" data-hex="#ccc2b0" title="8.0%"></div><div style="background:#b4a493" data-hex="#b4a493" title="5.6%"></div><div style="background:#878073" data-hex="#878073" title="2.3%"></div><div style="background:#b57a48" data-hex="#b57a48" title="1.8%"></div><div style="background:#31231c" data-hex="#31231c" title="1.8%"></div><div style="background:#5f9aaf" data-hex="#5f9aaf" title="1.6%"></div><div style="background:#714428" data-hex="#714428" title="1.5%"></div><div style="background:#e6bb46" data-hex="#e6bb46" title="1.3%"></div></div>
+      <p class="sec" style="margin-top:26px">무채색 · 배경</p>
+      
+      <p class="sec" style="margin-top:30px">페이지 구성</p>
+      <ol class="flow"><li>특가 이벤트<small>y 472</small></li><li>팀원 답례선물<small>y 1,559</small></li><li>쿠키와 소금 선물<small>y 3,658</small></li><li>디저트 아카이브<small>y 5,714</small></li><li>집들이 선물<small>y 7,233</small></li><li>바른손 답례품<small>y 9,769</small></li><li>달콤 베이커리 쿠키<small>y 13,441</small></li></ol>
+    </div>
+    <div>
+      <p class="sec">헤드라인 · 카피 (큰 글자 순)</p>
+      <ul class="copy"><li>🔥지금 가장 많이 담은 상품<span class="src">dom</span></li><li>🍀 오설록, 티푸드 특가 ~25%<span class="src">dom</span></li><li>가까운 팀원을 위한 답례선물은 어떠세요?<span class="src">dom</span></li><li>오전 11시 이전 결제시, &#x27;오늘출발&#x27;해요<span class="src">dom</span></li><li>회사에 돌릴 답례품 뭘로 하지?<span class="src">dom</span></li><li>달콤한 한입, 쿠키만 한게 없죠 !<span class="src">dom</span></li><li>꼬소한 깨소금 답례품<span class="src">dom</span></li><li>기억에 오래 남을 정백의 리빙 답례품 ~33%<span class="src">dom</span></li><li>🍫 진부한 막대과자를 대신할 디저트 아카이브<span class="src">dom</span></li><li>🌷 나를 위한 기프트, 스프링 셀렉션<span class="src">dom</span></li></ul>
+      <p class="sec" style="margin-top:26px">비주얼 인상 (VLM)</p>
+      <ul class="tone"><li>색·톤: 부드러운 톤과 자연스러운 명도 대비.</li><li>사진 스타일: 제품컷 위주, 배경은 단순화하여 제품을 강조.</li><li>레이아웃: 여백이 넉넉하고 정보 밀도가 적당.</li><li>전체 인상: 깔끔하고 편안한 쇼핑 경험을 주는 격.</li></ul>
+    </div>
+  </div>
+  
+</div><div class="card">
+  <h2><a href="https://hanpoom.co.kr/" target="_blank" rel="noopener">한품</a></h2>
+  <div class="meta">
+    <span class="tag">competitor</span>
+    <span class="tag">home</span>
+    6,553px ·
+    글자가 이미지에 갇힌 비율 <span class="locked">0%</span> ·
+    처리 14초
+  </div>
+  <div class="grid">
+    <div>
+      <p class="sec">브랜드 컬러</p>
+      <div class="sw"><div style="background:#16141b" data-hex="#16141b" title="5.4%"></div><div style="background:#423533" data-hex="#423533" title="2.9%"></div><div style="background:#c55445" data-hex="#c55445" title="2.0%"></div><div style="background:#80482a" data-hex="#80482a" title="1.8%"></div><div style="background:#d48e7b" data-hex="#d48e7b" title="1.6%"></div><div style="background:#e4c432" data-hex="#e4c432" title="0.9%"></div></div>
+      <p class="sec" style="margin-top:26px">무채색 · 배경</p>
+      <div class="sw neutral"><div style="background:#ffffff" data-hex="#ffffff" title="54.8%"></div><div style="background:#d6d0c6" data-hex="#d6d0c6" title="8.5%"></div></div>
+      <p class="sec" style="margin-top:30px">페이지 구성</p>
+      <ol class="flow"><li>배송 안내<small>y 20</small></li><li>제품 소개<small>y 1,559</small></li><li>건강선물 세트<small>y 2,525</small></li><li>과일 선물세트<small>y 3,495</small></li><li>가족 디저트<small>y 5,082</small></li></ol>
+    </div>
+    <div>
+      <p class="sec">헤드라인 · 카피 (큰 글자 순)</p>
+      <ul class="copy"><li>맛, 품질, 포장까지 프리미엄<span class="src">dom</span></li><li>소중한 사람에게 전하는<span class="src">dom</span></li><li>이제, 선물도 맛있게!<span class="src">dom</span></li><li>하루의 시작을 바꾸는<span class="src">dom</span></li><li>이메일 구독하고<span class="src">dom</span></li><li>설성목장 한우 선물세트<span class="src">dom</span></li><li>달콤한 한 상자<span class="src">dom</span></li><li>명품 떡 선물세트<span class="src">dom</span></li><li>건강한 습관<span class="src">dom</span></li><li>최신 소식 받으세요<span class="src">dom</span></li></ul>
+      <p class="sec" style="margin-top:26px">비주얼 인상 (VLM)</p>
+      <ul class="tone"><li>색·톤: 주로 블랙과 레드가 돋보이며, 명도 대비가 강조되어 고급스러운 느낌을 줍니다.</li><li>사진 스타일: 제품컷 위주로, 배경은 간결하게 처리하여 제품의 디테일을 강조합니다.</li><li>레이아웃: 여백이 넉넉하며, 정보 밀도는 적당한 수준으로 유지되어 사용자 친화적입니다.</li><li>전체 인상: 고급스러운 분위기와 깔끔함이 어우러진 전문적인 온라인 쇼핑몰 이미지를 연출합니다.</li></ul>
+    </div>
+  </div>
+  
+</div><div class="card">
+  <h2><a href="https://seoulcookie.com/" target="_blank" rel="noopener">서울쿠키</a></h2>
+  <div class="meta">
+    <span class="tag">competitor</span>
+    <span class="tag">home</span>
+    3,837px ·
+    글자가 이미지에 갇힌 비율 <span class="locked">13%</span> ·
+    처리 12초
+  </div>
+  <div class="grid">
+    <div>
+      <p class="sec">브랜드 컬러</p>
+      <div class="sw"><div style="background:#dcd1c2" data-hex="#dcd1c2" title="7.1%"></div><div style="background:#cbbfaf" data-hex="#cbbfaf" title="5.2%"></div><div style="background:#baa085" data-hex="#baa085" title="4.2%"></div><div style="background:#689696" data-hex="#689696" title="3.4%"></div><div style="background:#92c6d1" data-hex="#92c6d1" title="3.0%"></div><div style="background:#aa7650" data-hex="#aa7650" title="2.7%"></div><div style="background:#764730" data-hex="#764730" title="1.8%"></div><div style="background:#2f2420" data-hex="#2f2420" title="1.5%"></div></div>
+      <p class="sec" style="margin-top:26px">무채색 · 배경</p>
+      
+      <p class="sec" style="margin-top:30px">페이지 구성</p>
+      <ol class="flow"><li>로그인<small>y 41</small></li><li>상품 목록<small>y 1,244</small></li><li>제품 세트<small>y 1,716</small></li><li>후기<small>y 2,120</small></li><li>브랜드 소개<small>y 3,077</small></li></ol>
+    </div>
+    <div>
+      <p class="sec">헤드라인 · 카피 (큰 글자 순)</p>
+      <ul class="copy"><li>선물의 품격을 높이다<span class="src">dom</span></li><li>마음을 구워 선물하다.<span class="src">dom</span></li><li>베스트<span class="src">dom</span></li><li>실제 구매한<span class="src">dom</span></li><li>고객님들의 솔직 후기<span class="src">dom</span></li><li>SEOUL COOKIE CO.<span class="src">ocr</span></li><li>SEOUIL COOKIE CO•<span class="src">ocr</span></li><li>최근 검색어<span class="src">dom</span></li><li>최근 본 상품<span class="src">dom</span></li><li>서울쿠키컴퍼니는 소중한 마음을 전하는 그 순간을 위해<span class="src">dom</span></li></ul>
+      <p class="sec" style="margin-top:26px">비주얼 인상 (VLM)</p>
+      <ul class="tone"><li>지배적인 색감은 푸른색과 베이지색으로 명도 대비가 부드럽게 표현된다.</li><li>제품컷 위주로 연출되며, 배경 처리는 깔끔한 테이블과 식물로 자연스러운 분위기를 연출한다.</li><li>레이아웃은 여백이 넉넉하여 정보 밀도가 적당하다.</li><li>전체 인상: 고급스럽고 정돈된 느낌을 주는 온라인 쇼핑몰 페이지이다.</li></ul>
+    </div>
+  </div>
+  
+</div><div class="card">
+  <h2><a href="https://gyodong.co.kr/product/%EB%A7%8C%EC%9B%94/23/category/24/display/1/" target="_blank" rel="noopener">교동한과 만월 (상세)</a></h2>
+  <div class="meta">
+    <span class="tag">competitor</span>
+    <span class="tag">detail</span>
+    17,275px ·
+    글자가 이미지에 갇힌 비율 <span class="locked">75%</span> ·
+    처리 15초
+  </div>
+  <div class="grid">
+    <div>
+      <p class="sec">브랜드 컬러</p>
+      <div class="sw"><div style="background:#c6baac" data-hex="#c6baac" title="3.5%"></div><div style="background:#acc7d9" data-hex="#acc7d9" title="3.3%"></div><div style="background:#525c47" data-hex="#525c47" title="1.7%"></div><div style="background:#9b9687" data-hex="#9b9687" title="1.6%"></div><div style="background:#cba162" data-hex="#cba162" title="1.2%"></div><div style="background:#9c5f32" data-hex="#9c5f32" title="1.2%"></div><div style="background:#32231d" data-hex="#32231d" title="1.1%"></div></div>
+      <p class="sec" style="margin-top:26px">무채색 · 배경</p>
+      <div class="sw neutral"><div style="background:#ffffff" data-hex="#ffffff" title="67.0%"></div></div>
+      <p class="sec" style="margin-top:30px">페이지 구성</p>
+      <ol class="flow"><li>히어로/메인비주얼<small>y 256</small></li><li>브랜드 스토리<small>y 2,851</small></li><li>제품 소개<small>y 6,140</small></li><li>성분·원산지<small>y 8,757</small></li><li>사용법·보관법<small>y 10,000</small></li><li>패키지 소개<small>y 14,459</small></li></ol>
+    </div>
+    <div>
+      <p class="sec">헤드라인 · 카피 (큰 글자 순)</p>
+      <ul class="copy"><li>안녕하세요<span class="src">dom</span></li><li>교동한과입니다<span class="src">dom</span></li><li>교동한과<span class="src">ocr</span></li><li>쌈촛촌<span class="src">ocr</span></li><li>이렇게 이용하면 좋습니다<span class="src">ocr</span></li><li>만월<span class="src">ocr</span></li><li>물려주고 싶은 전통의 맛,<span class="src">ocr</span></li><li>교동한과 제품사용 TIP<span class="src">ocr</span></li><li>162cm 1010%)<span class="src">ocr</span></li><li>보자기 포장<span class="src">ocr</span></li></ul>
+      <p class="sec" style="margin-top:26px">비주얼 인상 (VLM)</p>
+      <ul class="tone"><li>색·톤: 차분한 톤과 부드러운 명도 대비가 돋보인다.</li><li>사진 스타일: 제품컷 위주로, 배경은 단순화하여 제품을 강조한다.</li><li>레이아웃: 여백이 넉넉하며, 정보 밀도는 적당하다.</li><li>전체 인상: 전통과 현대가 조화를 이루는 고급스러운 분위기를 연출한다.</li></ul>
+    </div>
+  </div>
+  
+</div><div class="card">
+  <h2><a href="https://www.barunsonthegift.com/goods/view?no=1967" target="_blank" rel="noopener">바른손더기프트 상품 (상세)</a></h2>
+  <div class="meta">
+    <span class="tag">competitor</span>
+    <span class="tag">detail</span>
+    32,337px ·
+    글자가 이미지에 갇힌 비율 <span class="locked">87%</span> ·
+    처리 22초
+  </div>
+  <div class="grid">
+    <div>
+      <p class="sec">브랜드 컬러</p>
+      <div class="sw"><div style="background:#242d2e" data-hex="#242d2e" title="3.8%"></div><div style="background:#9b7b5f" data-hex="#9b7b5f" title="2.7%"></div><div style="background:#cab09c" data-hex="#cab09c" title="2.6%"></div><div style="background:#6a3b26" data-hex="#6a3b26" title="2.2%"></div><div style="background:#dd3833" data-hex="#dd3833" title="1.7%"></div><div style="background:#4b7db4" data-hex="#4b7db4" title="1.2%"></div></div>
+      <p class="sec" style="margin-top:26px">무채색 · 배경</p>
+      <div class="sw neutral"><div style="background:#ffffff" data-hex="#ffffff" title="53.2%"></div><div style="background:#f4f2f1" data-hex="#f4f2f1" title="10.1%"></div></div>
+      <p class="sec" style="margin-top:30px">페이지 구성</p>
+      <ol class="flow"><li>택배 선택<small>y 1,221</small></li><li>브랜드 소개<small>y 5,816</small></li><li>제품 설명<small>y 10,017</small></li><li>구성품<small>y 12,764</small></li><li>성분/원산지<small>y 16,557</small></li><li>패키지 정보<small>y 21,591</small></li><li>사용법/보관<small>y 23,704</small></li><li>배송 안내<small>y 28,368</small></li></ol>
+    </div>
+    <div>
+      <p class="sec">헤드라인 · 카피 (큰 글자 순)</p>
+      <ul class="copy"><li>Beehouse 1992<span class="src">ocr</span></li><li>저희의 결혼을 축하해주셔서 감사합니다<span class="src">ocr</span></li><li>Gourmet Dessert Collection<span class="src">ocr</span></li><li>Bee House 1992<span class="src">ocr</span></li><li>Blended honey tea &amp; Dessert<span class="src">ocr</span></li><li>Bee House 10~<span class="src">ocr</span></li><li>ITE Galler<span class="src">ocr</span></li><li>Box of treasure&quot;<span class="src">ocr</span></li><li>스티커 부착 위치<span class="src">ocr</span></li><li>etelste seleete<span class="src">ocr</span></li></ul>
+      <p class="sec" style="margin-top:26px">비주얼 인상 (VLM)</p>
+      <ul class="tone"><li>지배적인 색감은 흰색과 녹색으로, 명도 대비가 높아 시각적으로 강조된다.</li><li>제품컷 위주로, 배경은 단순화되어 제품을 돋보이게 한다.</li><li>여백이 넉넉하여 정보 밀도는 적당하며, 읽기 쉽다.</li><li>전체 인상: 깔끔하고 전문적인 느낌을 주며, 상품의 고급성을 강조한다.</li></ul>
+    </div>
+  </div>
+  
+</div><div class="card">
+  <h2><a href="https://hangamall.com/product/%EA%B0%95%EB%A6%89%EC%A4%84%EA%B2%8C-%ED%95%9C%EA%B3%BC%EB%8B%A4%EC%98%A4/114/category/4/display/1/" target="_blank" rel="noopener">강릉명일한과 강릉줄게 한과다오 (상세)</a></h2>
+  <div class="meta">
+    <span class="tag">competitor</span>
+    <span class="tag">detail</span>
+    44,491px ·
+    글자가 이미지에 갇힌 비율 <span class="locked">92%</span> ·
+    처리 31초
+  </div>
+  <div class="grid">
+    <div>
+      <p class="sec">브랜드 컬러</p>
+      <div class="sw"><div style="background:#e2d2c5" data-hex="#e2d2c5" title="7.4%"></div><div style="background:#ddbea1" data-hex="#ddbea1" title="3.5%"></div><div style="background:#212622" data-hex="#212622" title="2.7%"></div><div style="background:#b5a49a" data-hex="#b5a49a" title="2.6%"></div><div style="background:#685d4e" data-hex="#685d4e" title="2.5%"></div><div style="background:#c29250" data-hex="#c29250" title="1.8%"></div><div style="background:#636edb" data-hex="#636edb" title="1.2%"></div></div>
+      <p class="sec" style="margin-top:26px">무채색 · 배경</p>
+      <div class="sw neutral"><div style="background:#ffffff" data-hex="#ffffff" title="61.7%"></div></div>
+      <p class="sec" style="margin-top:30px">페이지 구성</p>
+      <ol class="flow"><li>히어로/메인비주얼<small>y 1,836</small></li><li>브랜드 스토리<small>y 4,893</small></li><li>제품 소개<small>y 8,666</small></li><li>성분·원산지<small>y 15,260</small></li><li>사용법·보관법<small>y 26,177</small></li><li>패키지 소개<small>y 31,704</small></li><li>배송 안내<small>y 33,886</small></li><li>교환·반품<small>y 40,481</small></li></ol>
+    </div>
+    <div>
+      <p class="sec">헤드라인 · 카피 (큰 글자 순)</p>
+      <ul class="copy"><li>한과다오<span class="src">ocr</span></li><li>강릉줄게<span class="src">ocr</span></li><li>광복할<span class="src">ocr</span></li><li>배용안내<span class="src">ocr</span></li><li>BEST BRAND 1위<span class="src">ocr</span></li><li>한과선물<span class="src">ocr</span></li><li>강릉명일한과는<span class="src">ocr</span></li><li>강원도 자연의<span class="src">ocr</span></li><li>30일의 기다림<span class="src">ocr</span></li><li>드리는 약속<span class="src">ocr</span></li></ul>
+      <p class="sec" style="margin-top:26px">비주얼 인상 (VLM)</p>
+      <ul class="tone"><li>색·톤: 따뜻한 베이지와 푸른색이 조화를 이루며, 명도 대비가 부드럽게 느껴진다.</li><li>사진 스타일: 제품컷 위주로, 연출컷은 적당히 사용하며 배경 처리는 자연스러운 느낌을 주고 있다.</li><li>레이아웃: 여백이 넉넉하여 읽기 쉽고 정보 밀도가 적당하다.</li><li>전체 인상: 깔끔하고 신뢰감 있는 한국 전통 한과의 매력을 담은 상세페이지이다.</li></ul>
+    </div>
+  </div>
+  
+</div><div class="card">
+  <h2><a href="https://hanpoom.co.kr/products/99%ED%94%8C%EB%9D%BC%EC%9B%8C-%EB%8A%98-%EA%B0%90%EC%82%AC%ED%95%9C-%EB%A7%88%EC%9D%8C%EC%9C%BC%EB%A1%9C-b513" target="_blank" rel="noopener">한품 99플라워 감사한 마음으로 (상세)</a></h2>
+  <div class="meta">
+    <span class="tag">competitor</span>
+    <span class="tag">detail</span>
+    12,868px ·
+    글자가 이미지에 갇힌 비율 <span class="locked">78%</span> ·
+    처리 12초
+  </div>
+  <div class="grid">
+    <div>
+      <p class="sec">브랜드 컬러</p>
+      <div class="sw"><div style="background:#f78c3b" data-hex="#f78c3b" title="2.3%"></div><div style="background:#5c5037" data-hex="#5c5037" title="2.2%"></div><div style="background:#141620" data-hex="#141620" title="2.0%"></div><div style="background:#dfac81" data-hex="#dfac81" title="1.9%"></div><div style="background:#f2ca8d" data-hex="#f2ca8d" title="1.7%"></div><div style="background:#b88e50" data-hex="#b88e50" title="1.1%"></div></div>
+      <p class="sec" style="margin-top:26px">무채색 · 배경</p>
+      <div class="sw neutral"><div style="background:#fefefe" data-hex="#fefefe" title="58.1%"></div><div style="background:#efeded" data-hex="#efeded" title="14.3%"></div></div>
+      <p class="sec" style="margin-top:30px">페이지 구성</p>
+      <ol class="flow"><li>할인/정가<small>y 132</small></li><li>이용 필독사항<small>y 1,516</small></li><li>브랜드 스토리<small>y 6,038</small></li><li>제품 소개<small>y 8,229</small></li><li>구성품 안내<small>y 11,757</small></li></ol>
+    </div>
+    <div>
+      <p class="sec">헤드라인 · 카피 (큰 글자 순)</p>
+      <ul class="copy"><li>이메일 구독하고<span class="src">dom</span></li><li>최신 소식 받으세요<span class="src">dom</span></li><li>존경의 마음을<span class="src">ocr</span></li><li>상품 이용 필독사항!<span class="src">ocr</span></li><li>늘 감사한 마음으로<span class="src">ocr</span></li><li>신뢰와믿음<span class="src">ocr</span></li><li>99플라워<span class="src">ocr</span></li><li>은혜에 감사하는 마음을<span class="src">ocr</span></li><li>카네이션의 향기에 담아 멀리서나마 전해드립니다.<span class="src">ocr</span></li><li>전하는 가장 확실한 방법<span class="src">ocr</span></li></ul>
+      <p class="sec" style="margin-top:26px">비주얼 인상 (VLM)</p>
+      <ul class="tone"><li>색·톤: 밝고 따뜻한 톤이 지배하며 명도 대비가 적당하다.</li><li>사진 스타일: 제품컷 위주로 연출되며 배경은 깔끔하게 처리되었다.</li><li>레이아웃: 여백이 넉넉하여 정보 밀도가 낮다.</li><li>전체 인상: 이 페이지는 따뜻하고 아름다운 분위기를 주는 격이다.</li></ul>
+    </div>
+  </div>
+  
+</div><div class="card">
+  <h2><a href="https://seoulcookie.com/product/%EB%AC%B4%EA%B6%81%ED%99%94%EC%84%B8%ED%8A%B8/53/category/24/display/2/" target="_blank" rel="noopener">서울쿠키 무궁화세트 (상세)</a></h2>
+  <div class="meta">
+    <span class="tag">competitor</span>
+    <span class="tag">detail</span>
+    12,036px ·
+    글자가 이미지에 갇힌 비율 <span class="locked">75%</span> ·
+    처리 12초
+  </div>
+  <div class="grid">
+    <div>
+      <p class="sec">브랜드 컬러</p>
+      <div class="sw"><div style="background:#fdf2d7" data-hex="#fdf2d7" title="5.5%"></div><div style="background:#8a8375" data-hex="#8a8375" title="4.3%"></div><div style="background:#d5ccbb" data-hex="#d5ccbb" title="3.3%"></div><div style="background:#bbb3a0" data-hex="#bbb3a0" title="2.9%"></div><div style="background:#6b503f" data-hex="#6b503f" title="2.9%"></div><div style="background:#a66b45" data-hex="#a66b45" title="2.1%"></div><div style="background:#d3a15e" data-hex="#d3a15e" title="2.0%"></div></div>
+      <p class="sec" style="margin-top:26px">무채색 · 배경</p>
+      <div class="sw neutral"><div style="background:#ffffff" data-hex="#ffffff" title="66.0%"></div></div>
+      <p class="sec" style="margin-top:30px">페이지 구성</p>
+      <ol class="flow"><li>상품 정보<small>y 59</small></li><li>제품 소개<small>y 2,157</small></li><li>구성품 안내<small>y 3,371</small></li><li>배송 안내<small>y 8,443</small></li><li>후기/Q&amp;A<small>y 10,697</small></li></ol>
+    </div>
+    <div>
+      <p class="sec">헤드라인 · 카피 (큰 글자 순)</p>
+      <ul class="copy"><li>정성껏 만든 수제방식<span class="src">ocr</span></li><li>신선한 견과류<span class="src">ocr</span></li><li>100% 우리밀<span class="src">ocr</span></li><li>NO 마가린<span class="src">ocr</span></li><li>강성은 평과가 만들면 다릅니다<span class="src">ocr</span></li><li>한과의 기준을 바꾸다<span class="src">ocr</span></li><li>무궁화세트<span class="src">ocr</span></li><li>무궁화세트 구성품목<span class="src">ocr</span></li><li>강성은명과<span class="src">ocr</span></li><li>OKE CO.<span class="src">ocr</span></li></ul>
+      <p class="sec" style="margin-top:26px">비주얼 인상 (VLM)</p>
+      <ul class="tone"><li>지배적인 색감은 갈색과 베이지색으로, 명도 대비가 부드럽게 설정되어 있습니다.</li><li>제품컷 위주로, 배경 처리는 심플하게 제품을 강조합니다.</li><li>여백이 넉넉하여 정보 밀도가 적당하며, 읽기 쉽습니다.</li><li>전체 인상은 전문적이고 깔끔한 느낌을 줍니다.</li></ul>
+    </div>
+  </div>
+  
+</div><div class="card">
+  <h2><a href="https://www.osulloc.com/kr/ko" target="_blank" rel="noopener">오설록</a></h2>
+  <div class="meta">
+    <span class="tag">tone</span>
+    <span class="tag">home</span>
+    4,440px ·
+    글자가 이미지에 갇힌 비율 <span class="locked">0%</span> ·
+    처리 13초
+  </div>
+  <div class="grid">
+    <div>
+      <p class="sec">브랜드 컬러</p>
+      <div class="sw"><div style="background:#f1dec9" data-hex="#f1dec9" title="8.0%"></div><div style="background:#32443d" data-hex="#32443d" title="6.0%"></div><div style="background:#475f58" data-hex="#475f58" title="4.7%"></div><div style="background:#b7b59c" data-hex="#b7b59c" title="4.3%"></div><div style="background:#958766" data-hex="#958766" title="2.6%"></div><div style="background:#6fb1b7" data-hex="#6fb1b7" title="2.2%"></div><div style="background:#11af81" data-hex="#11af81" title="0.7%"></div></div>
+      <p class="sec" style="margin-top:26px">무채색 · 배경</p>
+      <div class="sw neutral"><div style="background:#ffffff" data-hex="#ffffff" title="41.6%"></div></div>
+      <p class="sec" style="margin-top:30px">페이지 구성</p>
+      <ol class="flow"><li>제품 소개<small>y 75</small></li><li>BEST &amp; NEW<small>y 630</small></li><li>이벤트 혜택<small>y 1,292</small></li><li>주간 추천<small>y 1,924</small></li><li>매장 정보<small>y 2,860</small></li></ol>
+    </div>
+    <div>
+      <p class="sec">헤드라인 · 카피 (큰 글자 순)</p>
+      <ul class="copy"><li>TEA FROM JEJU ISLAND<span class="src">dom</span></li><li>르세라핌 콜라보 상품,<span class="src">dom</span></li><li>사은품 추가 오픈!<span class="src">dom</span></li><li>BEST &amp; NEW<span class="src">dom</span></li><li>놓치기 아쉬운 8월 2주차 혜택! 티 베이커리 전 품목 ~30%<span class="src">dom</span></li><li>WEEKLY ISSUE PICK<span class="src">dom</span></li><li>OSULLOC NOW<span class="src">dom</span></li><li>EXPLORE OUR STORES<span class="src">dom</span></li><li>BRAND STORY<span class="src">dom</span></li><li>8월 대체 휴일 배송 안내<span class="src">ocr</span></li></ul>
+      <p class="sec" style="margin-top:26px">비주얼 인상 (VLM)</p>
+      <ul class="tone"><li>색·톤: 상세한 녹색과 푸른색이 주를 이루며, 명도 대비가 부드럽게 설정되어 있다.</li><li>사진 스타일: 제품컷 위주로, 배경은 제품을 강조하기 위해 단순화되었다.</li><li>레이아웃: 여백이 넉넉하여 정보 밀도는 적당한 수준이다.</li><li>전체 인상: 깔끔하고 명확한 디자인으로, 사용자의 눈길을 끌어당긴다.</li></ul>
+    </div>
+  </div>
+  
+</div><div class="card">
+  <h2><a href="https://joniverse-ai.github.io/danjeong/" target="_blank" rel="noopener">단정 (내 프로젝트)</a></h2>
+  <div class="meta">
+    <span class="tag">own</span>
+    <span class="tag">home</span>
+    4,629px ·
+    글자가 이미지에 갇힌 비율 <span class="locked">0%</span> ·
+    처리 6초
+  </div>
+  <div class="grid">
+    <div>
+      <p class="sec">브랜드 컬러</p>
+      <div class="sw"><div style="background:#1d1a18" data-hex="#1d1a18" title="7.7%"></div><div style="background:#070709" data-hex="#070709" title="3.6%"></div><div style="background:#3a2a22" data-hex="#3a2a22" title="3.2%"></div><div style="background:#6e482c" data-hex="#6e482c" title="1.5%"></div><div style="background:#9c7349" data-hex="#9c7349" title="0.9%"></div></div>
+      <p class="sec" style="margin-top:26px">무채색 · 배경</p>
+      <div class="sw neutral"><div style="background:#f9f6f1" data-hex="#f9f6f1" title="46.3%"></div><div style="background:#f2eee5" data-hex="#f2eee5" title="25.2%"></div><div style="background:#8b8b8a" data-hex="#8b8b8a" title="2.8%"></div></div>
+      <p class="sec" style="margin-top:30px">페이지 구성</p>
+      <ol class="flow"><li>추석 예약<small>y 263</small></li><li>선물<small>y 1,691</small></li><li>제품 이름<small>y 2,286</small></li><li>공지사항<small>y 3,921</small></li><li>단정 소개<small>y 4,486</small></li></ol>
+    </div>
+    <div>
+      <p class="sec">헤드라인 · 카피 (큰 글자 순)</p>
+      <ul class="copy"><li>정성을 담아,<span class="src">dom</span></li><li>편안하게 전하는 답례<span class="src">dom</span></li><li>상황에 맞는<span class="src">dom</span></li><li>단 하나의 세트<span class="src">dom</span></li><li>추석 사전 예약<span class="src">dom</span></li><li>진행 중<span class="src">dom</span></li><li>단정 · 端正<span class="src">dom</span></li><li>선물<span class="src">dom</span></li><li>단정만의 혜택<span class="src">dom</span></li><li>이벤트<span class="src">dom</span></li></ul>
+      <p class="sec" style="margin-top:26px">비주얼 인상 (VLM)</p>
+      <ul class="tone"><li>색·톤: 따뜻한 베이지와 흰색의 조화로, 명도 대비가 부드럽게 느껴진다.</li><li>사진 스타일: 연출컷 위주로, 제품과 함께 자연스러운 배경으로 연출되었다.</li><li>레이아웃: 여백이 넉넉하여 정보 밀도가 적당하다.</li><li>전체 인상: 고급스럽고 아름다운 한국 전통 차 문화를 연상시킨다.</li></ul>
+    </div>
+  </div>
+  
+</div>
+<footer>Main Quest 2 · 레퍼런스 리서치 자동 정리기 —
+Apple Vision(OCR) + Qwen2.5-VL(톤·구성) + k-means(컬러) 로컬 실행</footer>
+</div></body></html>

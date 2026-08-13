@@ -17,6 +17,7 @@ out/*
 !out/.gitkeep
 !out/research.html
 !out/patterns.html
+!out/swatchbook.html
 
 # 파이썬
 .venv/
